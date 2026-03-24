@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zetaris Sales Intelligence — Daily News</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      padding: 32px 24px 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 1.8rem; margin-bottom: 8px; }
+    header p { opacity: 0.8; font-size: 0.95rem; }
+    .meta-line { margin-top: 6px; font-size: 0.82rem; opacity: 0.6; }
+
+    .stats {
+      display: flex; justify-content: center; gap: 24px;
+      margin-top: 20px; flex-wrap: wrap;
+    }
+
+    .stat {
+      background: rgba(255,255,255,0.1); border-radius: 8px;
+      padding: 12px 24px; text-align: center; min-width: 100px;
+    }
+
+    .stat .number { font-size: 1.8rem; font-weight: 700; }
+    .stat .label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.7; }
+    .stat.hot .number { color: #ff6b6b; }
+    .stat.warm .number { color: #ffd93d; }
+    .stat.cold .number { color: #74b9ff; }
+
+    .filters {
+      max-width: 900px; margin: 20px auto 0; padding: 16px;
+      background: white; border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
+    }
+
+    .filters label { font-size: 0.85rem; font-weight: 600; color: #555; }
+
+    .filters select {
+      padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px;
+      font-size: 0.85rem; background: #f8f9fa; cursor: pointer; min-width: 140px;
+    }
+
+    .filters select:focus { outline: none; border-color: #302b63; }
+    .filter-group { display: flex; align-items: center; gap: 6px; }
+    .filter-count { margin-left: auto; font-size: 0.85rem; color: #888; }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+    .keyword-section { margin-bottom: 40px; }
+
+    .keyword-section h2 {
+      font-size: 1.2rem; color: #302b63;
+      border-left: 4px solid #302b63; padding-left: 12px; margin-bottom: 16px;
+    }
+
+    .article-card {
+      background: white; border-radius: 10px; padding: 20px;
+      margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border-left: 4px solid #ddd; transition: box-shadow 0.2s;
+    }
+
+    .article-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+    .article-card.hot { border-left-color: #ff6b6b; }
+    .article-card.warm { border-left-color: #ffd93d; }
+    .article-card.cold { border-left-color: #74b9ff; }
+
+    .article-header {
+      display: flex; justify-content: space-between;
+      align-items: flex-start; gap: 8px; margin-bottom: 8px;
+    }
+
+    .article-card h3 { font-size: 1rem; flex: 1; }
+    .article-card h3 a { color: #1a1a2e; text-decoration: none; }
+    .article-card h3 a:hover { color: #302b63; text-decoration: underline; }
+
+    .article-meta {
+      display: flex; gap: 12px; font-size: 0.78rem;
+      color: #888; margin-bottom: 12px;
+    }
+
+    .badge {
+      display: inline-block; padding: 2px 10px; border-radius: 12px;
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase; white-space: nowrap;
+    }
+
+    .badge.hot { background: #ffe0e0; color: #c0392b; }
+    .badge.warm { background: #fff3cd; color: #856404; }
+    .badge.cold { background: #d6eaf8; color: #2471a3; }
+
+    .analysis-section { margin-top: 10px; }
+    .field { margin-bottom: 8px; font-size: 0.88rem; color: #444; }
+    .field-label { font-weight: 600; color: #302b63; margin-right: 4px; }
+    .analysis-section ul { margin: 4px 0 8px 20px; font-size: 0.88rem; color: #444; }
+    .analysis-text { font-size: 0.88rem; color: #444; white-space: pre-wrap; line-height: 1.7; }
+
+    .no-results { text-align: center; padding: 60px 20px; color: #999; font-size: 1.1rem; }
+
+    footer { text-align: center; padding: 24px; color: #999; font-size: 0.8rem; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.3rem; }
+      .stats { gap: 12px; }
+      .stat { padding: 8px 16px; }
+      .filters { flex-direction: column; }
+      .filter-count { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zetaris Sales Intelligence</h1>
+    <p>Daily news monitoring — AI failures from data silos &amp; quality issues</p>
+    <p class="meta-line" id="meta-line"></p>
+
+    <div class="stats">
+      <div class="stat hot"><div class="number" id="stat-hot">0</div><div class="label">Hot Leads</div></div>
+      <div class="stat warm"><div class="number" id="stat-warm">0</div><div class="label">Warm</div></div>
+      <div class="stat cold"><div class="number" id="stat-cold">0</div><div class="label">Cold</div></div>
+      <div class="stat"><div class="number" id="stat-total">0</div><div class="label">Total</div></div>
+    </div>
+  </header>
+
+  <div class="filters">
+    <div class="filter-group">
+      <label for="filter-date">Date:</label>
+      <select id="filter-date"></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-score">Relevance:</label>
+      <select id="filter-score">
+        <option value="all">All</option>
+        <option value="hot">Hot</option>
+        <option value="warm">Warm</option>
+        <option value="cold">Cold</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-source">Source:</label>
+      <select id="filter-source"></select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-sort">Sort:</label>
+      <select id="filter-sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="relevance">Relevance (Hot first)</option>
+        <option value="keyword">By keyword</option>
+      </select>
+    </div>
+    <span class="filter-count" id="filter-count"></span>
+  </div>
+
+  <div class="container" id="container"></div>
+
+  <footer>Powered by Mistral 7B &amp; GitHub Actions — Zetaris Sales Intelligence</footer>
+
+  <script>
+    // Embedded data from build
+    const INITIAL_DATA = {"_metadata": {"generated_at": "2026-03-25 11:39 AEDT"}, "keywords": {}};
+    const DATES = ["2026-03-25"];
+    const CURRENT_DATE = "2026-03-25";
+
+    let currentData = INITIAL_DATA;
+
+    // --- Helpers ---
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function getScore(analysis) {
+      if (typeof analysis === 'object' && analysis !== null) {
+        return (analysis.lead_score || 'Cold').toLowerCase();
+      }
+      const s = String(analysis || '');
+      if (s.includes('Hot')) return 'hot';
+      if (s.includes('Warm')) return 'warm';
+      return 'cold';
+    }
+
+    // --- Build a single article card HTML ---
+    function renderCard(art, keyword) {
+      const analysis = art.analysis || {};
+      const score = getScore(analysis);
+
+      let html = '<div class="article-card ' + score + '"'
+        + ' data-score="' + score + '"'
+        + ' data-source="' + escapeHtml(art.source || '') + '"'
+        + ' data-date="' + escapeHtml(art.iso_date || '') + '"'
+        + ' data-keyword="' + escapeHtml(keyword) + '">';
+
+      html += '<div class="article-header">';
+      html += '<h3><a href="' + escapeHtml(art.url) + '" target="_blank" rel="noopener">'
+        + escapeHtml(art.title) + '</a></h3>';
+      html += '<span class="badge ' + score + '">' + score.toUpperCase() + '</span>';
+      html += '</div>';
+
+      html += '<div class="article-meta">';
+      if (art.source) html += '<span>' + escapeHtml(art.source) + '</span>';
+      if (art.date) html += '<span>' + escapeHtml(art.date) + '</span>';
+      if (keyword) html += '<span>Keyword: ' + escapeHtml(keyword) + '</span>';
+      html += '</div>';
+
+      html += '<div class="analysis-section">';
+      if (typeof analysis === 'object' && analysis !== null) {
+        if (analysis.summary && analysis.summary.length) {
+          html += '<ul>' + analysis.summary.map(s => '<li>' + escapeHtml(s) + '</li>').join('') + '</ul>';
+        }
+        if (analysis.company && analysis.company !== 'Not specified') {
+          html += '<div class="field"><span class="field-label">Company:</span> ' + escapeHtml(analysis.company) + '</div>';
+        }
+        if (analysis.pain_point) {
+          html += '<div class="field"><span class="field-label">Pain Point:</span> ' + escapeHtml(analysis.pain_point) + '</div>';
+        }
+        if (analysis.zetaris_relevance) {
+          html += '<div class="field"><span class="field-label">Zetaris Fit:</span> ' + escapeHtml(analysis.zetaris_relevance) + '</div>';
+        }
+      } else if (analysis) {
+        html += '<div class="analysis-text">' + escapeHtml(String(analysis)) + '</div>';
+      }
+      html += '</div></div>';
+      return html;
+    }
+
+    // --- Flatten all articles with keyword tag ---
+    function flattenArticles(data) {
+      const keywords = data.keywords || data;
+      const flat = [];
+      for (const [keyword, articles] of Object.entries(keywords)) {
+        if (!articles || !Array.isArray(articles)) continue;
+        for (const art of articles) {
+          flat.push({ ...art, _keyword: keyword });
+        }
+      }
+      return flat;
+    }
+
+    // --- Sort articles ---
+    const SCORE_ORDER = { hot: 0, warm: 1, cold: 2 };
+
+    function sortArticles(articles, mode) {
+      const sorted = [...articles];
+      switch (mode) {
+        case 'newest':
+          sorted.sort((a, b) => (b.iso_date || '').localeCompare(a.iso_date || ''));
+          break;
+        case 'oldest':
+          sorted.sort((a, b) => (a.iso_date || '').localeCompare(b.iso_date || ''));
+          break;
+        case 'relevance':
+          sorted.sort((a, b) => {
+            const sa = SCORE_ORDER[getScore(a.analysis)] ?? 2;
+            const sb = SCORE_ORDER[getScore(b.analysis)] ?? 2;
+            return sa - sb;
+          });
+          break;
+        case 'keyword':
+          sorted.sort((a, b) => (a._keyword || '').localeCompare(b._keyword || ''));
+          break;
+      }
+      return sorted;
+    }
+
+    // --- Rendering ---
+    function renderArticles(data) {
+      const container = document.getElementById('container');
+      const meta = data._metadata || {};
+      const sortMode = document.getElementById('filter-sort').value;
+
+      // Update metadata line
+      const parts = [];
+      if (meta.generated_at) parts.push('Report: ' + meta.generated_at);
+      if (meta.fetched_at) parts.push('Fetched: ' + meta.fetched_at);
+      document.getElementById('meta-line').textContent = parts.join(' | ');
+
+      // Collect sources
+      const allArticles = flattenArticles(data);
+      const sources = new Set();
+      allArticles.forEach(art => { if (art.source) sources.add(art.source); });
+      populateSourceFilter([...sources].sort());
+
+      // Sort and render
+      const sorted = sortArticles(allArticles, sortMode);
+
+      if (sortMode === 'keyword') {
+        // Group by keyword
+        const groups = {};
+        sorted.forEach(art => {
+          const kw = art._keyword;
+          if (!groups[kw]) groups[kw] = [];
+          groups[kw].push(art);
+        });
+
+        let html = '';
+        for (const [keyword, arts] of Object.entries(groups)) {
+          html += '<div class="keyword-section"><h2>' + escapeHtml(keyword) + '</h2>';
+          arts.forEach(art => { html += renderCard(art, ''); });
+          html += '</div>';
+        }
+        if (!html) html = '<div class="no-results">No articles available.</div>';
+        container.innerHTML = html;
+      } else {
+        // Flat list
+        let html = '<div class="keyword-section">';
+        if (!sorted.length) {
+          html = '<div class="no-results">No articles available.</div>';
+        } else {
+          sorted.forEach(art => { html += renderCard(art, art._keyword); });
+          html += '</div>';
+        }
+        container.innerHTML = html;
+      }
+
+      applyFilters();
+    }
+
+    function populateSourceFilter(sources) {
+      const sel = document.getElementById('filter-source');
+      const prev = sel.value;
+      sel.innerHTML = '<option value="all">All sources</option>';
+      sources.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s; opt.textContent = s;
+        if (s === prev) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    }
+
+    function populateDateFilter() {
+      const sel = document.getElementById('filter-date');
+      sel.innerHTML = '';
+      DATES.forEach((d, i) => {
+        const opt = document.createElement('option');
+        opt.value = d; opt.textContent = d;
+        if (i === 0) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    }
+
+    // --- Filtering ---
+    function applyFilters() {
+      const scoreVal = document.getElementById('filter-score').value;
+      const sourceVal = document.getElementById('filter-source').value;
+
+      const cards = document.querySelectorAll('.article-card');
+      const sections = document.querySelectorAll('.keyword-section');
+      let visible = 0;
+      const counts = { hot: 0, warm: 0, cold: 0 };
+
+      cards.forEach(card => {
+        const s = card.getAttribute('data-score') || '';
+        const src = card.getAttribute('data-source') || '';
+
+        const matchScore = scoreVal === 'all' || s === scoreVal;
+        const matchSource = sourceVal === 'all' || src === sourceVal;
+
+        if (matchScore && matchSource) {
+          card.style.display = '';
+          visible++;
+          if (counts[s] !== undefined) counts[s]++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      sections.forEach(section => {
+        const hasVisible = section.querySelector('.article-card:not([style*="display: none"])');
+        section.style.display = hasVisible ? '' : 'none';
+      });
+
+      document.getElementById('stat-hot').textContent = counts.hot;
+      document.getElementById('stat-warm').textContent = counts.warm;
+      document.getElementById('stat-cold').textContent = counts.cold;
+      document.getElementById('stat-total').textContent = visible;
+      document.getElementById('filter-count').textContent = 'Showing ' + visible + ' articles';
+    }
+
+    // --- Date switching ---
+    async function loadDate(dateStr) {
+      if (dateStr === CURRENT_DATE) {
+        currentData = INITIAL_DATA;
+        renderArticles(currentData);
+        return;
+      }
+
+      try {
+        const resp = await fetch('data/' + dateStr + '.json');
+        if (!resp.ok) throw new Error('Not found');
+        currentData = await resp.json();
+        renderArticles(currentData);
+      } catch (e) {
+        document.getElementById('container').innerHTML =
+          '<div class="no-results">No data available for ' + dateStr + '</div>';
+      }
+    }
+
+    // --- Init ---
+    populateDateFilter();
+    renderArticles(INITIAL_DATA);
+
+    document.getElementById('filter-date').addEventListener('change', e => loadDate(e.target.value));
+    document.getElementById('filter-score').addEventListener('change', applyFilters);
+    document.getElementById('filter-source').addEventListener('change', applyFilters);
+    document.getElementById('filter-sort').addEventListener('change', () => renderArticles(currentData));
+  </script>
+</body>
+</html>

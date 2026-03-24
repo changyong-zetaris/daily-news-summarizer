@@ -1,0 +1,7 @@
+# Keywords are loaded from SEARCH_KEYWORDS environment variable (GitHub Secret).
+# Format: comma-separated list, e.g. "AI data silos,poor data quality,..."
+
+settings:
+  results_per_keyword: 5
+  summary_model: "open-mistral-7b"
+  max_article_chars: 3000

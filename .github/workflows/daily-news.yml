@@ -1,0 +1,89 @@
+name: Daily News Summary
+
+on:
+  schedule:
+    # Every day at 19:00 UTC (06:00 AEDT / 05:00 AEST next day)
+    - cron: '0 19 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'templates/**'
+      - 'scripts/generate_html.py'
+
+permissions:
+  contents: write
+
+jobs:
+  # Full pipeline: fetch → summarize → generate → deploy
+  full-run:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news articles
+        env:
+          SEARCH_KEYWORDS: ${{ secrets.SEARCH_KEYWORDS }}
+        run: python scripts/fetch_news.py
+
+      - name: Summarize with Mistral 7B
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: python scripts/summarize.py
+
+      - name: Generate HTML report
+        run: python scripts/generate_html.py
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || (git commit -m "Update news $(date +%Y-%m-%d)" && git push)
+
+  # Rebuild HTML only (no fetch/summarize) when templates or generate script change
+  rebuild-html:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Regenerate HTML from existing data
+        run: |
+          if [ -f docs/news_data.json ]; then
+            python scripts/generate_html.py
+          else
+            echo "No news_data.json found, skipping rebuild"
+          fi
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || (git commit -m "Rebuild HTML $(date +%Y-%m-%d)" && git push)
