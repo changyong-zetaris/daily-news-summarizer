@@ -274,7 +274,7 @@
     function populateDateFilter() {
       const sel = document.getElementById('filter-date');
       sel.innerHTML = '';
-      const today = new Date().toISOString().slice(0, 10);
+      const today = new Date().getFullYear() + '-' + String(new Date().getMonth()+1).padStart(2,'0') + '-' + String(new Date().getDate()).padStart(2,'0');
       const todayExists = dates.includes(today);
       dates.forEach(d => { const o = document.createElement('option'); o.value = d; o.textContent = d; if (todayExists ? d === today : d === dates[0]) o.selected = true; sel.appendChild(o); });
       const allOpt = document.createElement('option'); allOpt.value = 'all'; allOpt.textContent = 'All dates'; sel.appendChild(allOpt);
@@ -374,7 +374,7 @@
       try { const r = await fetch('data/index.json'); if (r.ok) dates = await r.json(); } catch(e) {}
       if (dates.length) {
         populateDateFilter();
-        const today = new Date().toISOString().slice(0, 10);
+        const today = new Date().getFullYear() + '-' + String(new Date().getMonth()+1).padStart(2,'0') + '-' + String(new Date().getDate()).padStart(2,'0');
         await loadData(dates.includes(today) ? today : dates[0]);
       }
       else document.getElementById('container').innerHTML = '<div class="no-results">No data yet. Run the workflow to fetch news.</div>';
