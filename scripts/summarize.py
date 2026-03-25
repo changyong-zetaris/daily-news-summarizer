@@ -26,46 +26,58 @@ For each news article, analyze it from a sales perspective and respond in this e
 Respond ONLY with valid JSON, no markdown or extra text."""
 
 
+MAX_RETRIES = 5
+
+
 def summarize_article(api_key: str, model: str, article: dict) -> dict:
-    """Send a single article to Mistral API for sales-focused summarization."""
+    """Send a single article to Mistral API with retry on rate limit."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
 
-    resp = requests.post(
-        MISTRAL_API_URL,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": model,
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt},
-            ],
-            "max_tokens": 600,
-            "temperature": 0.3,
-        },
-        timeout=60,
-    )
-    resp.raise_for_status()
-    content = resp.json()["choices"][0]["message"]["content"]
+    for attempt in range(MAX_RETRIES):
+        resp = requests.post(
+            MISTRAL_API_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "max_tokens": 600,
+                "temperature": 0.3,
+            },
+            timeout=60,
+        )
 
-    # Parse JSON response from LLM
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        # Fallback: try to extract JSON from markdown code block
-        import re
-        match = re.search(r"\{[\s\S]*\}", content)
-        if match:
-            return json.loads(match.group())
-        return {
-            "summary": [content[:200]],
-            "company": "Not specified",
-            "pain_point": "Unknown",
-            "zetaris_relevance": "",
-            "lead_score": "Cold",
-        }
+        if resp.status_code == 429:
+            wait = 2 ** attempt * 10  # 10s, 20s, 40s, 80s, 160s
+            print(f"    Rate limited, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
+            time.sleep(wait)
+            continue
+
+        resp.raise_for_status()
+        content = resp.json()["choices"][0]["message"]["content"]
+
+        # Parse JSON response from LLM
+        try:
+            return json.loads(content)
+        except json.JSONDecodeError:
+            import re
+            match = re.search(r"\{[\s\S]*\}", content)
+            if match:
+                return json.loads(match.group())
+            return {
+                "summary": [content[:200]],
+                "company": "Not specified",
+                "pain_point": "Unknown",
+                "zetaris_relevance": "",
+                "lead_score": "Cold",
+            }
+
+    raise RuntimeError(f"Rate limited after {MAX_RETRIES} retries")
 
 
 def main():
@@ -93,7 +105,7 @@ def main():
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
                 article["analysis"] = summarize_article(api_key, model, article)
-                time.sleep(1)
+                time.sleep(3)
             except Exception as e:
                 print(f"    Error: {e}")
                 article["analysis"] = {
