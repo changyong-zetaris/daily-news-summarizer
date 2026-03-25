@@ -100,6 +100,10 @@
     .badge.hot { background: #ffe0e0; color: #c0392b; }
     .badge.warm { background: #fff3cd; color: #856404; }
     .badge.cold { background: #d6eaf8; color: #2471a3; }
+    .badge.channel-news { background: #e8f5e9; color: #2e7d32; }
+    .badge.channel-linkedin { background: #e3f2fd; color: #0077b5; }
+    .badge.channel-facebook { background: #e8eaf6; color: #1877f2; }
+    .badge.channel-reddit { background: #fff3e0; color: #ff4500; }
 
     .analysis-section { margin-top: 10px; }
     .field { margin-bottom: 8px; font-size: 0.88rem; color: #444; }
@@ -136,7 +140,7 @@
 
   <div class="filters">
     <div class="filter-group">
-      <label for="filter-date">Date:</label>
+      <label for="filter-date">Fetched:</label>
       <select id="filter-date"></select>
     </div>
     <div class="filter-group">
@@ -146,6 +150,16 @@
         <option value="hot">Hot</option>
         <option value="warm">Warm</option>
         <option value="cold">Cold</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-channel">Channel:</label>
+      <select id="filter-channel">
+        <option value="all">All channels</option>
+        <option value="News">News</option>
+        <option value="LinkedIn">LinkedIn</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Reddit">Reddit</option>
       </select>
     </div>
     <div class="filter-group">
@@ -197,17 +211,20 @@
     function renderCard(art, keyword) {
       const analysis = art.analysis || {};
       const score = getScore(analysis);
+      const channel = art.channel || 'News';
 
       let html = '<div class="article-card ' + score + '"'
         + ' data-score="' + score + '"'
         + ' data-source="' + escapeHtml(art.source || '') + '"'
         + ' data-date="' + escapeHtml(art.iso_date || '') + '"'
+        + ' data-channel="' + escapeHtml(channel) + '"'
         + ' data-keyword="' + escapeHtml(keyword) + '">';
 
       html += '<div class="article-header">';
       html += '<h3><a href="' + escapeHtml(art.url) + '" target="_blank" rel="noopener">'
         + escapeHtml(art.title) + '</a></h3>';
       html += '<span class="badge ' + score + '">' + score.toUpperCase() + '</span>';
+      html += '<span class="badge channel-' + channel.toLowerCase() + '">' + escapeHtml(channel) + '</span>';
       html += '</div>';
 
       html += '<div class="article-meta">';
@@ -356,6 +373,7 @@
     function applyFilters() {
       const scoreVal = document.getElementById('filter-score').value;
       const sourceVal = document.getElementById('filter-source').value;
+      const channelVal = document.getElementById('filter-channel').value;
 
       const cards = document.querySelectorAll('.article-card');
       const sections = document.querySelectorAll('.keyword-section');
@@ -365,11 +383,13 @@
       cards.forEach(card => {
         const s = card.getAttribute('data-score') || '';
         const src = card.getAttribute('data-source') || '';
+        const ch = card.getAttribute('data-channel') || '';
 
         const matchScore = scoreVal === 'all' || s === scoreVal;
         const matchSource = sourceVal === 'all' || src === sourceVal;
+        const matchChannel = channelVal === 'all' || ch === channelVal;
 
-        if (matchScore && matchSource) {
+        if (matchScore && matchSource && matchChannel) {
           card.style.display = '';
           visible++;
           if (counts[s] !== undefined) counts[s]++;
@@ -415,6 +435,7 @@
 
     document.getElementById('filter-date').addEventListener('change', e => loadDate(e.target.value));
     document.getElementById('filter-score').addEventListener('change', applyFilters);
+    document.getElementById('filter-channel').addEventListener('change', applyFilters);
     document.getElementById('filter-source').addEventListener('change', applyFilters);
     document.getElementById('filter-sort').addEventListener('change', () => renderArticles(currentData));
   </script>
