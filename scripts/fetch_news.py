@@ -5,7 +5,7 @@ import os
 import re
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 import yaml
 import requests
@@ -27,6 +27,7 @@ def parse_date(pub_date: str) -> str:
 def search_google_news(keyword: str, num_results: int, site: str = "") -> list[dict]:
     """Fetch articles from Google News RSS, optionally filtered by site."""
     query = f"{keyword} site:{site}" if site else keyword
+    query += " when:1y"  # Restrict to past 1 year
 
     resp = requests.get(
         GOOGLE_NEWS_RSS,
@@ -52,13 +53,20 @@ def search_google_news(keyword: str, num_results: int, site: str = "") -> list[d
         if "<" in description:
             description = re.sub(r"<[^>]+>", "", description).strip()
 
+        # Skip articles older than 1 year
+        iso_date = parse_date(pub_date)
+        if iso_date:
+            cutoff = (datetime.now(timezone.utc) - timedelta(days=365)).strftime("%Y-%m-%d")
+            if iso_date < cutoff:
+                continue
+
         articles.append({
             "title": title,
             "text": description,
             "url": link,
             "source": source,
             "date": pub_date,
-            "iso_date": parse_date(pub_date),
+            "iso_date": iso_date,
             "channel": "News",
         })
 
