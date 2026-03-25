@@ -1,12 +1,13 @@
-"""Summarize fetched news articles using Mistral 7B via REST API."""
+"""Summarize fetched news articles using Llama 3.1 8B via Groq API."""
 
 import json
 import os
+import re
 import time
 import yaml
 import requests
 
-MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a sales intelligence analyst for Zetaris, a data platform company.
 Zetaris provides a semantic layer that enables:
@@ -25,17 +26,16 @@ For each news article, analyze it from a sales perspective and respond in this e
 
 Respond ONLY with valid JSON, no markdown or extra text."""
 
-
-MAX_RETRIES = 5
+MAX_RETRIES = 3
 
 
 def summarize_article(api_key: str, model: str, article: dict) -> dict:
-    """Send a single article to Mistral API with retry on rate limit."""
+    """Send a single article to Groq API with retry on rate limit."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
 
     for attempt in range(MAX_RETRIES):
         resp = requests.post(
-            MISTRAL_API_URL,
+            GROQ_API_URL,
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
@@ -53,7 +53,7 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
         )
 
         if resp.status_code == 429:
-            wait = 2 ** attempt * 10  # 10s, 20s, 40s, 80s, 160s
+            wait = 2 ** attempt * 5  # 5s, 10s, 20s
             print(f"    Rate limited, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
             time.sleep(wait)
             continue
@@ -61,11 +61,9 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
         resp.raise_for_status()
         content = resp.json()["choices"][0]["message"]["content"]
 
-        # Parse JSON response from LLM
         try:
             return json.loads(content)
         except json.JSONDecodeError:
-            import re
             match = re.search(r"\{[\s\S]*\}", content)
             if match:
                 return json.loads(match.group())
@@ -81,9 +79,9 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
 
 
 def main():
-    api_key = os.environ.get("MISTRAL_API_KEY")
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise RuntimeError("MISTRAL_API_KEY environment variable is not set")
+        raise RuntimeError("GROQ_API_KEY environment variable is not set")
 
     with open("config.yml") as f:
         config = yaml.safe_load(f)
@@ -105,7 +103,7 @@ def main():
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
                 article["analysis"] = summarize_article(api_key, model, article)
-                time.sleep(3)
+                time.sleep(2)
             except Exception as e:
                 print(f"    Error: {e}")
                 article["analysis"] = {

@@ -3,5 +3,5 @@
 
 settings:
   results_per_keyword: 3
-  summary_model: "open-mistral-7b"
+  summary_model: "llama-3.1-8b-instant"
   max_article_chars: 3000
