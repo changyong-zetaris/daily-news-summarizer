@@ -1,4 +1,4 @@
-"""Summarize fetched news articles using Llama 3.1 8B via Groq API."""
+"""Summarize fetched news articles using Google Gemini API."""
 
 import json
 import os
@@ -6,8 +6,6 @@ import re
 import time
 import yaml
 import requests
-
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a strict sales intelligence analyst for Zetaris, a data platform company.
 
@@ -39,36 +37,34 @@ MAX_RETRIES = 3
 
 
 def summarize_article(api_key: str, model: str, article: dict) -> dict:
-    """Send a single article to Groq API with retry on rate limit."""
+    """Send a single article to Gemini API with retry on rate limit."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
 
     for attempt in range(MAX_RETRIES):
         resp = requests.post(
-            GROQ_API_URL,
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
+            url,
+            headers={"Content-Type": "application/json"},
             json={
-                "model": model,
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_prompt},
-                ],
-                "max_tokens": 600,
-                "temperature": 0.3,
+                "contents": [{"parts": [{"text": user_prompt}]}],
+                "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+                "generationConfig": {
+                    "maxOutputTokens": 600,
+                    "temperature": 0.3,
+                },
             },
             timeout=60,
         )
 
         if resp.status_code == 429:
-            wait = 2 ** attempt * 5  # 5s, 10s, 20s
+            wait = 2 ** attempt * 5
             print(f"    Rate limited, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
             time.sleep(wait)
             continue
 
         resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"]
+        content = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
 
         try:
             return json.loads(content)
@@ -88,9 +84,9 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
 
 
 def main():
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise RuntimeError("GROQ_API_KEY environment variable is not set")
+        raise RuntimeError("GEMINI_API_KEY environment variable is not set")
 
     with open("config.yml") as f:
         config = yaml.safe_load(f)

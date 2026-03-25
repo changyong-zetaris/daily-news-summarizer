@@ -3,5 +3,5 @@
 
 settings:
   results_per_keyword: 3
-  summary_model: "llama-3.3-70b-versatile"
+  summary_model: "gemini-2.0-flash"
   max_article_chars: 3000
