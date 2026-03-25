@@ -86,6 +86,9 @@ CHANNELS = [
     {"name": "LinkedIn", "site": "linkedin.com"},
     {"name": "Facebook", "site": "facebook.com"},
     {"name": "Reddit",   "site": "reddit.com"},
+    {"name": "Medium",   "site": "medium.com"},
+    {"name": "X",        "site": "twitter.com"},
+    {"name": "YouTube",  "site": "youtube.com"},
 ]
 
 
