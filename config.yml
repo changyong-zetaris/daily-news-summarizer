@@ -3,5 +3,5 @@
 
 settings:
   results_per_keyword: 3
-  summary_model: "gemini-2.0-flash"
+  summary_model: "meta-llama/Llama-3.1-70B-Instruct"
   max_article_chars: 3000

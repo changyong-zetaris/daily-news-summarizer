@@ -35,9 +35,9 @@ jobs:
           SEARCH_KEYWORDS: ${{ secrets.SEARCH_KEYWORDS }}
         run: python scripts/fetch_news.py
 
-      - name: Summarize with Gemini
+      - name: Summarize with HuggingFace
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python scripts/summarize.py
 
       - name: Generate HTML report

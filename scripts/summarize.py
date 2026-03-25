@@ -1,4 +1,4 @@
-"""Summarize fetched news articles using Google Gemini API."""
+"""Summarize fetched news articles using HuggingFace Inference API."""
 
 import json
 import os
@@ -6,6 +6,8 @@ import re
 import time
 import yaml
 import requests
+
+HF_API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
 
 SYSTEM_PROMPT = """You are a strict sales intelligence analyst for Zetaris, a data platform company.
 
@@ -37,34 +39,36 @@ MAX_RETRIES = 3
 
 
 def summarize_article(api_key: str, model: str, article: dict) -> dict:
-    """Send a single article to Gemini API with retry on rate limit."""
+    """Send a single article to HuggingFace Inference API."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
-
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
 
     for attempt in range(MAX_RETRIES):
         resp = requests.post(
-            url,
-            headers={"Content-Type": "application/json"},
-            json={
-                "contents": [{"parts": [{"text": user_prompt}]}],
-                "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
-                "generationConfig": {
-                    "maxOutputTokens": 600,
-                    "temperature": 0.3,
-                },
+            HF_API_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
             },
-            timeout=60,
+            json={
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "max_tokens": 600,
+                "temperature": 0.3,
+            },
+            timeout=120,
         )
 
-        if resp.status_code == 429:
-            wait = 2 ** attempt * 15  # 15s, 30s, 60s
-            print(f"    Rate limited, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
+        if resp.status_code == 429 or resp.status_code == 503:
+            wait = 2 ** attempt * 10
+            print(f"    Rate limited/loading, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
             time.sleep(wait)
             continue
 
         resp.raise_for_status()
-        content = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+        content = resp.json()["choices"][0]["message"]["content"]
 
         try:
             return json.loads(content)
@@ -80,13 +84,13 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
                 "lead_score": "Cold",
             }
 
-    raise RuntimeError(f"Rate limited after {MAX_RETRIES} retries")
+    raise RuntimeError(f"Failed after {MAX_RETRIES} retries")
 
 
 def main():
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("HF_TOKEN")
     if not api_key:
-        raise RuntimeError("GEMINI_API_KEY environment variable is not set")
+        raise RuntimeError("HF_TOKEN environment variable is not set")
 
     with open("config.yml") as f:
         config = yaml.safe_load(f)
@@ -108,7 +112,7 @@ def main():
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
                 article["analysis"] = summarize_article(api_key, model, article)
-                time.sleep(4)
+                time.sleep(2)
             except Exception as e:
                 print(f"    Error: {e}")
                 article["analysis"] = {
