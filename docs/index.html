@@ -101,6 +101,13 @@
     .analysis-text { font-size: 0.85rem; color: var(--text-secondary); white-space: pre-wrap; line-height: 1.7; }
     .no-results { text-align: center; padding: 80px 20px; color: var(--text-muted); font-size: 0.95rem; }
 
+    .pagination { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 24px 0; }
+    .pagination button { padding: 6px 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); font-family: inherit; font-size: 0.82rem; cursor: pointer; transition: all 0.15s; }
+    .pagination button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+    .pagination button:disabled { opacity: 0.4; cursor: default; }
+    .pagination button.active { background: var(--accent); color: white; border-color: var(--accent); }
+    .pagination .page-info { font-size: 0.78rem; color: var(--text-muted); }
+
     footer { max-width: 1100px; margin: 0 auto; padding: 32px 24px; text-align: center; font-size: 0.75rem; color: var(--text-muted); border-top: 1px solid var(--border); }
     footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
@@ -145,7 +152,7 @@
     <div class="toolbar-sep"></div>
     <select id="filter-score">
       <option value="all">All relevance</option>
-      <option value="hot">Hot only</option>
+      <option value="hot" selected>Hot only</option>
       <option value="warm">Warm only</option>
       <option value="cold">Cold only</option>
     </select>
@@ -171,6 +178,7 @@
   </div>
 
   <div class="content" id="container"><div class="no-results">Loading...</div></div>
+  <div class="pagination" id="pagination"></div>
 
   <footer>
     Powered by Llama 3.1 &middot; Groq &middot; GitHub Actions &mdash;
@@ -180,6 +188,8 @@
   <script>
     let currentData = null;
     let dates = [];
+    let currentPage = 1;
+    const PAGE_SIZE = 20;
 
     function escapeHtml(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
 
@@ -252,7 +262,7 @@
         if (!sorted.length) { container.innerHTML = '<div class="no-results">No articles available.</div>'; }
         else { let html = '<div class="keyword-section">'; sorted.forEach(a => { html += renderCard(a, a._keyword); }); html += '</div>'; container.innerHTML = html; }
       }
-      applyFilters();
+      applyFilters(true);
     }
 
     function populateSourceFilter(sources) {
@@ -267,24 +277,67 @@
       dates.forEach((d, i) => { const o = document.createElement('option'); o.value = d; o.textContent = d.replace('_', ' '); if (i === 0) o.selected = true; sel.appendChild(o); });
     }
 
-    function applyFilters() {
+    function getFilteredCards() {
       const sv = document.getElementById('filter-score').value;
       const src = document.getElementById('filter-source').value;
       const ch = document.getElementById('filter-channel').value;
-      const cards = document.querySelectorAll('.card');
-      const sections = document.querySelectorAll('.keyword-section');
-      let vis = 0; const c = { hot:0, warm:0, cold:0 };
-      cards.forEach(card => {
-        const s = card.getAttribute('data-score')||'', sr = card.getAttribute('data-source')||'', cc = card.getAttribute('data-channel')||'';
-        if ((sv==='all'||s===sv)&&(src==='all'||sr===src)&&(ch==='all'||cc===ch)) { card.style.display=''; vis++; if(c[s]!==undefined)c[s]++; }
-        else card.style.display='none';
+      const cards = [...document.querySelectorAll('.card')];
+      return cards.filter(card => {
+        const s = card.getAttribute('data-score')||'';
+        const sr = card.getAttribute('data-source')||'';
+        const cc = card.getAttribute('data-channel')||'';
+        return (sv==='all'||s===sv)&&(src==='all'||sr===src)&&(ch==='all'||cc===ch);
       });
+    }
+
+    function applyFilters(resetPage) {
+      if (resetPage) currentPage = 1;
+      const allCards = document.querySelectorAll('.card');
+      const filtered = getFilteredCards();
+      const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+      if (currentPage > totalPages) currentPage = totalPages;
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const end = start + PAGE_SIZE;
+      const pageCards = new Set(filtered.slice(start, end));
+      const c = { hot:0, warm:0, cold:0 };
+      filtered.forEach(card => { const s = card.getAttribute('data-score')||''; if(c[s]!==undefined)c[s]++; });
+
+      allCards.forEach(card => {
+        card.style.display = pageCards.has(card) ? '' : 'none';
+      });
+
+      const sections = document.querySelectorAll('.keyword-section');
       sections.forEach(s => { s.style.display = s.querySelector('.card:not([style*="display: none"])') ? '' : 'none'; });
+
       document.getElementById('stat-hot').textContent = c.hot;
       document.getElementById('stat-warm').textContent = c.warm;
       document.getElementById('stat-cold').textContent = c.cold;
-      document.getElementById('stat-total').textContent = vis;
-      document.getElementById('filter-count').textContent = vis + ' articles';
+      document.getElementById('stat-total').textContent = filtered.length;
+      document.getElementById('filter-count').textContent = filtered.length + ' articles';
+      renderPagination(filtered.length, totalPages);
+    }
+
+    function renderPagination(total, totalPages) {
+      const pg = document.getElementById('pagination');
+      if (totalPages <= 1) { pg.innerHTML = ''; return; }
+      let h = '<button id="pg-prev">&laquo; Prev</button>';
+      const maxButtons = 5;
+      let startP = Math.max(1, currentPage - Math.floor(maxButtons/2));
+      let endP = Math.min(totalPages, startP + maxButtons - 1);
+      if (endP - startP < maxButtons - 1) startP = Math.max(1, endP - maxButtons + 1);
+      for (let i = startP; i <= endP; i++) {
+        h += '<button class="pg-num' + (i===currentPage?' active':'') + '" data-page="' + i + '">' + i + '</button>';
+      }
+      h += '<button id="pg-next">Next &raquo;</button>';
+      h += '<span class="page-info">Page ' + currentPage + ' of ' + totalPages + '</span>';
+      pg.innerHTML = h;
+      document.getElementById('pg-prev').disabled = currentPage <= 1;
+      document.getElementById('pg-next').disabled = currentPage >= totalPages;
+      document.getElementById('pg-prev').onclick = () => { currentPage--; applyFilters(); window.scrollTo(0,0); };
+      document.getElementById('pg-next').onclick = () => { currentPage++; applyFilters(); window.scrollTo(0,0); };
+      pg.querySelectorAll('.pg-num').forEach(btn => {
+        btn.onclick = () => { currentPage = parseInt(btn.dataset.page); applyFilters(); window.scrollTo(0,0); };
+      });
     }
 
     async function loadData(dateStr) {
@@ -305,10 +358,10 @@
     }
 
     document.getElementById('filter-date').addEventListener('change', e => loadData(e.target.value));
-    document.getElementById('filter-score').addEventListener('change', applyFilters);
-    document.getElementById('filter-channel').addEventListener('change', applyFilters);
-    document.getElementById('filter-source').addEventListener('change', applyFilters);
-    document.getElementById('filter-sort').addEventListener('change', () => renderArticles(currentData));
+    document.getElementById('filter-score').addEventListener('change', () => applyFilters(true));
+    document.getElementById('filter-channel').addEventListener('change', () => applyFilters(true));
+    document.getElementById('filter-source').addEventListener('change', () => applyFilters(true));
+    document.getElementById('filter-sort').addEventListener('change', () => { currentPage = 1; renderArticles(currentData); });
     init();
   </script>
 </body>
