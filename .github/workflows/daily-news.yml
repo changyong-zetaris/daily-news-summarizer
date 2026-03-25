@@ -35,9 +35,9 @@ jobs:
           SEARCH_KEYWORDS: ${{ secrets.SEARCH_KEYWORDS }}
         run: python scripts/fetch_news.py
 
-      - name: Summarize with HuggingFace
+      - name: Summarize with Groq
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python scripts/summarize.py
 
       - name: Generate HTML report

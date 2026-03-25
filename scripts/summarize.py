@@ -1,4 +1,4 @@
-"""Summarize fetched news articles using HuggingFace Inference Providers."""
+"""Summarize fetched news articles using Groq API."""
 
 import json
 import os
@@ -7,7 +7,7 @@ import time
 import yaml
 import requests
 
-API_URL = "https://router.huggingface.co/v1/chat/completions"
+API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a strict sales intelligence analyst for Zetaris, a data platform company.
 
@@ -39,7 +39,7 @@ MAX_RETRIES = 5
 
 
 def summarize_article(api_key: str, model: str, article: dict) -> dict:
-    """Send a single article to HuggingFace Inference Providers."""
+    """Send a single article to Groq API."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
 
     for attempt in range(MAX_RETRIES):
@@ -88,9 +88,9 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
 
 
 def main():
-    api_key = os.environ.get("HF_TOKEN")
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise RuntimeError("HF_TOKEN environment variable is not set")
+        raise RuntimeError("GROQ_API_KEY environment variable is not set")
 
     with open("config.yml") as f:
         config = yaml.safe_load(f)
@@ -112,7 +112,7 @@ def main():
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
                 article["analysis"] = summarize_article(api_key, model, article)
-                time.sleep(4)
+                time.sleep(2)
             except Exception as e:
                 print(f"    Error: {e}")
                 article["analysis"] = {

@@ -3,5 +3,5 @@
 
 settings:
   results_per_keyword: 3
-  summary_model: "meta-llama/Llama-3.1-70B-Instruct:fastest"
+  summary_model: "llama-3.3-70b-versatile"
   max_article_chars: 3000
