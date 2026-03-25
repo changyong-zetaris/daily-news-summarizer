@@ -7,7 +7,11 @@ import time
 import yaml
 import requests
 
-HF_API_URL = "https://api-inference.huggingface.co/v1/chat/completions"
+HF_PROVIDERS = [
+    "https://router.huggingface.co/nebius/v1/chat/completions",
+    "https://router.huggingface.co/sambanova/v1/chat/completions",
+    "https://api-inference.huggingface.co/v1/chat/completions",
+]
 
 SYSTEM_PROMPT = """You are a strict sales intelligence analyst for Zetaris, a data platform company.
 
@@ -38,13 +42,32 @@ Respond ONLY with valid JSON, no markdown or extra text."""
 MAX_RETRIES = 3
 
 
-def summarize_article(api_key: str, model: str, article: dict) -> dict:
+def _pick_provider(api_key: str, model: str) -> str:
+    """Find the first working provider by sending a tiny probe request."""
+    for url in HF_PROVIDERS:
+        try:
+            resp = requests.post(
+                url,
+                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                json={"model": model, "messages": [{"role": "user", "content": "Hi"}], "max_tokens": 1},
+                timeout=15,
+            )
+            if resp.status_code in (200, 429, 503):
+                print(f"  Using provider: {url}")
+                return url
+        except requests.RequestException:
+            pass
+        print(f"  Provider unavailable: {url}")
+    raise RuntimeError("All HuggingFace providers are unavailable")
+
+
+def summarize_article(api_url: str, api_key: str, model: str, article: dict) -> dict:
     """Send a single article to HuggingFace Inference API."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
 
     for attempt in range(MAX_RETRIES):
         resp = requests.post(
-            HF_API_URL,
+            api_url,
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
@@ -96,6 +119,9 @@ def main():
         config = yaml.safe_load(f)
     model = config["settings"]["summary_model"]
 
+    print("Probing HuggingFace providers...")
+    api_url = _pick_provider(api_key, model)
+
     with open("docs/news_raw.json") as f:
         raw = json.load(f)
 
@@ -111,7 +137,7 @@ def main():
             processed += 1
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
-                article["analysis"] = summarize_article(api_key, model, article)
+                article["analysis"] = summarize_article(api_url, api_key, model, article)
                 time.sleep(2)
             except Exception as e:
                 print(f"    Error: {e}")
