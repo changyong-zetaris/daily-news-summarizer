@@ -3,5 +3,5 @@
 
 settings:
   results_per_keyword: 2
-  summary_model: "llama-3.1-8b-instant"
+  summary_model: "llama-3.3-70b-versatile"
   max_article_chars: 3000
