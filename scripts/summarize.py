@@ -1,4 +1,4 @@
-"""Summarize fetched news articles using HuggingFace Inference API."""
+"""Summarize fetched news articles using HuggingFace Inference Providers."""
 
 import json
 import os
@@ -7,11 +7,7 @@ import time
 import yaml
 import requests
 
-HF_PROVIDERS = [
-    "https://router.huggingface.co/nebius/v1/chat/completions",
-    "https://router.huggingface.co/sambanova/v1/chat/completions",
-    "https://api-inference.huggingface.co/v1/chat/completions",
-]
+API_URL = "https://router.huggingface.co/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a strict sales intelligence analyst for Zetaris, a data platform company.
 
@@ -39,35 +35,16 @@ Respond in this exact JSON format:
 
 Respond ONLY with valid JSON, no markdown or extra text."""
 
-MAX_RETRIES = 3
+MAX_RETRIES = 5
 
 
-def _pick_provider(api_key: str, model: str) -> str:
-    """Find the first working provider by sending a tiny probe request."""
-    for url in HF_PROVIDERS:
-        try:
-            resp = requests.post(
-                url,
-                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-                json={"model": model, "messages": [{"role": "user", "content": "Hi"}], "max_tokens": 1},
-                timeout=15,
-            )
-            if resp.status_code in (200, 429, 503):
-                print(f"  Using provider: {url}")
-                return url
-        except requests.RequestException:
-            pass
-        print(f"  Provider unavailable: {url}")
-    raise RuntimeError("All HuggingFace providers are unavailable")
-
-
-def summarize_article(api_url: str, api_key: str, model: str, article: dict) -> dict:
-    """Send a single article to HuggingFace Inference API."""
+def summarize_article(api_key: str, model: str, article: dict) -> dict:
+    """Send a single article to HuggingFace Inference Providers."""
     user_prompt = f"Title: {article['title']}\n\n{article['text']}"
 
     for attempt in range(MAX_RETRIES):
         resp = requests.post(
-            api_url,
+            API_URL,
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
@@ -85,8 +62,8 @@ def summarize_article(api_url: str, api_key: str, model: str, article: dict) -> 
         )
 
         if resp.status_code == 429 or resp.status_code == 503:
-            wait = 2 ** attempt * 10
-            print(f"    Rate limited/loading, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
+            wait = 2 ** attempt * 5
+            print(f"    Rate limited, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
             time.sleep(wait)
             continue
 
@@ -119,9 +96,6 @@ def main():
         config = yaml.safe_load(f)
     model = config["settings"]["summary_model"]
 
-    print("Probing HuggingFace providers...")
-    api_url = _pick_provider(api_key, model)
-
     with open("docs/news_raw.json") as f:
         raw = json.load(f)
 
@@ -137,8 +111,8 @@ def main():
             processed += 1
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
-                article["analysis"] = summarize_article(api_url, api_key, model, article)
-                time.sleep(2)
+                article["analysis"] = summarize_article(api_key, model, article)
+                time.sleep(4)
             except Exception as e:
                 print(f"    Error: {e}")
                 article["analysis"] = {
