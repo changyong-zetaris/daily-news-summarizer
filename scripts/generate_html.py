@@ -19,12 +19,12 @@ def main():
     aest = timezone(timedelta(hours=11))
     now = datetime.now(aest)
     metadata["generated_at"] = now.strftime("%Y-%m-%d %H:%M AEDT")
-    timestamp = now.strftime("%Y-%m-%d_%H%M")
+    today = now.strftime("%Y-%m-%d")
 
-    # Archive with timestamp
+    # Archive by date (overwrites same day)
     os.makedirs("docs/data", exist_ok=True)
     archive = {"_metadata": metadata, "keywords": keywords_data}
-    archive_path = f"docs/data/{timestamp}.json"
+    archive_path = f"docs/data/{today}.json"
     with open(archive_path, "w") as f:
         json.dump(archive, f, ensure_ascii=False, indent=2)
 
