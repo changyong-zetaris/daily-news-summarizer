@@ -1,132 +1,82 @@
 {
   "_metadata": {
-    "fetched_at": "2026-03-25T04:51:37Z",
+    "fetched_at": "2026-03-25T05:08:01Z",
     "keyword_count": 10,
-    "generated_at": "2026-03-25 15:53 AEDT"
+    "generated_at": "2026-03-25 16:10 AEDT"
   },
   "keywords": {
     "AI project failure data quality": [],
     "data silos enterprise cost": [
       {
-        "title": "Key takeaways A cloud-based enterprise financial system is software that manages accounting, financial reporting, budgeting, and operational insights through a secure online platform. Instead of running on internal servers, the system operates in the cloud an - facebook.com",
-        "text": "Key takeaways A cloud-based enterprise financial system is software that manages accounting, financial reporting, budgeting, and operational insights through a secure online platform. Instead of running on internal servers, the system operates in the cloud an&nbsp;&nbsp;facebook.com",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaVRFMTNQS3ByREQ0RHBWOUZodjBwZjVFMnRoMmlLYXdTcXktZzFEVFQzb0gwcmY4V0N5d1BGQ0xhT2stbmdaN3M5bkdfOGhQUUkxX193SEI1RWlsNkdmWTRwb3JpdmV4YmVrdjFCdDFrS3ZHSU1BWlNHOS1rSEhqeGJZU1FuNEdTZkpKM0d1VFFoSndrcUxENWNlbWMtalZUVEVDaUhJc1RSS19LdmNienBUdUt6bUdIX2dNUXlFbXgzdzJHOXVYR0NCR1k5Nlk4cjRLaXVJT0o3cXc?oc=5",
-        "source": "facebook.com",
-        "date": "Thu, 19 Mar 2026 19:43:16 GMT",
-        "iso_date": "2026-03-19",
-        "channel": "Facebook",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      }
-    ],
-    "data integration challenges": [
-      {
-        "title": "AI promises faster diagnosis but raises new questions about how patient data is protected. #AIinHealthcare - facebook.com",
-        "text": "AI promises faster diagnosis but raises new questions about how patient data is protected. #AIinHealthcare&nbsp;&nbsp;facebook.com",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWEVJRm1IX3MxVmV5S1pEaVVKYTVDZHVzMEZiQ000OUdxYk14djV0RjNzNm8wZzBBVElYeFljSzNnelF3Vk5TNC1UaVBYX0gzWWQ0OGlpcHFGeWczaTFuVXBJTTBrWGFkN19xcUt5S2ZqYXlhMDBCNmwzdDhwMFhKYUVZTHZCM0pySjB2elN4clJTMjBvSXVvbFF3UkVUejY3eG1zNm1UN1YzanNuVkZPRDdEbkxJdHBfVHNCTjhEVjF1NVllWFU4ZDFHTDBpM2dxVTEzTjFGVQ?oc=5",
-        "source": "facebook.com",
-        "date": "Thu, 19 Mar 2026 15:51:41 GMT",
-        "iso_date": "2026-03-19",
-        "channel": "Facebook",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "mangrow (@whethermans) / Posts / X - twitter.com",
-        "text": "mangrow (@whethermans) / Posts / X&nbsp;&nbsp;twitter.com",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9DelhPVWlQVWhpdFhRZDBOYlExbF94S1pTbU5wYjFfWEo2a3g0bFhGaWxzYlc4NkNoYlNjQ0JEX29OT1BlY3c?oc=5",
-        "source": "twitter.com",
-        "date": "Sun, 22 Mar 2026 15:20:00 GMT",
-        "iso_date": "2026-03-22",
-        "channel": "X",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      }
-    ],
-    "poor data quality AI": [
-      {
-        "title": "How to Use AI for B2B Contact Management - Business.com",
-        "text": "How to Use AI for B2B Contact Management&nbsp;&nbsp;Business.com",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QZDZnWGdXRDVWalRPR25SY0llUWI5aENyNmc3TTJxUThfQUZ5ZXkwZS1mZmR0NnZRbFJ6a1pFd2ZWeEVVc3VGSjhQQmstcUZSWGo3bkhuN1p6VGRIbEFYSlZsTGhRTktvcFI4M1BtMVBIQk9yblVxS2NR?oc=5",
-        "source": "Business.com",
-        "date": "Wed, 25 Mar 2026 00:05:29 GMT",
-        "iso_date": "2026-03-25",
+        "title": "A leading US insurer revolutionizes its data ecosystem to gain 70% faster insights - Capgemini",
+        "text": "A leading US insurer revolutionizes its data ecosystem to gain 70% faster insights&nbsp;&nbsp;Capgemini",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa0tyclNfX2FrX3RwZUVyVlJpUm00MDJ0bEtMSzAtLW9vOEs4U05CSjB2azlpcFNNd1Y0SXpucEJlUVFxTExCWUgxVnhnZWRNUnRRaWNJdUxpVzRROE5PWmdDSzRXbFJpTTFoWkdmSWJTM2F5WHhldFFiS1BoSV9ZV3dFMk1BWFNwMHk4ejE3UTZjVVFpYTZQcUFpWXNzWGhqUlhCSlJCMEN0T0xSWEZpbjQ1MFJfRkpUYzhJTlg1d3JRWFh2S2Z3?oc=5",
+        "source": "Capgemini",
+        "date": "Wed, 18 Mar 2026 21:23:16 GMT",
+        "iso_date": "2026-03-18",
         "channel": "News",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "A leading US insurer improved its data ecosystem",
+            "Gained 70% faster insights",
+            "Partnered with Capgemini for the project"
+          ],
+          "company": "US Insurer — Insurance",
+          "pain_point": "Data silos and slow insights",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data from multiple sources, enabling faster queries and insights",
+          "lead_score": "Hot"
+        }
+      }
+    ],
+    "data integration challenges": [],
+    "poor data quality AI": [],
+    "data preparation bottleneck": [
+      {
+        "title": "I Mapped Out the Entire AI Economy (7 Stocks To Own) - YouTube",
+        "text": "I Mapped Out the Entire AI Economy (7 Stocks To Own)&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MQXRRdjhOWS1FU1poMmRkODBtUEMtcUZ5TEJXMXFiMUhqVFNjLTV6dDFrTHJNNzVjX0oyN1FTN3A2YTJzTHhmWUh3aGgtMjcxYllYZFlR?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 24 Mar 2026 15:11:07 GMT",
+        "iso_date": "2026-03-24",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Article discusses investing in AI stocks",
+            "No specific company data integration issues mentioned",
+            "Focus on investment opportunities"
           ],
           "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article focuses on investment opportunities, not data integration challenges",
           "lead_score": "Cold"
         }
       }
     ],
-    "data preparation bottleneck": [
+    "semantic layer analytics": [
       {
-        "title": "🇦🇲 Armenian Startup Megaladata Expands Globally From Yerevan to Help Businesses Process Data Faster & Make Smarter Decisions ➖➖➖ As companies generate more data than ever before, many still struggle with familiar bottlenecks: manual reporting, sc - facebook.com",
-        "text": "🇦🇲 Armenian Startup Megaladata Expands Globally From Yerevan to Help Businesses Process Data Faster & Make Smarter Decisions ➖➖➖ As companies generate more data than ever before, many still struggle with familiar bottlenecks: manual reporting, sc&nbsp;&nbsp;facebook.com",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOem1iVHRUeTZMWkNGVVdEdXBfczhNb2s3ajA3c3BuTHMxSmVCYks1WkZKTDQtbGNhTE5XRTFwRXFrbTFpdU54NlZFblZzQlZ0MUxpNnE5Vm5fQUJwRWRCMzVPOWFRU1ZPYmJHTGxWYlpCVS12TWlwajNGME1ORWFndElrY0JvdmVqZ2ladUZ6dlg3MHBDdWdKSFNod1RtRzZPeEtvVzlRRFNid0dPb3JmRVRFN3NCT25EckVzZXBQWGcwd1ZpN29RRWJoSzVZWGU2TGFXME9uNDR4TU0?oc=5",
+        "title": "Don’t worry if you missed this week’s Qlik Insider session. You can now watch it on demand and learn from Qlik product leaders on practical insights into what it takes to activate agentic capabilities in real environments. https://bit.ly/4s4XlWu - facebook.com",
+        "text": "Don’t worry if you missed this week’s Qlik Insider session. You can now watch it on demand and learn from Qlik product leaders on practical insights into what it takes to activate agentic capabilities in real environments. https://bit.ly/4s4XlWu&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxON2RXd1pZSHJJajdRaG96WXFIbEhOLWNtV3NmWENmeDNNMmJWUERReWFaVU45bjhiQi05T3luU3JwOFlkMFRIRlpSU0RQa0NBTnEtWE0tSU85VnVZdnJIb2tBZEhWUmJNV21lWm8ySFVNS0Z3SUsySGljc3loOFczeWNFUFEtek4wbXFwUlZpd2dHYTBvX3hWUXgyQ093SmFiMGhWSGllSnMzRzVZTmR6NVdkYk9jbmpFSkFZUkhEeEFkZnp0S0lOakRJeUZjSVE?oc=5",
         "source": "facebook.com",
-        "date": "Mon, 23 Mar 2026 18:28:52 GMT",
-        "iso_date": "2026-03-23",
+        "date": "Fri, 20 Mar 2026 16:01:12 GMT",
+        "iso_date": "2026-03-20",
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Qlik Insider session available on demand",
+            "Practical insights from Qlik product leaders",
+            "Focus on activating agentic capabilities"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
+          "company": "Qlik — Business Intelligence",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The article is about a product session and does not mention specific data integration or quality challenges",
           "lead_score": "Cold"
         }
       }
     ],
-    "semantic layer analytics": [],
     "data mesh federated query": [],
     "data lake migration failure": [],
     "enterprise data governance": [],
-    "data warehouse consolidation": [
-      {
-        "title": "r/starcitizen - Reddit",
-        "text": "r/starcitizen&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBCenkzNzZVTk1Mang5SHhidHFoMnRETFN3QUVwZG9NVkR5Z2JobjlGSUlYNDZGeVFKVkdFR3R2ZmVld1Y4T1JMQXlyaW5GUQ?oc=5",
-        "source": "Reddit",
-        "date": "Tue, 24 Mar 2026 19:09:24 GMT",
-        "iso_date": "2026-03-24",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      }
-    ]
+    "data warehouse consolidation": []
   }
 }
