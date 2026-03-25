@@ -18,15 +18,17 @@ def main():
     keywords_data = data.get("keywords", data)
 
     aest = timezone(timedelta(hours=11))
-    generated_at = datetime.now(aest).strftime("%Y-%m-%d %H:%M AEDT")
-    today = datetime.now(aest).strftime("%Y-%m-%d")
+    now = datetime.now(aest)
+    generated_at = now.strftime("%Y-%m-%d %H:%M AEDT")
+    timestamp = now.strftime("%Y-%m-%d_%H%M")
 
     metadata["generated_at"] = generated_at
 
-    # Archive daily data
+    # Archive with timestamp (never overwrites)
     os.makedirs("docs/data", exist_ok=True)
     archive = {"_metadata": metadata, "keywords": keywords_data}
-    with open(f"docs/data/{today}.json", "w") as f:
+    archive_path = f"docs/data/{timestamp}.json"
+    with open(archive_path, "w") as f:
         json.dump(archive, f, ensure_ascii=False, indent=2)
 
     # Build date index from archived files
@@ -41,21 +43,21 @@ def main():
     # Count stats for logging
     total = sum(len(arts) for arts in keywords_data.values())
 
-    # Render HTML with embedded JSON data
+    # Render HTML with embedded JSON data (latest run)
     env = Environment(loader=FileSystemLoader("templates"))
     template = env.get_template("index.html.j2")
 
     html = template.render(
         news_json=json.dumps(archive, ensure_ascii=False),
         dates_json=json.dumps(dates),
-        current_date=today,
+        current_date=timestamp,
     )
 
     with open("docs/index.html", "w") as f:
         f.write(html)
 
     print(f"Generated docs/index.html — {total} articles")
-    print(f"Archived to docs/data/{today}.json")
+    print(f"Archived to {archive_path}")
     print(f"Historical dates available: {len(dates)}")
 
 
