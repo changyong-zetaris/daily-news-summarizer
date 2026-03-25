@@ -274,7 +274,10 @@
     function populateDateFilter() {
       const sel = document.getElementById('filter-date');
       sel.innerHTML = '';
-      dates.forEach((d, i) => { const o = document.createElement('option'); o.value = d; o.textContent = d.replace('_', ' '); if (i === 0) o.selected = true; sel.appendChild(o); });
+      const today = new Date().toISOString().slice(0, 10);
+      const todayExists = dates.includes(today);
+      dates.forEach(d => { const o = document.createElement('option'); o.value = d; o.textContent = d; if (todayExists ? d === today : d === dates[0]) o.selected = true; sel.appendChild(o); });
+      const allOpt = document.createElement('option'); allOpt.value = 'all'; allOpt.textContent = 'All dates'; sel.appendChild(allOpt);
     }
 
     function getFilteredCards() {
@@ -342,9 +345,25 @@
 
     async function loadData(dateStr) {
       try {
-        const r = await fetch('data/' + dateStr + '.json');
-        if (!r.ok) throw new Error();
-        currentData = await r.json();
+        if (dateStr === 'all') {
+          const merged = { _metadata: {}, keywords: {} };
+          for (const d of dates) {
+            const r = await fetch('data/' + d + '.json');
+            if (!r.ok) continue;
+            const data = await r.json();
+            if (!merged._metadata.fetched_at && data._metadata) merged._metadata = data._metadata;
+            const kw = data.keywords || data;
+            for (const [k, arts] of Object.entries(kw)) {
+              if (!merged.keywords[k]) merged.keywords[k] = [];
+              if (Array.isArray(arts)) merged.keywords[k].push(...arts);
+            }
+          }
+          currentData = merged;
+        } else {
+          const r = await fetch('data/' + dateStr + '.json');
+          if (!r.ok) throw new Error();
+          currentData = await r.json();
+        }
         renderArticles(currentData);
       } catch (e) {
         document.getElementById('container').innerHTML = '<div class="no-results">No data available for ' + dateStr + '</div>';
@@ -353,7 +372,11 @@
 
     async function init() {
       try { const r = await fetch('data/index.json'); if (r.ok) dates = await r.json(); } catch(e) {}
-      if (dates.length) { populateDateFilter(); await loadData(dates[0]); }
+      if (dates.length) {
+        populateDateFilter();
+        const today = new Date().toISOString().slice(0, 10);
+        await loadData(dates.includes(today) ? today : dates[0]);
+      }
       else document.getElementById('container').innerHTML = '<div class="no-results">No data yet. Run the workflow to fetch news.</div>';
     }
 
