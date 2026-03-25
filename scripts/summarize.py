@@ -7,7 +7,7 @@ import time
 import yaml
 import requests
 
-HF_API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
+HF_API_URL = "https://api-inference.huggingface.co/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a strict sales intelligence analyst for Zetaris, a data platform company.
 
