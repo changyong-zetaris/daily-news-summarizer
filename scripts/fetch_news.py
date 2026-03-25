@@ -27,7 +27,7 @@ def parse_date(pub_date: str) -> str:
 def search_google_news(keyword: str, num_results: int, site: str = "") -> list[dict]:
     """Fetch articles from Google News RSS, optionally filtered by site."""
     query = f"{keyword} site:{site}" if site else keyword
-    query += " when:1y"  # Restrict to past 1 year
+    query += " when:7d"  # Restrict to past 7 days
 
     resp = requests.get(
         GOOGLE_NEWS_RSS,
@@ -112,6 +112,24 @@ def fetch_all(keyword: str, num_results: int) -> list[dict]:
     return all_articles
 
 
+SEEN_URLS_PATH = "docs/seen_urls.json"
+
+
+def load_seen_urls() -> set:
+    """Load previously seen URLs to avoid duplicates."""
+    if os.path.exists(SEEN_URLS_PATH):
+        with open(SEEN_URLS_PATH) as f:
+            return set(json.load(f))
+    return set()
+
+
+def save_seen_urls(urls: set):
+    """Save seen URLs. Keep only last 5000 to avoid file bloat."""
+    recent = sorted(urls)[-5000:]
+    with open(SEEN_URLS_PATH, "w") as f:
+        json.dump(recent, f)
+
+
 def main():
     keywords = load_keywords()
     print(f"Loaded {len(keywords)} keywords")
@@ -121,6 +139,8 @@ def main():
 
     num_results = config["settings"]["results_per_keyword"]
     fetched_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    seen_urls = load_seen_urls()
+    print(f"Previously seen URLs: {len(seen_urls)}")
 
     results = {
         "_metadata": {
@@ -130,16 +150,30 @@ def main():
         "keywords": {},
     }
 
+    new_urls = set()
+    skipped = 0
+
     for keyword in keywords:
         print(f"\nSearching: {keyword}")
         try:
             articles = fetch_all(keyword, num_results)
-            results["keywords"][keyword] = articles
+            new_articles = []
             for art in articles:
-                print(f"     [{art['channel']}] {art['title'][:70]}")
+                if art["url"] in seen_urls or art["url"] in new_urls:
+                    skipped += 1
+                    continue
+                new_urls.add(art["url"])
+                new_articles.append(art)
+            results["keywords"][keyword] = new_articles
+            for art in new_articles:
+                print(f"  NEW [{art['channel']}] {art['title'][:70]}")
         except Exception as e:
             print(f"  Error: {e}")
             results["keywords"][keyword] = []
+
+    # Update seen URLs
+    seen_urls.update(new_urls)
+    save_seen_urls(seen_urls)
 
     with open("docs/news_raw.json", "w") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
@@ -154,7 +188,8 @@ def main():
             ch = a.get("channel", "News")
             channels[ch] = channels.get(ch, 0) + 1
 
-    print(f"\nTotal articles fetched: {total}")
+    print(f"\nTotal new articles: {total}")
+    print(f"Duplicates skipped: {skipped}")
     for ch, count in sorted(channels.items()):
         print(f"  {ch}: {count}")
 
