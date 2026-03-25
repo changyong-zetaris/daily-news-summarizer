@@ -58,7 +58,7 @@ def summarize_article(api_key: str, model: str, article: dict) -> dict:
         )
 
         if resp.status_code == 429:
-            wait = 2 ** attempt * 5
+            wait = 2 ** attempt * 15  # 15s, 30s, 60s
             print(f"    Rate limited, waiting {wait}s (attempt {attempt + 1}/{MAX_RETRIES})")
             time.sleep(wait)
             continue
@@ -108,7 +108,7 @@ def main():
             print(f"  [{processed}/{total}] {article['title'][:60]}...")
             try:
                 article["analysis"] = summarize_article(api_key, model, article)
-                time.sleep(2)
+                time.sleep(4)
             except Exception as e:
                 print(f"    Error: {e}")
                 article["analysis"] = {
