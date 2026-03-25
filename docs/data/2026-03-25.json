@@ -1,8 +1,8 @@
 {
   "_metadata": {
-    "fetched_at": "2026-03-25T00:40:36Z",
+    "fetched_at": "2026-03-25T00:57:26Z",
     "keyword_count": 12,
-    "generated_at": "2026-03-25 11:53 AEDT"
+    "generated_at": "2026-03-25 11:59 AEDT"
   },
   "keywords": {
     "AI project failed data quality": [
@@ -15,12 +15,14 @@
         "iso_date": "2025-10-15",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "95% of AI projects fail due to poor data quality",
+            "Better data can improve AI project success rates",
+            "Data quality is crucial for AI project success"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Forbes — Media",
+          "pain_point": "Difficulty in achieving AI project success due to poor data quality",
+          "zetaris_relevance": "Zetaris' data platform can help improve data quality and facilitate seamless integration of distributed data, enabling better AI project outcomes.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -32,12 +34,14 @@
         "iso_date": "2026-01-26",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Half of GenAI projects fail due to common mistakes",
+            "Gartner identifies 5 common mistakes to avoid",
+            "AI project failures can be prevented with proper planning"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Gartner — Technology (or 'Not specified')",
+          "pain_point": "Difficulty in planning and executing successful GenAI projects",
+          "zetaris_relevance": "Zetaris can help by providing a unified data layer to integrate and analyze AI project data, enabling data-driven decision making and reducing the risk of project failure.",
+          "lead_score": "Hot"
         }
       },
       {
@@ -49,46 +53,14 @@
         "iso_date": "2026-03-17",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "AI project failure rate is high",
+            "Good governance can reduce AI project failure rate",
+            "Importance of governance in AI projects"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Why 95% of enterprise AI projects fail to deliver ROI: A data analysis - The Mountain Advocate",
-        "text": "Why 95% of enterprise AI projects fail to deliver ROI: A data analysis&nbsp;&nbsp;The Mountain Advocate",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDN3Mkx2ck51Y3hrLWhETnhVNWpOODNXTWNaTUtlRFZySnJRWFV6bEtHa0JYZWl0U181YWdscW5uaGJEUl9MVzJsOHBQREdRTG1vRk15Z193ejhocUNHMXZzMWU4YnhsOFBrZGpNNHJPZVBvdDM1V0Q1RzYxYkMwanNONWU0eHlOclpEZGEtd1Jfc1pXRUR1b3ZDWmpGbjlXUzRucEhYSTdMLXNaOFhKM014ZWpSNTlCSU1HQXhvRUVOR2tHUnVsSGtWQQ?oc=5",
-        "source": "The Mountain Advocate",
-        "date": "Mon, 15 Dec 2025 08:00:00 GMT",
-        "iso_date": "2025-12-15",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "It’s not your AI that’s failing. It’s your data - cio.com",
-        "text": "It’s not your AI that’s failing. It’s your data&nbsp;&nbsp;cio.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT3pYa1F3bUEzU1h0c2ctYS13VGxKNmN0UWVRZDZxSEpxYmd1cVRySW9DVDNVRS1FX0I1bGRVT01WVHc2eV9BNTloQ1UwVldvWWNzY2dnTWtiWWhiWVZzemJBLWIxLTZTSElidmlXUk1sR3dRQTl2NWVPQ3Y2bXFaZVBSZ0ZtMGVQamotRQ?oc=5",
-        "source": "cio.com",
-        "date": "Wed, 25 Feb 2026 13:34:03 GMT",
-        "iso_date": "2026-02-25",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "TechTarget — Not specified",
+          "pain_point": "Difficulty in managing AI projects due to lack of governance",
+          "zetaris_relevance": "Zetaris' data platform can help organizations establish a unified governance framework for their AI projects, enabling them to integrate and manage distributed data across the organization, and make informed decisions with accurate and up-to-date information.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -102,12 +74,14 @@
         "iso_date": "2026-03-20",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Compliance Classroom discusses emerging perspectives on AI",
+            "Article explores AI's impact on compliance",
+            "No specific data problem mentioned"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Corporate Compliance Insights — Not specified",
+          "pain_point": "Difficulty in understanding AI's impact on compliance",
+          "zetaris_relevance": "Zetaris can help organizations integrate AI data from various sources to better understand its impact on compliance, enabling more informed decision-making.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -119,12 +93,14 @@
         "iso_date": "2025-11-11",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "AI is being used to break down data silos",
+            "Companies are leveraging AI to integrate distributed data",
+            "AI enables easy data access and analysis"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Technology",
+          "pain_point": "Difficulty in integrating distributed data from various sources",
+          "zetaris_relevance": "Zetaris' semantic layer can help companies integrate distributed data without moving it, enabling easy data access and analysis.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -136,46 +112,14 @@
         "iso_date": "2026-03-20",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Healthcare institutions struggle to deploy AI innovation",
+            "The AI gap is a significant challenge for healthcare",
+            "Institutions face difficulties in integrating AI into their systems"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Why AI can fail dealers without a unified data layer - Automotive News",
-        "text": "Why AI can fail dealers without a unified data layer&nbsp;&nbsp;Automotive News",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXoxSWc4SGdlcjluLVBjS1A4eUVST3RtbmczQnBaY2JzZmNycVJqZWNhenBDSUhQM0VvRzNZTHBUenZQaXQycTdMRElnS1NwLS0wLTJPN1Y2LW9acm80TzdmaU1vajg1YlNqbnBqWEhHekNkYTcwSmJ3aFg5ME9Id2pfMWRkYVU?oc=5",
-        "source": "Automotive News",
-        "date": "Wed, 24 Sep 2025 07:00:00 GMT",
-        "iso_date": "2025-09-24",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "IBM’s New Acquisition Highlights Organizations Aren’t Ready for Real-Time - RT Insights",
-        "text": "IBM’s New Acquisition Highlights Organizations Aren’t Ready for Real-Time&nbsp;&nbsp;RT Insights",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYzJtc3h3V2xOQ3l6VzVMemktM185NFg5UHRZTWtxVThYTWJSTThSRHVwUkZiT2RZVHlET3V5R0NPd0p1UHA5T0NoLVVoRWZHT3R5bk80Z2xrX2E5c0lTQ1NId3YweVUzWUNVclZreXEzWm92N3Z5ak1zUGhoQmszTldQejFmb2xsMlZGZ2tWRlAyRl9WS0VITzc1OHVDZFFw?oc=5",
-        "source": "RT Insights",
-        "date": "Tue, 24 Feb 2026 08:00:00 GMT",
-        "iso_date": "2026-02-24",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Healthcare",
+          "pain_point": "Difficulty in integrating AI into existing systems, lack of infrastructure to support AI deployment",
+          "zetaris_relevance": "Zetaris can help bridge the AI gap by providing a semantic layer that integrates distributed data, making it easier to deploy AI innovation across healthcare institutions.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -189,186 +133,74 @@
         "iso_date": "2026-01-23",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Poor data quality can lead to significant costs for businesses.",
+            "IBM highlights the importance of data quality in a recent article.",
+            "The article emphasizes the need for accurate and reliable data."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "IBM — Technology",
+          "pain_point": "Data quality issues are causing significant costs for businesses.",
+          "zetaris_relevance": "Zetaris can help businesses improve data quality by integrating distributed data sources, cleaning and normalizing data, and enabling federated queries across heterogeneous data sources.",
+          "lead_score": "Hot"
         }
       },
       {
-        "title": "10 famous AI disasters - cio.com",
-        "text": "10 famous AI disasters&nbsp;&nbsp;cio.com",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT0dJUnhFTnBqN05lWmoyU01WSFJ1LTBNZkxHbUdXQ2tSSVQwSnZFMzZTSU4wdVlhUkVmOG0yYWlxamdPVWJhT1VobWtCcjF4R1JaWEZ0NWg4Wm9XQ0RvdGUzQWpCWlRrMlBTaF92U2lvdjBoRTNqQnh1T3ZzOFM4VQ?oc=5",
-        "source": "cio.com",
-        "date": "Wed, 17 Dec 2025 08:00:00 GMT",
-        "iso_date": "2025-12-17",
+        "title": "Why Most Machine Learning Projects Fail to Reach Production - infoq.com",
+        "text": "Why Most Machine Learning Projects Fail to Reach Production&nbsp;&nbsp;infoq.com",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3VDd3dUdpQzVIZlVEaWtFaktDdlBUSkVhUEs1LTd0QVBQY1FBb2g4ZWJMSDVEZUh1QTJ2U1paSGJrTU5MUUVfaUkxNW1ZRERaUXJfWlNxdGR4NzJVbnVYVmVmaHRQNFYxdkc1Vng3eng?oc=5",
+        "source": "infoq.com",
+        "date": "Mon, 02 Feb 2026 08:00:00 GMT",
+        "iso_date": "2026-02-02",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Most machine learning projects fail to reach production due to various reasons.",
+            "Common issues include data quality, model interpretability, and lack of explainability.",
+            "Data scientists often struggle with integrating models into production environments."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Technology",
+          "pain_point": "Difficulty in integrating machine learning models into production environments due to data quality, model interpretability, and lack of explainability.",
+          "zetaris_relevance": "Zetaris can help alleviate these issues by providing a semantic layer for integrating distributed data, ensuring data quality, and enabling easy data cleaning tailored to business models.",
+          "lead_score": "Warm"
         }
       },
       {
-        "title": "Cloudflare outage on November 18, 2025 - The Cloudflare Blog",
-        "text": "Cloudflare outage on November 18, 2025&nbsp;&nbsp;The Cloudflare Blog",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtNEtuR1ZlR0Vsa2tNa2k4MEMtYzlreXV2alBhN1lvMHB2cHBEVV93cld2ZExoRHRKWFJpUl9nMjE0M0NtaFVsU3hDMXBfMEJrbGpzMmFqVXh3UGthSUlJaEtR?oc=5",
-        "source": "The Cloudflare Blog",
-        "date": "Tue, 18 Nov 2025 08:00:00 GMT",
-        "iso_date": "2025-11-18",
+        "title": "AI failures start with bad data - Devdiscourse",
+        "text": "AI failures start with bad data&nbsp;&nbsp;Devdiscourse",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPelNKU2xBOEN3ZW05OGVKb1d4UE03Y29kQXZtQ3FfbGJiRzBHVFU5SWFHWG8yTk9OODgtR1Mzc28zS1JSR2x4TkhueklLN0x5ZHFUYy1taXdnN2s5UlVjRG54M2dmZlctOHJIWjVHd1RSOUQ1bVljWUhGMlVCZGdQbl9SQWZrc2NodXROSTdpU2XSAZYBQVVfeXFMTldDTS1ZQ2phTk9WRmRLandFRUJBc1VBYjNzRXQ3dkI2R0ZQTDhmWDRnZzRjYXFiLW9KZkV5N1pxUEI1b0YwbVBHai0xMjZlNGlxeWplRHRsZjIzOTQyY21NZHVLaTNnRDcwWm5WRkJQcm01bWJpVENVa3VWSVhpX2RCZkJYNVU5MGxUc0V4aUdoZ2xWcEJ3?oc=5",
+        "source": "Devdiscourse",
+        "date": "Wed, 25 Feb 2026 13:49:27 GMT",
+        "iso_date": "2026-02-25",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "AI failures often stem from poor data quality, highlighting the need for robust data management solutions.",
+            "Bad data can lead to inaccurate AI model predictions, resulting in business losses and reputational damage.",
+            "Companies must prioritize data cleaning and validation to ensure AI-driven decision-making is reliable."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Data Quality Issues and Challenges - IBM",
-        "text": "Data Quality Issues and Challenges&nbsp;&nbsp;IBM",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QaV9rQl9wcTJOcC1FSllmMjVTRlhIN255NEJVVFhLLTBSak1NRTA5SzJGeldOajg0RE1TYUZNMC0wNEdjNU5jWGFsSl9adENVYUluSXFBZm00OHA2SXNVOUUwSkM?oc=5",
-        "source": "IBM",
-        "date": "Tue, 25 Nov 2025 08:00:00 GMT",
-        "iso_date": "2025-11-25",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "I'm the CEO of an AI startup that finds blind spots in visual data. If missed, it can cripple your AI models - Fortune",
-        "text": "I'm the CEO of an AI startup that finds blind spots in visual data. If missed, it can cripple your AI models&nbsp;&nbsp;Fortune",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUThtQnRGOFJ4WWdYcnFoNENUa3JCVzVwMm43ZW0tQ0p1bGxocWV2dFdqMmNyQnltSk1hYU1EMzlRYnlIUkpfS2pGdGlTNzd3UUJxaEVQc0l1Sm9GeFEyTzVOMEd0aV9Nbk9GQ2ZRZGVxRWx2SWZUaHV0TEUzQ2hZQll2OUpyX2MyRnFyS0hnODluZ2plQzRja3hfb3VoZTNqMUtGa1V1Mkxva0dXSzZxeU1vV3IxZXlwbVVDb2NIQ0hpUDdzU1dLOTdQenU5cVREaE9N?oc=5",
-        "source": "Fortune",
-        "date": "Wed, 01 Oct 2025 07:00:00 GMT",
-        "iso_date": "2025-10-01",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Technology",
+          "pain_point": "Companies struggle with data quality issues, leading to AI model inaccuracies and business losses.",
+          "zetaris_relevance": "Zetaris' data cleaning and validation capabilities can help companies identify and rectify data quality issues, ensuring accurate AI-driven decision-making.",
+          "lead_score": "Hot"
         }
       }
     ],
-    "enterprise data silos cost": [
-      {
-        "title": "QuickLaunch Analytics Releases Free Blueprint to Break Down Data Silos and Accelerate Enterprise Data Integration - openPR.com",
-        "text": "QuickLaunch Analytics Releases Free Blueprint to Break Down Data Silos and Accelerate Enterprise Data Integration&nbsp;&nbsp;openPR.com",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOFhLRWJTVzZrU0o4Q2x4R0w2WjlmeEdELWI1NWF5cW9Lb3lBYlBWZzlGZmdtUHBNRDhUTUpXM3QzTEJxVFhCRW5NcjRydy11MUo3NWhzU2hVSFNGeGNGV0ExYnMtbXBicTNIOEx0ejVoOWNMWjNaUHZ5cV9Db2VzWFZjRTRvcGhGSkdfYVkxRFpfSEYzTkZCWnFOYw?oc=5",
-        "source": "openPR.com",
-        "date": "Thu, 05 Mar 2026 08:00:00 GMT",
-        "iso_date": "2026-03-05",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "DOE Breaks Down Data Silos With Enterprise Data Platform - GovCIO Media & Research",
-        "text": "DOE Breaks Down Data Silos With Enterprise Data Platform&nbsp;&nbsp;GovCIO Media & Research",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU1N3cHRpUUxPRi16SHEySC1GMDhGYzFUTkZVTVlncF9SdmF6SVRLclNpZ2o1TklXaDd0Tk9rcm9aR2hPN19NUy1LUW1YaTEwVHRmS3lfYlZYaWNSeE9XMDFtTEd0STBNZkZSSVAyVGF4a056cnZjTGRRXy1GS0FYWFl5VmFITTNx?oc=5",
-        "source": "GovCIO Media & Research",
-        "date": "Thu, 18 Dec 2025 08:00:00 GMT",
-        "iso_date": "2025-12-18",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Data Integration Challenges (And How Enterprise Brands Solve Them in 2026) - Shopify",
-        "text": "Data Integration Challenges (And How Enterprise Brands Solve Them in 2026)&nbsp;&nbsp;Shopify",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tQjZZX0JGVVJ3Ti1ZNDk5YWpYVEJNSnA0N1U3cnZzUV92N2loOVlrQnVBckZaQzYwcHpLcElMb0QwVmR0QnFFZkNlUDZHUktfSGpZRXRiYnZRb1JIcWU4YTF0VFQ0OW0yeWtmZFQ3YmlRNzhaY0xJSi1B?oc=5",
-        "source": "Shopify",
-        "date": "Sat, 07 Mar 2026 05:51:40 GMT",
-        "iso_date": "2026-03-07",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "MinIO Introduces GA of AIStor Tables, Unifying Enterprise Data for Agentic AI - Business Wire",
-        "text": "MinIO Introduces GA of AIStor Tables, Unifying Enterprise Data for Agentic AI&nbsp;&nbsp;Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNczJVU1pQYThQaHZJTjBDZTF3R3Rnd3ZRSV9lLS0wYW55ZkkyZlhPY1RNLW9vM1F3TTA3RjlaNzRnVHN5NzdWMVVwMFlTUW5UODZIcDNNeTJPQm10VEV1R0FaNG8tSVQ1TFMweDNXMlFPd1J3YXZoVXlhM0tTVmFKd3BQemN1SG83YnZudmU5a19DTkRpREVXU3BvTkdiY2Nsa1BaT1VPMDNQb3VydWtYRFZ0b3Ztb1VaYlMtcTFEdGoxMU9RX2UzTk55eHNtZw?oc=5",
-        "source": "Business Wire",
-        "date": "Tue, 03 Feb 2026 08:00:00 GMT",
-        "iso_date": "2026-02-03",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Snowflake and Workday Accelerate the AI-Driven Enterprise - Snowflake",
-        "text": "Snowflake and Workday Accelerate the AI-Driven Enterprise&nbsp;&nbsp;Snowflake",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN2F0a0xLaTZ4dFA1TjRmY2FQOXdDWHZkUkZhVFR2bW50N1lKaXlKdk1LODlERWdvbWJjS1lpOHBHblJEa3ROX1JkY0x5LW5fSnVCZEF4RlB4LWtUUkpTTzRCRHQtTlRhcWZYd1oxdk9GTWlES1EwN1lqNzJRcFQzcQ?oc=5",
-        "source": "Snowflake",
-        "date": "Tue, 28 Oct 2025 07:00:00 GMT",
-        "iso_date": "2025-10-28",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      }
-    ],
+    "enterprise data silos cost": [],
     "data silos digital transformation failure": [
       {
         "title": "The Retailer’s Guide to Legacy to Digital Transformation (+ Examples) - Shopify",
         "text": "The Retailer’s Guide to Legacy to Digital Transformation (+ Examples)&nbsp;&nbsp;Shopify",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUFdKSlNzWHhROGtnN2NsS1pXd3Y2dFg0QUNvQjk3WkVKcXdwX2RmT1JPZms4UHZtOTNzUjNDa29URnFFS21jYVpwMEZzMU8yMmhaLTZPZ0ZGeTRhXzR2MjhVeHFPWlBZZWJ2cExYUFd2Z1ZOSW0wbUJnZGNSRjg5WA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEVjcFdld1lGc3lkYlFuQ1NnLUpIclBtVU5sTnJNT3FNZ3QycFhlNlZhcUFxYWx2LVFYWGhIam9xUUdpTU1ZVnBYbHhHaThobllOdVpXZl9mQWtoM1BDTmFnN2tnaUxTVWVzc09WN21QVmJva1Z2RTJGWUZmY2F3Qg?oc=5",
         "source": "Shopify",
-        "date": "Mon, 23 Mar 2026 15:01:45 GMT",
+        "date": "Mon, 23 Mar 2026 15:09:30 GMT",
         "iso_date": "2026-03-23",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Shopify provides a guide for retailers to transition from legacy systems to digital transformation",
+            "The guide includes examples of successful digital transformations",
+            "Retailers can leverage Shopify's expertise to improve their digital presence"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Shopify — E-commerce",
+          "pain_point": "Difficulty in transitioning from legacy systems to digital transformation",
+          "zetaris_relevance": "Zetaris can help retailers integrate their distributed data from legacy systems and new digital channels, enabling a seamless digital transformation experience.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -380,12 +212,14 @@
         "iso_date": "2026-03-20",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Healthcare institutions struggle to deploy AI innovation due to the AI gap.",
+            "The AI gap is a significant barrier to innovation in the healthcare sector.",
+            "Healthcare institutions face challenges in integrating AI into their operations."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Healthcare",
+          "pain_point": "Difficulty in integrating AI into healthcare operations, leading to a lack of innovation.",
+          "zetaris_relevance": "Zetaris can help bridge the AI gap by providing a semantic layer that integrates distributed data from various sources, making it easier to deploy AI innovation in healthcare institutions.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -397,46 +231,14 @@
         "iso_date": "2026-01-29",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Digital solutions and AI in healthcare struggle to scale due to various reasons.",
+            "These challenges hinder the widespread adoption of digital healthcare solutions.",
+            "Experts point to the need for a more integrated approach to overcome these obstacles."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "The silent killer of CPG digital transformation: Data & knowledge decay - cio.com",
-        "text": "The silent killer of CPG digital transformation: Data & knowledge decay&nbsp;&nbsp;cio.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa09kU3dpX0VEUFZEWk1WYTV4SWppME04elVLcFhqdnF1TUhfYXc4WFdIRmI1cmtyWXpvNHgzRWpsRU1PRHhVRVJOdUtmWTVuYU5vdE8tUG1SZ3NqUnZOWVJfWDFIT3FEUW02ODFHZ2RFQlN0QVc2NEhRby10NVRhbHAyZHVxT0pQUEcxd0k0dDQ3U24xaVA4dEZuRXozby1NUjdlMXk2a25qWjNQR1E?oc=5",
-        "source": "cio.com",
-        "date": "Tue, 28 Oct 2025 07:00:00 GMT",
-        "iso_date": "2025-10-28",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Why smart water projects fail: Understanding integration challenges - Smart Water Magazine",
-        "text": "Why smart water projects fail: Understanding integration challenges&nbsp;&nbsp;Smart Water Magazine",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnpHZk9ZMEp4M1VyQkNodGt4S3phZEE1b01FSjJRci1oaWdjN2dBdGdreEhvYm9KanB2a1NSZ2xiZkdUVmZGSll1MzI0M1NwOUcyVGF5Z0pGMFVtZV9UV2QtYkJpWmJhUUtMQVN4UnhJN1Rnano4ZlhsNy0wMmhxYUstbjlCenB5M2xZNWFaZTJ6bHYtR1pLTWpyT0E2ZUFub0lnTFc4aUlhcG5KZ0l4N2NSalFUUQ?oc=5",
-        "source": "Smart Water Magazine",
-        "date": "Mon, 23 Feb 2026 08:00:00 GMT",
-        "iso_date": "2026-02-23",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "The World Economic Forum — Not specified",
+          "pain_point": "Difficulty in scaling digital solutions and AI in healthcare due to integration and adoption challenges.",
+          "zetaris_relevance": "Zetaris' semantic layer can help integrate distributed healthcare data, enabling a more cohesive and scalable approach to digital healthcare solutions. By providing a unified view of data, Zetaris can facilitate the adoption of AI and digital solutions in healthcare.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -450,12 +252,14 @@
         "iso_date": "2025-12-19",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Data integration challenges include data quality, data governance, and data security.",
+            "IBM provides solutions to these challenges through its data integration platform.",
+            "The platform enables data integration without moving it, improving data quality and governance."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "IBM — Technology",
+          "pain_point": "Data quality, data governance, and data security issues in data integration",
+          "zetaris_relevance": "Zetaris' semantic layer can help address data quality and governance issues by providing a unified view of distributed data, enabling easy data cleaning, and federated queries across heterogeneous data sources.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -467,12 +271,14 @@
         "iso_date": "2026-03-07",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Shopify highlights data integration challenges faced by enterprise brands in 2026.",
+            "Enterprise brands struggle with integrating distributed and siloed data without moving it.",
+            "Shopify emphasizes the importance of easy data cleaning tailored to business models."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Shopify — E-commerce",
+          "pain_point": "Difficulty in integrating distributed and siloed data without data movement, and the need for easy data cleaning tailored to business models.",
+          "zetaris_relevance": "Zetaris' semantic layer enables the integration of distributed and siloed data without moving it, and provides easy data cleaning tailored to business models, making it a suitable solution for enterprise brands.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -484,46 +290,14 @@
         "iso_date": "2025-04-30",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Healthcare AI adoption increasing",
+            "Data and integration challenges persist",
+            "Healthcare IT News article"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "How Advanced Data Integration Bridges ERP Systems with Modern Analytics - ERP Today",
-        "text": "How Advanced Data Integration Bridges ERP Systems with Modern Analytics&nbsp;&nbsp;ERP Today",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeFdURG15amNGZTAzRXdiZzNjaU1fU21jVkxVcEY5bFhBUFlwb1lQeElJaHZ4b3k1U0JsaG5wVHRNOUZxbFZEbHJCc0tra2xQLVdpRXRhYWRFLTBCcUV2NDlaak9RZ1pTS0tiR1REMUR2bll3cm5KVm90NEJPOHRlUnc4cGdweFdEYmVrNVVEamRRaTBR?oc=5",
-        "source": "ERP Today",
-        "date": "Thu, 22 May 2025 07:00:00 GMT",
-        "iso_date": "2025-05-22",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Technology - AI and data integration - Business Reporter",
-        "text": "Technology - AI and data integration&nbsp;&nbsp;Business Reporter",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FOUhqcFJPRW8ycFAxd0tGNFo5MDIzbFgyZlB1c3ZMMmg2b19IcHdSRXFyUjlnZF9nSmpCcEZpc1IzTXE4Q2ZCQ2otVFdibnllcGlqdmMzNXN1eVZfOHcxMDRsemFDakdzdUczVFhReW5MQUs4c0lmdjBR?oc=5",
-        "source": "Business Reporter",
-        "date": "Mon, 04 Aug 2025 16:23:15 GMT",
-        "iso_date": "2025-08-04",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Healthcare",
+          "pain_point": "Data integration challenges across distributed data sources",
+          "zetaris_relevance": "Zetaris' federated query capabilities can help address data integration challenges by enabling seamless access to distributed data sources without moving it.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -537,12 +311,14 @@
         "iso_date": "2026-03-25",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Qualytics has developed a new estimation tool to highlight the financial impact of poor data quality.",
+            "The tool is designed to help businesses understand the consequences of inaccurate data.",
+            "Qualytics aims to raise awareness about the importance of data quality in financial decision-making."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Qualytics — Technology",
+          "pain_point": "Difficulty in quantifying the financial impact of poor data quality, leading to inaccurate financial decision-making.",
+          "zetaris_relevance": "Zetaris' semantic layer can help Qualytics' clients integrate and clean their distributed data, ensuring accurate and reliable financial insights. With Zetaris, Qualytics' estimation tool can provide more accurate financial impact assessments.",
+          "lead_score": "Hot"
         }
       },
       {
@@ -554,12 +330,14 @@
         "iso_date": "2026-01-23",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Poor data quality can have significant financial implications",
+            "IBM highlights the importance of data quality in business operations",
+            "Inaccurate data can lead to costly mistakes and decreased revenue"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "IBM — Technology",
+          "pain_point": "Inaccurate data leading to costly mistakes and decreased revenue",
+          "zetaris_relevance": "Zetaris can help IBM customers integrate and clean their distributed data, ensuring accurate and reliable insights for informed business decisions.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -571,46 +349,14 @@
         "iso_date": "2026-03-11",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Poor data quality can lead to biased AI models, affecting healthcare outcomes",
+            "Healthcare organizations struggle to maintain accurate and complete patient data",
+            "Data quality issues hinder the adoption of AI in healthcare"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Generating Value from Data and AI - Metrology and Quality News",
-        "text": "Generating Value from Data and AI&nbsp;&nbsp;Metrology and Quality News",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EWUsxczV6YlVzdUF0UFRJN2ZoUC01Y3p0ck8za1FrY181Y09JMUVjd21lYnBEZ1JZZzZxVWlkRzdEVGFRSWEtMVZURXRic1M1MmlvV3FBUnVoVFVZal9jc2tRNlpYampR?oc=5",
-        "source": "Metrology and Quality News",
-        "date": "Thu, 19 Mar 2026 06:00:06 GMT",
-        "iso_date": "2026-03-19",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Data Quality Issues Slow AI Adoption Across Key Sectors - Manufacturing Management",
-        "text": "Data Quality Issues Slow AI Adoption Across Key Sectors&nbsp;&nbsp;Manufacturing Management",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMi02Q0l0Z2QtYkZ6TFBuSkphdjBGaUhQbVZLNTJqRk1oc0VabjFIMmktM1g1UXNpR3NHanpYeDhEV0hTQ2l1RjJRTlhaMmsyZDY3Z0c4RjdGSVpfN0V4UWJMaWI3ZDFDVEN3b2R4eUxtU3lMNDBvYnIyUFZ4YzlpZ2ViNlpzVjRtc3RZbWlDZF9tLUN1RFNaQ00wd1RiY1E0QnhtWDhnTFBfNUlsR1BJ?oc=5",
-        "source": "Manufacturing Management",
-        "date": "Fri, 20 Mar 2026 12:08:47 GMT",
-        "iso_date": "2026-03-20",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Healthcare",
+          "pain_point": "Difficulty in maintaining accurate and complete patient data due to data quality issues",
+          "zetaris_relevance": "Zetaris can help healthcare organizations integrate and clean their distributed patient data, ensuring a unified view of patient information and enabling accurate AI model development.",
+          "lead_score": "Hot"
         }
       }
     ],
@@ -624,12 +370,14 @@
         "iso_date": "2026-03-24",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Onit Security raises $11M in funding to address cyber defense bottlenecks",
+            "The funding aims to eliminate the slowdown in cyber defense processes",
+            "Onit Security is working to improve its offerings with the new investment"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Onit Security — Cybersecurity",
+          "pain_point": "Bottlenecks in cyber defense processes slowing down response times",
+          "zetaris_relevance": "Zetaris can help Onit Security integrate and clean its distributed data, enabling faster and more accurate analysis of cyber threats and defense processes.",
+          "lead_score": "Hot"
         }
       },
       {
@@ -641,12 +389,14 @@
         "iso_date": "2026-03-05",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "BirdsEyeView launches AI Data Scrubbing to streamline hazard modelling",
+            "The solution aims to improve data quality and reduce manual effort",
+            "BirdsEyeView's AI-powered data scrubbing can help reinsurance companies make better decisions"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "BirdsEyeView — Reinsurance",
+          "pain_point": "Manual data scrubbing and quality control in hazard modelling",
+          "zetaris_relevance": "Zetaris' semantic layer can integrate and clean distributed data, making it easier to implement AI-powered data scrubbing solutions like BirdsEyeView's, and enable federated queries to improve data quality and reduce manual effort.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -658,46 +408,14 @@
         "iso_date": "2026-01-09",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "EPA launches Clean Air Act Resource Hub for data center developers",
+            "The hub provides data center developers with information and resources to navigate Clean Air Act requirements",
+            "The resource hub aims to reduce regulatory uncertainty and promote compliance"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "The Real AI Bottleneck Is Business-Consumable Data - AiThority",
-        "text": "The Real AI Bottleneck Is Business-Consumable Data&nbsp;&nbsp;AiThority",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOVFPZmJRdzZSNVMtaF9sOTFGY1pNVUJTOUpTQmFia0JxR0RCNWlKRDBFMkFXMUVJRE5aQnRqMEpKZGtieE1weDRaYWpkSVhMd1Rwb29Hc0Y1ZlBQYXNJSkhHay1JajgtYnlDU2Z0bW9GNlpxT2VvQS04Vk5tSU0wUmYwRHhVal9CN2dyZDFuNU0?oc=5",
-        "source": "AiThority",
-        "date": "Tue, 17 Feb 2026 08:00:00 GMT",
-        "iso_date": "2026-02-17",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "AI Drives a Transformative Wave in Global Data Centers – and Energy Is the Real Bottleneck - CarbonCredits.com",
-        "text": "AI Drives a Transformative Wave in Global Data Centers – and Energy Is the Real Bottleneck&nbsp;&nbsp;CarbonCredits.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNS1hNEJBOTl5QTRyRFBOYzdYeFI4ZXhkb19JRElwd0JadnlONXdSNTB3bFRIRm1JTnZpU2VodndLbHNKdnRfXzIzaXFxT0I3bXhHd2QwdURTdklJUjFHbjVSM1pNd0xxamN5aFNiUWpZN2hrQ2lQUEtOUDAyMjN5alV5bjlOMV9lVWJfbmVDSzZxUWstM2pHd3prcVRJekVzSWF1ZWVRMFMtb21lUThmLUhkWWVTQQ?oc=5",
-        "source": "CarbonCredits.com",
-        "date": "Fri, 09 Jan 2026 08:00:00 GMT",
-        "iso_date": "2026-01-09",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "EPA — Government",
+          "pain_point": "Difficulty in navigating complex regulatory requirements and ensuring compliance",
+          "zetaris_relevance": "Zetaris can help EPA and data center developers integrate and analyze data from various sources to ensure compliance with Clean Air Act requirements, reducing regulatory uncertainty and the risk of non-compliance.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -711,11 +429,13 @@
         "iso_date": "2026-03-23",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "NVIDIA RTX PRO 6000 Blackwell Workstation Edition is transforming data science",
+            "The workstation edition is designed for professionals who require high-performance computing",
+            "It is ideal for data-intensive tasks such as AI, machine learning, and deep learning"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
+          "company": "NVIDIA — Technology (or 'Not specified')",
+          "pain_point": "Difficulty in handling large-scale data for data science tasks",
+          "zetaris_relevance": "Zetaris can help integrate and clean distributed data, making it easier to analyze and process large-scale data for data science tasks with NVIDIA RTX PRO 6000 Blackwell Workstation Edition.",
           "lead_score": "Cold"
         }
       },
@@ -728,12 +448,14 @@
         "iso_date": "2026-01-12",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Microsoft acquires Osmos for agentic AI data engineering",
+            "Osmos' technology will enhance Microsoft's data engineering capabilities",
+            "Agentic AI data engineering to improve data management and analysis"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Microsoft — Technology",
+          "pain_point": "Difficulty in integrating and managing distributed data sources for AI data engineering",
+          "zetaris_relevance": "Zetaris' semantic layer can help Microsoft integrate and manage distributed data sources without moving them, enabling seamless data engineering and AI capabilities.",
+          "lead_score": "Hot"
         }
       },
       {
@@ -745,46 +467,14 @@
         "iso_date": "2026-01-05",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Microsoft acquires Osmos to accelerate autonomous data engineering in Fabric",
+            "Fabric is a platform for building and managing data pipelines",
+            "Acquisition aims to improve data engineering efficiency and scalability"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Kantar reimagines data prep, puts Copilot Studio agents to work readying data for AI - Microsoft",
-        "text": "Kantar reimagines data prep, puts Copilot Studio agents to work readying data for AI&nbsp;&nbsp;Microsoft",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUk9hYW5FM0FaRVVDUjJCcERPazNseDd0LWVUWWNQN0tuaWlVUXNLRnpyZHlEZ29naTVtemhQcGp1blp5Ynlsa01qQVJaeXVvMk42RVRjR2RHLVlXb3RZRHU4VnBiUENfdEpXdldDZnh6THdoTXkwZUZtRS1yS2ZpLWZCUV9OQlJFblE?oc=5",
-        "source": "Microsoft",
-        "date": "Tue, 18 Nov 2025 08:00:00 GMT",
-        "iso_date": "2025-11-18",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Process mining startup Konekti secures €1.2 million - ioplus.nl",
-        "text": "Process mining startup Konekti secures €1.2 million&nbsp;&nbsp;ioplus.nl",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFJJWEw2Z1F1VktZeGpKSkF3WXJFb0Qwd0RSLVRzMmRRXzVjNjlScVBHUXk0T3gzdERmVFd3eEhzYllkV00yZVp0SVNRY3pKeHpHUWN1YkNxN2x6ZlpodTNGeWNfNmowbUNwSHNENVNsazZheHppMFZ0LUdHMkR5dWR2OA?oc=5",
-        "source": "ioplus.nl",
-        "date": "Wed, 29 Oct 2025 07:00:00 GMT",
-        "iso_date": "2025-10-29",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Microsoft — Technology",
+          "pain_point": "Difficulty in scaling and automating data engineering processes",
+          "zetaris_relevance": "Zetaris can help Microsoft integrate and clean distributed data sources, enabling more efficient and scalable data engineering in Fabric.",
+          "lead_score": "Hot"
         }
       }
     ],
@@ -798,12 +488,14 @@
         "iso_date": "2026-03-24",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Databricks discusses the components and design patterns of a semantic layer architecture.",
+            "The article highlights the importance of AI integration in data architecture.",
+            "It explains how a semantic layer can provide a unified view of data across different sources."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Databricks — Technology (Software)",
+          "pain_point": "Difficulty in integrating and unifying data from various sources, and the need for AI-driven data architecture.",
+          "zetaris_relevance": "Zetaris' semantic layer can help Databricks address the pain point by integrating distributed data without moving it, and enabling easy data cleaning tailored to business models.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -815,12 +507,14 @@
         "iso_date": "2026-03-19",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Predictive analytics in retail often fail due to data silos and lack of a universal semantic layer.",
+            "A universal semantic layer is necessary to integrate and standardize data from various sources.",
+            "Without it, retailers struggle to gain a unified view of their customers and make informed decisions."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Not specified — Retail",
+          "pain_point": "Difficulty integrating and standardizing data from various sources to support predictive analytics.",
+          "zetaris_relevance": "Zetaris provides a semantic layer that enables the integration of distributed/siloed data without moving it, allowing retailers to gain a unified view of their customers and make informed decisions.",
+          "lead_score": "Hot"
         }
       },
       {
@@ -832,46 +526,14 @@
         "iso_date": "2026-03-10",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Data agents lack context, leading to incorrect data processing and decision-making",
+            "Contextual data is essential for accurate data processing and business outcomes",
+            "Andreessen Horowitz emphasizes the importance of contextual data in AI and machine learning"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Sema4.ai Announces Semantic Layer Capabilities at the Gartner Data & Analytics Summit 2026 - AiThority",
-        "text": "Sema4.ai Announces Semantic Layer Capabilities at the Gartner Data & Analytics Summit 2026&nbsp;&nbsp;AiThority",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS2U0UWhsZlJyNXJpZUllWHBTOEVUN19wZ1AyUVdBVkFWR2FDMXdTZXA2QWdKeWVkZGk1dExvQ0s1Zy02S1I1MkRPT0VnUC1rdkIwRF9kb1VyTDZheTFONk5QY1JsckhaOC1hMHB4MkhyZmRTcXpmMmY1RkpVUmVBQU5pWVlUbjhNc3VKNTFGa2xNMUtxV19fMXl3VDZCZXZTSVpLcHRwWWpJMV93YXVmaFBibGt3YUNsQXpMdWJKbVgxblZ3aVdZ?oc=5",
-        "source": "AiThority",
-        "date": "Fri, 13 Mar 2026 13:29:35 GMT",
-        "iso_date": "2026-03-13",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "I Defined the Same Business Metric in 4 Semantic Layers. 3 of Them Disagreed. - HackerNoon",
-        "text": "I Defined the Same Business Metric in 4 Semantic Layers. 3 of Them Disagreed.&nbsp;&nbsp;HackerNoon",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ01yM0ZfZlh0NEktc2VxQWZIenQ4cm5Vdm5kYm1NRVU1Z1d2R0V1MkwxTVl2R0hYWlZsaU5PZEZaWXdES2xDTEhha05PZFc5X0tZLXB4SS1hMnk5RHZJd1hPOEhVb2JtZ3g1OXNuOTJrLWRndXluSkxVLTlrRGl0bjk2WWhwdjRXUC03Mk5HVlZjUGZfdEVtZTRkTVNqSG8?oc=5",
-        "source": "HackerNoon",
-        "date": "Wed, 18 Mar 2026 05:34:39 GMT",
-        "iso_date": "2026-03-18",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Andreessen Horowitz — Venture Capital",
+          "pain_point": "Lack of contextual data leads to incorrect data processing and decision-making",
+          "zetaris_relevance": "Zetaris provides a semantic layer that integrates distributed data without moving it, allowing for contextual data to be easily accessed and utilized for accurate decision-making.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -885,12 +547,14 @@
         "iso_date": "2025-12-12",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Data mesh didn't live up to the hype, according to Okoone.",
+            "The concept of data mesh is still in its early stages and requires further development.",
+            "Implementing data mesh is complex and requires significant resources."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Okoone — Not specified",
+          "pain_point": "Difficulty in implementing and realizing the benefits of data mesh due to complexity and resource requirements.",
+          "zetaris_relevance": "Zetaris can help alleviate the complexity of data mesh implementation by providing a semantic layer that integrates distributed data without moving it, making it easier to manage and query data from various sources.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -902,12 +566,14 @@
         "iso_date": "2025-11-03",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Covestro has successfully scaled data governance with Amazon DataZone",
+            "Amazon DataZone helps Covestro manage data across multiple sources and teams",
+            "Covestro has improved data quality and reduced data-related risks"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Covestro — Chemicals",
+          "pain_point": "Difficulty in managing data across multiple sources and teams, leading to data quality issues and increased data-related risks",
+          "zetaris_relevance": "Zetaris can help Covestro integrate and clean distributed data without moving it, enabling easier data governance and management across teams.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -919,46 +585,14 @@
         "iso_date": "2025-08-17",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "EPAM discusses scaling data mesh with universal semantic layers",
+            "The company shares its experience in implementing a proof-of-concept to enterprise reality",
+            "The article highlights the importance of semantic layers in data mesh architecture"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Demystifying data mesh - McKinsey & Company",
-        "text": "Demystifying data mesh&nbsp;&nbsp;McKinsey & Company",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSG1CWF9TYU5NeUFIajZvV05vN3JpcXg2cU1fak9zb0xuanlweHdJYk9kY0JfRGtlUWRVTU0xR2xjaXZBZXRyVVh4dVF1Y0dUMGhXak1qa3ZTeWxZV0xpRlVlMWFBblJueTU4R3c3ejg1SHZGQkZSc1NTT2VTNHZWY041Z1MxWlpXNjBXRXk2NA?oc=5",
-        "source": "McKinsey & Company",
-        "date": "Thu, 08 Jun 2023 07:00:00 GMT",
-        "iso_date": "2023-06-08",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Breaking down data silos: Volkswagen’s approach with Amazon DataZone - Amazon Web Services",
-        "text": "Breaking down data silos: Volkswagen’s approach with Amazon DataZone&nbsp;&nbsp;Amazon Web Services",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXNrOERSb2ZfU3N4bUNNVEpSV1ZNT2piNlNfNEtsTVVENUYyMHE2TEh6TGw0YnRxUV9TTFJvOTdwbWZ0aFpoOFVVZHhZRW0xSFdaaHV0ZkIxZTJyREhwYXZmY3ZJd0x4NXQyOGlYZjNZNS1JUkdQbzJTZkN2WUg2UFdST0JYdzFqSFFwQ2trcXJRdlZDUnYyZlJtNWpGQU82ODFvUDFwcTk?oc=5",
-        "source": "Amazon Web Services",
-        "date": "Tue, 07 Oct 2025 07:00:00 GMT",
-        "iso_date": "2025-10-07",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "EPAM — IT and Services",
+          "pain_point": "Difficulty in scaling data mesh architecture and implementing universal semantic layers",
+          "zetaris_relevance": "Zetaris provides a semantic layer that enables integration of distributed/siloed data without moving it, making it easier to scale data mesh architecture and implement universal semantic layers.",
+          "lead_score": "Warm"
         }
       }
     ],
@@ -972,12 +606,14 @@
         "iso_date": "2026-03-06",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Enterprise search refers to the process of searching and retrieving information within an organization's internal systems and data.",
+            "It involves indexing and querying large volumes of data from various sources, such as documents, emails, and databases.",
+            "The goal of enterprise search is to provide users with relevant and accurate search results, improving productivity and efficiency."
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "IBM — Technology",
+          "pain_point": "Difficulty in retrieving relevant information from distributed and siloed data sources within an organization.",
+          "zetaris_relevance": "Zetaris can help IBM customers by providing a semantic layer that integrates distributed data without moving it, making it easier to query and retrieve relevant information.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -989,12 +625,14 @@
         "iso_date": "2025-12-15",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Synthetic data and federated networks are being explored for secure access to real-world data",
+            "This approach prioritizes privacy preservation in emerging use cases",
+            "Nature highlights the potential of this method for secure data sharing"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Nature — Not specified",
+          "pain_point": "Difficulty in accessing real-world data while maintaining data privacy",
+          "zetaris_relevance": "Zetaris' federated query capabilities can enable secure and private access to distributed data sources, aligning with the goals of synthetic data and federated networks.",
+          "lead_score": "Warm"
         }
       },
       {
@@ -1006,46 +644,14 @@
         "iso_date": "2026-02-18",
         "analysis": {
           "summary": [
-            "Analysis unavailable due to API error."
+            "Health data sharing in federated networks raises legal concerns",
+            "Anonymization, accountability, and access are key issues",
+            "Empirical study provides perspectives on these dimensions"
           ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Architecting high performance AI-driven data applications with Spice AI and AWS | Amazon Web Services - Amazon Web Services",
-        "text": "Architecting high performance AI-driven data applications with Spice AI and AWS | Amazon Web Services&nbsp;&nbsp;Amazon Web Services",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYVBsc0NqZDBQU055TTM3aG04bzZ3Y21DZnJ5R0lxV2E4R2JRSWx0OUg1dnB2N0p0bXJEVlVfaTIyUGNxblBpbS1rOEhmU2NmNWtLZnNWMEJzUnVRdUcyeWhkTk5FUXN3NWVwQk5sSHhwaVdhcnJ6WVF2bVlTa3BydFkwTG5kVVM0YVRpeVFFajBNLVhyRThsV0dNeHZuY2hLbFV3SDFUNjZuelQxc3JRTGhjTXJ4a2Nq?oc=5",
-        "source": "Amazon Web Services",
-        "date": "Mon, 15 Dec 2025 08:00:00 GMT",
-        "iso_date": "2025-12-15",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Axoflow Security Data Layer unifies data pipeline, storage, and analytics for security team - Help Net Security",
-        "text": "Axoflow Security Data Layer unifies data pipeline, storage, and analytics for security team&nbsp;&nbsp;Help Net Security",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xVFJUdVp3NTk2eldKS0FxdURFeGs4REwtLVZlck5lVGxudHBlYUhKNEQ1aE1Ma1FWWjZvRjg1aGx2V2xuUGg4d3V1TFphZ0I5SjF3WTNOUngzcTgzRTlIRDBIbmdONmRxTFZaa3BaRi1ULUdvd0pNbXhMdw?oc=5",
-        "source": "Help Net Security",
-        "date": "Wed, 22 Oct 2025 07:00:00 GMT",
-        "iso_date": "2025-10-22",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
+          "company": "Frontiers — Not specified",
+          "pain_point": "Difficulty in ensuring data security, compliance, and accessibility in health data sharing",
+          "zetaris_relevance": "Zetaris can help address these challenges by providing a secure and compliant semantic layer for integrating and querying health data across federated networks, ensuring data access while maintaining accountability and anonymity.",
+          "lead_score": "Warm"
         }
       }
     ]
