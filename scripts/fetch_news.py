@@ -11,13 +11,6 @@ import yaml
 import requests
 
 GOOGLE_NEWS_RSS = "https://news.google.com/rss/search"
-REDDIT_RSS = "https://www.reddit.com/search.json"
-
-# Channel types for tagging articles
-CHANNEL_NEWS = "News"
-CHANNEL_LINKEDIN = "LinkedIn"
-CHANNEL_FACEBOOK = "Facebook"
-CHANNEL_REDDIT = "Reddit"
 
 
 def parse_date(pub_date: str) -> str:
@@ -59,14 +52,6 @@ def search_google_news(keyword: str, num_results: int, site: str = "") -> list[d
         if "<" in description:
             description = re.sub(r"<[^>]+>", "", description).strip()
 
-        # Determine channel
-        if site == "linkedin.com":
-            channel = CHANNEL_LINKEDIN
-        elif site == "facebook.com":
-            channel = CHANNEL_FACEBOOK
-        else:
-            channel = CHANNEL_NEWS
-
         articles.append({
             "title": title,
             "text": description,
@@ -74,38 +59,7 @@ def search_google_news(keyword: str, num_results: int, site: str = "") -> list[d
             "source": source,
             "date": pub_date,
             "iso_date": parse_date(pub_date),
-            "channel": channel,
-        })
-
-    return articles
-
-
-def search_reddit(keyword: str, num_results: int) -> list[dict]:
-    """Fetch posts from Reddit search."""
-    resp = requests.get(
-        REDDIT_RSS,
-        params={"q": keyword, "sort": "relevance", "t": "week", "limit": num_results},
-        headers={"User-Agent": "ZetarisSalesBot/1.0"},
-        timeout=30,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-
-    articles = []
-    for post in data.get("data", {}).get("children", []):
-        d = post.get("data", {})
-        created = d.get("created_utc", 0)
-        iso_date = datetime.fromtimestamp(created, tz=timezone.utc).strftime("%Y-%m-%d") if created else ""
-        pub_date = datetime.fromtimestamp(created, tz=timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z") if created else ""
-
-        articles.append({
-            "title": d.get("title", ""),
-            "text": d.get("selftext", "")[:3000] or d.get("title", ""),
-            "url": "https://www.reddit.com" + d.get("permalink", ""),
-            "source": "r/" + d.get("subreddit", ""),
-            "date": pub_date,
-            "iso_date": iso_date,
-            "channel": CHANNEL_REDDIT,
+            "channel": "News",
         })
 
     return articles
@@ -119,37 +73,30 @@ def load_keywords() -> list[str]:
     return [kw.strip() for kw in raw.split(",") if kw.strip()]
 
 
+CHANNELS = [
+    {"name": "News",     "site": ""},
+    {"name": "LinkedIn", "site": "linkedin.com"},
+    {"name": "Facebook", "site": "facebook.com"},
+    {"name": "Reddit",   "site": "reddit.com"},
+]
+
+
 def fetch_all(keyword: str, num_results: int) -> list[dict]:
     """Fetch from all channels for a single keyword."""
     all_articles = []
 
-    # Google News (general)
-    print(f"  [News] ", end="")
-    articles = search_google_news(keyword, num_results)
-    print(f"{len(articles)} found")
-    all_articles.extend(articles)
-    time.sleep(1)
-
-    # LinkedIn via Google
-    print(f"  [LinkedIn] ", end="")
-    articles = search_google_news(keyword, num_results, site="linkedin.com")
-    print(f"{len(articles)} found")
-    all_articles.extend(articles)
-    time.sleep(1)
-
-    # Facebook via Google
-    print(f"  [Facebook] ", end="")
-    articles = search_google_news(keyword, num_results, site="facebook.com")
-    print(f"{len(articles)} found")
-    all_articles.extend(articles)
-    time.sleep(1)
-
-    # Reddit
-    print(f"  [Reddit] ", end="")
-    articles = search_reddit(keyword, num_results)
-    print(f"{len(articles)} found")
-    all_articles.extend(articles)
-    time.sleep(1)
+    for ch in CHANNELS:
+        print(f"  [{ch['name']}] ", end="")
+        try:
+            articles = search_google_news(keyword, num_results, site=ch["site"])
+            # Override channel tag
+            for art in articles:
+                art["channel"] = ch["name"]
+            print(f"{len(articles)} found")
+            all_articles.extend(articles)
+        except Exception as e:
+            print(f"Error: {e}")
+        time.sleep(1)
 
     return all_articles
 
