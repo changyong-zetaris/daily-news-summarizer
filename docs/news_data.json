@@ -1,6 +1,6 @@
 {
   "_metadata": {
-    "fetched_at": "2026-03-25T02:37:05Z",
+    "fetched_at": "2026-03-25T03:08:32Z",
     "keyword_count": 7
   },
   "keywords": {
@@ -21,7 +21,7 @@
           ],
           "company": "Not specified",
           "pain_point": "Poor data quality",
-          "zetaris_relevance": "Zetaris can help by providing a semantic layer to integrate and clean data, improving data quality for AI projects",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and integration, enabling better data for AI projects",
           "lead_score": "Warm"
         }
       },
@@ -37,12 +37,32 @@
           "summary": [
             "Gartner discusses common mistakes in GenAI projects",
             "Half of GenAI projects fail due to these mistakes",
-            "Mistakes are not specified in the title"
+            "Mistakes are not specified in the given text"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article appears to focus on general GenAI project failures rather than data silos, integration, or quality issues",
+          "zetaris_relevance": "Low relevance — the article discusses general GenAI project failures without focusing on data silos, integration, or quality",
           "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Data Quality Issues and Challenges - IBM",
+        "text": "Data Quality Issues and Challenges&nbsp;&nbsp;IBM",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QaV9rQl9wcTJOcC1FSllmMjVTRlhIN255NEJVVFhLLTBSak1NRTA5SzJGeldOajg0RE1TYUZNMC0wNEdjNU5jWGFsSl9adENVYUluSXFBZm00OHA2SXNVOUUwSkM?oc=5",
+        "source": "IBM",
+        "date": "Tue, 25 Nov 2025 08:00:00 GMT",
+        "iso_date": "2025-11-25",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "IBM discusses data quality issues",
+            "Challenges in data management are highlighted",
+            "Importance of addressing data quality is emphasized"
+          ],
+          "company": "IBM — Technology",
+          "pain_point": "Data quality issues",
+          "zetaris_relevance": "Zetaris could help IBM by providing a semantic layer to improve data quality and integration",
+          "lead_score": "Warm"
         }
       },
       {
@@ -56,12 +76,12 @@
         "analysis": {
           "summary": [
             "Snowflake laid off its entire tech writing team",
-            "Decision seen as detrimental to product discovery and learning",
-            "Technical writing team crucial for documentation and user support"
+            "Decision is considered unusual for a company to make",
+            "Technical writing team is crucial for product discovery and learning"
           ],
           "company": "Snowflake — Cloud Data Platform",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the issue is about documentation and user support, not data integration or quality",
+          "zetaris_relevance": "Low relevance — The issue is about technical writing team layoffs, not data integration or quality challenges",
           "lead_score": "Cold"
         }
       },
@@ -80,9 +100,29 @@
             "Automating data preparation can help companies recover"
           ],
           "company": "Not specified",
-          "pain_point": "Data preparation and quality issues hindering AI project success",
+          "pain_point": "Data preparation and quality issues",
           "zetaris_relevance": "Low relevance — the article discusses data preparation, but Zetaris focuses on data integration, silos, and federated queries",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Speaking at AI conferences in 2026? Here's the topic everyone needs to hear: 'Why Your AI Project Failed: A Data Infrastructure Post-Mortem' Every AI conference has 50 talks on model architecture. Zero talks on why 80% of projects never reach production. T - LinkedIn",
+        "text": "Speaking at AI conferences in 2026? Here's the topic everyone needs to hear: 'Why Your AI Project Failed: A Data Infrastructure Post-Mortem' Every AI conference has 50 talks on model architecture. Zero talks on why 80% of projects never reach production. T&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa0Y0aUFtdjJDVk5Vb0RQalYyN1hqMEJTRGRMVEtWT255N19MZ3FaS1YwaGs2QS1EZm1PeWVOZEhwOWFQZEx5eHlNNmFQRWcwSXNYQUJzek1jZ0pCN2JrejhHY2dNSVgxbG9Odlo3VG1NLUFxTnpuTHBCLWxoZUVYbUxmSWt6ZklrdUFUVDJjSldUb2hxcWxlSk94TVVueG9XRW1yVDdQS3Q4cmJXUWZUcUxxRkMzT1NvWjhNaVlDT2VzWVpESWhPT016c1R6eDA?oc=5",
+        "source": "LinkedIn",
+        "date": "Mon, 16 Feb 2026 08:00:00 GMT",
+        "iso_date": "2026-02-16",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "The article discusses the lack of talks on AI project failures at conferences",
+            "It highlights that 80% of AI projects never reach production",
+            "The proposed talk topic is a post-mortem on data infrastructure failures"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article does not describe a specific company's data problem",
+          "lead_score": "Cold"
         }
       },
       {
@@ -96,13 +136,13 @@
         "analysis": {
           "summary": [
             "More than 80% of AI projects fail due to data issues",
-            "Data skills are crucial for keeping AI projects alive",
-            "AI is embedded across industries and operations"
+            "AI is embedded across various industries and operations",
+            "Data skills are crucial for keeping AI projects alive"
           ],
           "company": "Not specified",
-          "pain_point": "The data isn’t ready for AI projects",
-          "zetaris_relevance": "Low relevance — general statement about data skills and AI project failures, no specific company or problem domain",
-          "lead_score": "Warm"
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article discusses the importance of data skills for AI projects but does not specifically address data silos, integration, or quality issues",
+          "lead_score": "Cold"
         }
       },
       {
@@ -116,13 +156,173 @@
         "analysis": {
           "summary": [
             "Gartner survey reveals 63% of organizations lack confidence in their data management practices for AI",
-            "60% of AI projects with data issues are predicted to fail by 2026",
-            "Data management is a key factor in AI project success"
+            "60% of AI projects with data issues will fail by 2026",
+            "Data management is a critical component of AI success"
           ],
           "company": "Not specified",
-          "pain_point": "Data management issues for AI projects",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data integration and quality, addressing the data management issues that hinder AI project success",
+          "pain_point": "Data management issues impacting AI project success",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data integration and quality, addressing the data management concerns of these organizations",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Most organizations expect AI to deliver instant efficiency and insight. But AI isn't magic, and it can't work with messy, ungoverned content. Learn why flawed data leads to AI failure—and discover the critical strategies being deployed by the less than 10% of lead - facebook.com",
+        "text": "Most organizations expect AI to deliver instant efficiency and insight. But AI isn't magic, and it can't work with messy, ungoverned content. Learn why flawed data leads to AI failure—and discover the critical strategies being deployed by the less than 10% of lead&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMWlzSGxCVXB2aE9IVkh1TjNBT2ZYdXlNS2xwdHRQbFFSVEQxM3l3OVczOXBYVWtnU2FydlNLbTMydjBRSU9ZSGdWdHRwYU5aUGtMS1EzaWxUbWdncmRESGtkTkR6MERxcEVOUWtMLUFwUHNwRVlLNm5RSHZGT2FFR3gzdTA0RTk5THVpQk55NzAwWi0wRVVvTkpEXzZNOV9CeTZSa1JIcWdGVjZLMk50NUhfc0FhSE00V3puQmlJQUV2VERIdHk4dzZHenFvQ3I4QkkxUDV6cTR4Zw?oc=5",
+        "source": "facebook.com",
+        "date": "Thu, 19 Feb 2026 08:00:00 GMT",
+        "iso_date": "2026-02-19",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Most organizations expect AI to deliver instant efficiency and insight",
+            "AI can't work with messy, ungoverned content",
+            "Flawed data leads to AI failure"
+          ],
+          "company": "Not specified",
+          "pain_point": "Flawed data leading to AI failure",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and clean data, reducing the risk of AI failure due to flawed data",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Building an MCP Ecosystem at Pinterest - Medium",
+        "text": "Building an MCP Ecosystem at Pinterest&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZmRKYlBMWWZueUlTYmowbDdrZ21Oclp4QjdjdWhLRXF1cjNlNnJhMUxRNUhzWU1jOGZwLWowM1FxYUxhZGl5al9tSndqLWQ2RUxoVi1BcHBWdlNzSTZPUHRycHkzcGFINU5FUGRMM0x0WE1MOFR4X2lEd2hieGR0UW14WVpSOGpyaE9LaGlRNzAtYUNIYmNN?oc=5",
+        "source": "Medium",
+        "date": "Thu, 19 Mar 2026 16:01:01 GMT",
+        "iso_date": "2026-03-19",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Pinterest is building an MCP ecosystem",
+            "The goal is to improve data integration and quality",
+            "The project aims to enhance analytics and AI capabilities"
+          ],
+          "company": "Pinterest — Social Media",
+          "pain_point": "Data integration and quality issues hindering analytics and AI projects",
+          "zetaris_relevance": "Zetaris could help Pinterest with its semantic layer to integrate data from multiple sources and improve data quality",
+          "lead_score": "Hot"
+        }
+      },
+      {
+        "title": "Welcome to Gas Town - Steve Yegge – Medium",
+        "text": "Welcome to Gas Town&nbsp;&nbsp;Steve Yegge – Medium",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mckNDUUFVMzhTZDFVZldCbjFXLW5EMHRESC15cWY4cnBPa0t3VmJTSDQ5S29YeUJ5djRFN3hPSERqODdJTjJYV0N1cXJERWE4dTdfTlhlSTNnN05ETDdSYXk2ckFSQTVFU0hLcnYtRm8?oc=5",
+        "source": "Steve Yegge – Medium",
+        "date": "Thu, 01 Jan 2026 08:00:00 GMT",
+        "iso_date": "2026-01-01",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article by Steve Yegge",
+            "No specific company or industry mentioned",
+            "General discussion about technology and innovation"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no clear connection to data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "What Actually Matters in Production ML Systems (Not What Interviews Tell You) | by Kevin Jiang | Mar, 2026 - Medium",
+        "text": "What Actually Matters in Production ML Systems (Not What Interviews Tell You) | by Kevin Jiang | Mar, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQklUaGNBRlNTci0wY29Pc21PWUtwUjFCa2VPX0pFcUw2Sm5rMGZfWTI5cmdldmJvRlpLUHZFZkFPdWhGaHcweC1JYkFha19QbU55ZHdMVmFKME45SHExTjJ3eXNrUGJTUk00VC1yeG9xaFBrRzZqVDZvUHBEbnd5S1Q4TTZBVm1HYUFNdlJ0Sl9YWWdXMGRBOEVuZGNGamhrMFBqV1ktT2ZQOXZJOG1wRG9jemVqeHZJOWtz?oc=5",
+        "source": "Medium",
+        "date": "Wed, 18 Mar 2026 05:33:24 GMT",
+        "iso_date": "2026-03-18",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses production ML systems",
+            "Focus on what actually matters in production",
+            "Contrasts with common interview topics"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article focuses on general ML system considerations",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Odogwu Machalla (@unicodeveloper) / Posts - twitter.com",
+        "text": "Odogwu Machalla (@unicodeveloper) / Posts&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPUndQRVgydElMLTM0WUtkbEdRMTVXN1dnYndDZGpfR3ZkZ0NNUzcwVUVDaXNKVVhJam9odWd1REN3U2xqOGlIaW1PbUY2SXpiRHUtN3cxUkIycWZIbWt4Nk9CR3gyZlNVZXVmeERpbWx4dw?oc=5",
+        "source": "twitter.com",
+        "date": "Tue, 17 Mar 2026 20:11:49 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific company or data problem mentioned",
+            "Twitter profile of Odogwu Machalla",
+            "No relevant information for Zetaris"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Stop Applying to AI PM Jobs Until You Watch This - YouTube",
+        "text": "Stop Applying to AI PM Jobs Until You Watch This&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kd1lQakZhOHlsUFZncVRCV0JCWVpOTmFZY1BocnQ0SWpZakE5aUJQeE1TVGhBQ3IwZXNNdWZvMVBYNldVLVFhTEdHRWtidXYzLXVfZFJ3?oc=5",
+        "source": "YouTube",
+        "date": "Mon, 23 Mar 2026 21:24:17 GMT",
+        "iso_date": "2026-03-23",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Career advice for AI product managers",
+            "No specific company or industry mentioned",
+            "General guidance on AI job applications"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no discussion of data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "How I’d Become Data Analyst in 2026 From Zero to Lead (Built by Expert) - YouTube",
+        "text": "How I’d Become Data Analyst in 2026 From Zero to Lead (Built by Expert)&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFbGRJUkhva0xZUVZaNERNTmJmdi1RdG5qYWxFNkk2dU1raFprRFYtOG8yTXk1WXNKNXZ2Q1NPZzVYOVN2cFJQdmZueDNzYWZzYllGOVhR?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 27 Jan 2026 12:50:18 GMT",
+        "iso_date": "2026-01-27",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Career development video for data analysts",
+            "No specific company or industry mentioned",
+            "Focus on personal skill-building"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the content is focused on individual career development rather than organizational data challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "AI For Data Analysis In 21 Minutes - YouTube",
+        "text": "AI For Data Analysis In 21 Minutes&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94NlJXcDJGbzQtWU5QczVFUW1BTVAxVFRGSDRRcmtZZnJhZkRTcHI0aHplUU5HWHdvbkhKbDFVTURudGJZSzRPLWpHNDhhdDhyOXA0Rlp3?oc=5",
+        "source": "YouTube",
+        "date": "Sun, 26 Oct 2025 13:01:17 GMT",
+        "iso_date": "2025-10-26",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "YouTube video title",
+            "No specific company or industry mentioned",
+            "General topic of AI for data analysis"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no specific data problem or company mentioned",
+          "lead_score": "Cold"
         }
       }
     ],
@@ -138,12 +338,32 @@
         "analysis": {
           "summary": [
             "Article discusses the impact of data silos on AI and agents",
-            "Data silos hinder the ability to access and analyze data",
-            "This affects the performance of AI and agents"
+            "Data silos can hinder AI adoption and effectiveness",
+            "No specific company is mentioned"
           ],
           "company": "Not specified",
           "pain_point": "Data silos",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data from multiple sources and enable federated queries",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across silos",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Hidden Costs of No CRM: How Data Silos Hurt SMBs - CRM Buyer",
+        "text": "Hidden Costs of No CRM: How Data Silos Hurt SMBs&nbsp;&nbsp;CRM Buyer",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUlTeDMza3lFYVZiemNId2dkSEVPU1BTMEREcVdvdDRwV2hBM2NuQ2ZVdUszdG9McXRKYXowbmF3UURDQkFuRTFTc1pjVlBGNEYwQ25vWUVoMmdJREFfaldiMGN2d2hPeHR0d3BfSlZSbXh4Q3pXSVdZMTdBTXB4VE9hY1pIakVES2tWa3AwOTVzOXZs?oc=5",
+        "source": "CRM Buyer",
+        "date": "Fri, 30 May 2025 07:00:00 GMT",
+        "iso_date": "2025-05-30",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "Article discusses the hidden costs of not having a CRM system for small to medium-sized businesses (SMBs)",
+            "Data silos are identified as a major issue, causing inefficiencies and lost opportunities",
+            "The article highlights the need for data integration to overcome these challenges"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data silos causing inefficiencies and lost opportunities for SMBs",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data from multiple sources, overcoming data silos and enabling more efficient CRM systems",
           "lead_score": "Warm"
         }
       },
@@ -163,7 +383,7 @@
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article does not describe a specific company's data silo problem",
+          "zetaris_relevance": "Low relevance — the article is more focused on the general trend of AI and data silos rather than a specific company's problem",
           "lead_score": "Warm"
         }
       },
@@ -177,13 +397,13 @@
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
-            "Article discusses the concept of data silos and their hidden costs",
-            "Mentions the challenges of integrating data from different sources",
-            "Provides general advice on tackling data silos"
+            "Article discusses the concept of data silos and their costs",
+            "Mentions the need to tackle data silos but does not provide a specific company example",
+            "Provides general advice on how to approach data silo problems"
           ],
           "company": "Not specified",
-          "pain_point": "Data silos and integration challenges",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data from multiple sources and reduce data silos",
+          "pain_point": "Data silos",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across silos",
           "lead_score": "Warm"
         }
       },
@@ -198,13 +418,33 @@
         "analysis": {
           "summary": [
             "Article discusses the importance of conquering data silos for enterprise value",
-            "Mentions a $3.1 trillion imperative, implying significant potential financial impact",
+            "Mentions the $3.1 trillion imperative, implying a significant economic impact",
             "No specific company is mentioned, only a general industry trend"
           ],
           "company": "Not specified",
           "pain_point": "Data silos",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across multiple sources and systems, thus conquering data silos",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across multiple distributed databases and systems",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Lengthy time-to-compute, data silos, and fights over cost allocations can slow research progress. Future Tech’s modern HPC and AI solution ensures fair access by turning it into a transparent, shared service that aligns resources with business value. 🔗 https://l - LinkedIn",
+        "text": "Lengthy time-to-compute, data silos, and fights over cost allocations can slow research progress. Future Tech’s modern HPC and AI solution ensures fair access by turning it into a transparent, shared service that aligns resources with business value. 🔗 https://l&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXBPZkYtWFZmUi12ckVjaENoV3dSMlBZakJ4M25zYVVEZ0lnTUZNcjJ3WmNTcXh4R3R0YXRWc1gyRXJ3eV9aTVFiX1ZFaWF4X2Z0SXd2STJhZDNjODRHcHhLWkhfc2tzenc1dUFGWGhvOXNpQTh3RXoteUttalVvUm1tRmNXLUNDeWY1Xy1hTFZMWHVKNm8tREstalhKUE0zSXptWTdiVGVSTFRucExuYmdWRmloQQ?oc=5",
+        "source": "LinkedIn",
+        "date": "Wed, 18 Mar 2026 14:37:27 GMT",
+        "iso_date": "2026-03-18",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Lengthy time-to-compute slows research",
+            "Data silos hinder progress",
+            "Fights over cost allocations occur"
+          ],
+          "company": "Future Tech — Technology",
+          "pain_point": "Data silos",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data silos and enable federated queries, thus improving research progress",
+          "lead_score": "Hot"
         }
       },
       {
@@ -217,13 +457,13 @@
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Gilead Sciences faced complex data challenges across multiple domains",
+            "Gilead Sciences faced complex data issues across multiple departments",
             "Partnered with Informatica and Amazon Web Services to build a cloud-native data mesh framework",
             "Aimed to unify enterprise data platform"
           ],
           "company": "Gilead Sciences — Pharmaceutical",
-          "pain_point": "Data silos and integration challenges across drug development, manufacturing, finance, and compliance",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and unify data from heterogeneous sources, enabling federated queries without data movement",
+          "pain_point": "Complex data across multiple departments (drug development, manufacturing, finance, compliance)",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and unify data across different sources and systems, enabling federated queries and improving data quality",
           "lead_score": "Hot"
         }
       },
@@ -237,14 +477,194 @@
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Nandan Nilekani discusses the AI revolution at the India AI Impact Summit 2026",
-            "He mentions the revolution is faster than past tech shifts due to internet scale and cloud infrastructure",
-            "A massive enterprise cleanup is expected ahead"
+            "Nandan Nilekani discusses the AI revolution",
+            "Mentions it's faster than past tech shifts",
+            "Driven by internet scale, cloud infrastructure, and enterprise cleanup"
           ],
           "company": "Infosys — Technology",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — The article focuses on the AI revolution and its drivers, without mentioning specific data integration or quality challenges",
+          "zetaris_relevance": "Low relevance — The article focuses on the speed and drivers of the AI revolution, not specific data integration or quality challenges",
           "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Boomi sharpens enterprise AI with action-ready data at scale AI success starts with action-ready data. Boomi’s latest upgrades focus on trusted, governed data—powering real enterprise AI beyond pilots and into execution. Story link in the comments - facebook.com",
+        "text": "Boomi sharpens enterprise AI with action-ready data at scale AI success starts with action-ready data. Boomi’s latest upgrades focus on trusted, governed data—powering real enterprise AI beyond pilots and into execution. Story link in the comments&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaUd5SjJVYW9OYUMxcHBtazJxMi1GQmZlNmJfSjkzNHlIS3FndW9OR0FFQWgwX3J4TmlDZEZSM2k2dVlHU2xiWU0xTDJGLVJXeTMwX2tCTkI1SU9kck5ydS1OSkFYazBOb1RUek1qM05vQV94ZUcwRDBiNjBOSHRQeHkydFNjSXRtelZlZXpGUnkybS1oZklMdkdOc3hYdC1YS3ZWNU5SNzRkSnkwZGRDaW9VTmhYblA0bFpKV1ZqSFhXUnZubG9VWkZJWXBJUXBrMjJSNjEwZWRybnpwR1E?oc=5",
+        "source": "facebook.com",
+        "date": "Fri, 20 Mar 2026 00:15:50 GMT",
+        "iso_date": "2026-03-20",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Boomi upgrades focus on trusted, governed data",
+            "Aims to power enterprise AI beyond pilots",
+            "Emphasizes action-ready data at scale"
+          ],
+          "company": "Boomi — Integration Platform",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The article discusses Boomi's upgrades for trusted data, but does not mention specific data silo, integration, or quality challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Terraform is’nt Dying. But Platform Teams Are Done With It. | by Shilu | Mar, 2026 | AWS in Plain English - AWS in Plain English",
+        "text": "Terraform is’nt Dying. But Platform Teams Are Done With It. | by Shilu | Mar, 2026 | AWS in Plain English&nbsp;&nbsp;AWS in Plain English",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUklvZzl1a0Z1WWl2RUV3RGdGVEpUWEVaRHJOZmcxZldPblRJWkNQazBHSGZrZnNmMWpiSUJ2NUZLZ0YzRWhMdGYzVGd0d0pFSHRWdXRzdlp6RC1USzV2UEFVMVFDTllKNUJyXzJLemhNemZja1Q5eWpSSDdGZTh5SFZneUVDRkoxQUNxbjZfbUtGQ0diREh5WTBUNlplZw?oc=5",
+        "source": "AWS in Plain English",
+        "date": "Sat, 21 Mar 2026 13:29:01 GMT",
+        "iso_date": "2026-03-21",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses Terraform and its usage by platform teams",
+            "Terraform is not dying, but its usage is declining among platform teams",
+            "The article does not specifically mention data silos, integration, or quality issues"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on Terraform and platform teams, not data integration or quality challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "The Hidden Cost of Data Silos and How (and If) You Should Tackle Them | by Colin Hardie | Common Sense Data & AI - Medium",
+        "text": "The Hidden Cost of Data Silos and How (and If) You Should Tackle Them | by Colin Hardie | Common Sense Data & AI&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOXzFzV1FIcWUxQTVLVVJXNkRlUFRQSVNrR1ZMR1FKY2w4enhmZUtmWEpITG95bjVUd0N2ald1OU94b2t6V3ZNWjZsR2NET0xYcDhPNHlIUGZTN25IQ3hjY0xJX01PRjJ6VGRMdmRmMlFRTmFJZmxYWUNhR2R3WXE4TnVDTWd2MzFJUEJKTTllaDVLQTF2T1ZBMnFyWm9xa1YzdDJlQ1ZqeHVaVGNNeFRmdnpKOUotSUl0MC1pVg?oc=5",
+        "source": "Medium",
+        "date": "Tue, 18 Nov 2025 08:00:00 GMT",
+        "iso_date": "2025-11-18",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the concept of data silos and their costs",
+            "Explains how data silos can hinder business decision-making and AI initiatives",
+            "Provides general advice on tackling data silos"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data silos hindering business decision-making and AI initiatives",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across silos, enabling unified queries and analysis",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Enterprise Architecture and Cost Management: Enabling Smarter Strategic Decisions - Medium",
+        "text": "Enterprise Architecture and Cost Management: Enabling Smarter Strategic Decisions&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeFU0bkpjQXhJOUpGMkx4cVl2akxMOXVweHZOYkJoTldxUFd0RDdUMXJYOVBiblA4S2pSQ21Fa1ljUi1kbTJ2cXpwNzlpVnl3LUo5dGQwbVlDVWpuX0xMNUc1ZElIemFnSjM3cHM1NlotNzhWTURWR0FiYUQwY3QydlBQajgtR29yYVdodnFMSUMtMVJpZHNwU1lBdlNZejlPSXNRY0FKTzI1OHU2UW14QVJHb3JKZTB5aUdlSTZrMVJaYmI5RXFv?oc=5",
+        "source": "Medium",
+        "date": "Tue, 17 Jun 2025 07:00:00 GMT",
+        "iso_date": "2025-06-17",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses enterprise architecture and cost management",
+            "Focus on enabling smarter strategic decisions",
+            "No specific company or data problem mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article does not address data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "\"Google per SEO(TG:e10838).ije\" - Results on X | Live Posts & Updates - twitter.com",
+        "text": "\"Google per SEO(TG:e10838).ije\" - Results on X | Live Posts & Updates&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFF5VHR3dWtLb3p1Mjlhel9CS2lBdXU2Z2tpU09LbnV4ZURWb1NNRmE4U2hFLWk0Y1VKdEh4NElmQzM0TU8wZlVvSXBCcXBmWlhELUFPTno4TDRGMHdMeXlFbEtxNnR2WFJ6c3JhY1BKbGl6RERyN0xnQ2lkQWVEemUzTFJfNnhJaXA2R0pB?oc=5",
+        "source": "twitter.com",
+        "date": "Tue, 17 Mar 2026 14:01:40 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific company or industry mentioned",
+            "No data integration or quality issues described",
+            "Appears to be a Twitter search result"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no clear data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "\"Google SEO für(TG:e10838).ixm\" - Results on X | Live Posts & Updates - twitter.com",
+        "text": "\"Google SEO für(TG:e10838).ixm\" - Results on X | Live Posts & Updates&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXkxZzRfcEphN1Q0SVFQaUgweFY5TGRBc1V1RVhfOGhzX2NqWnNmc1FrM2NWYnpHSTlNLUUzWjYta0FmYVVGWlVvRDJ3QzV5Qkd5Qk9zR1NzV05SYkV3aEV1aFBYVFM0S2o4YUlLNm0wMTNKRUdyOEI0aC1nZ3hURmd2TlVsWUx2aVVuZnJySWcwS1lO?oc=5",
+        "source": "twitter.com",
+        "date": "Tue, 17 Mar 2026 03:41:45 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific company or industry mentioned",
+            "No data integration or quality issues described",
+            "Appears to be a Twitter search result"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no clear data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Breaking down enterprise data silos with Moin Haque - YouTube",
+        "text": "Breaking down enterprise data silos with Moin Haque&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ybmNWMVRCOE50b1h0Z19JNjk4bWpYcmJiM2tQZzBFQmdjTVVnVkZsUEtySEVaWXN1SlhLMzJQSWw0bWlrcGh3S3duOWJMYmtzSktaN2ZB?oc=5",
+        "source": "YouTube",
+        "date": "Wed, 02 Apr 2025 12:01:01 GMT",
+        "iso_date": "2025-04-02",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Discussion on breaking down enterprise data silos",
+            "Interview with Moin Haque on YouTube",
+            "Focus on enterprise data silos"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data silos",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across multiple sources and systems",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "From Silos To Systems: Cross-Enterprise AI With R4 - YouTube",
+        "text": "From Silos To Systems: Cross-Enterprise AI With R4&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwck9odm1wSW8zRVFkOXpfcnBaZDNVLWdMSmI3SGRWWG1BalpFTlBHM25weUtoZkZ2bDV3Wk85RkdmSVRYWVhMZjVwcDdsVkJ5OF90RHd3?oc=5",
+        "source": "YouTube",
+        "date": "Wed, 26 Nov 2025 17:53:45 GMT",
+        "iso_date": "2025-11-26",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Video title mentions moving from silos to systems",
+            "Implies a need for cross-enterprise AI",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data silos",
+          "zetaris_relevance": "Zetaris could help with its semantic layer to integrate data across silos",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Centric by Datamine: Breaking Down Data Silos in Mining Operations - YouTube",
+        "text": "Centric by Datamine: Breaking Down Data Silos in Mining Operations&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kUnlVY213YnhIOE9ocXlZM2JVdTVUMXZveGFwVExURnJYYzRWdjNXMVFkdEdLLWlUV09RRXlCOGwtYXNFcXdCLWdzTFJvUm1ZVTdIMmxR?oc=5",
+        "source": "YouTube",
+        "date": "Thu, 29 Jan 2026 02:54:04 GMT",
+        "iso_date": "2026-01-29",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Centric by Datamine aims to break down data silos",
+            "Solution targets mining operations",
+            "Improving data integration for better decision-making"
+          ],
+          "company": "Datamine — Mining",
+          "pain_point": "Data silos in mining operations",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data from multiple sources, enabling federated queries and improving data quality",
+          "lead_score": "Hot"
         }
       }
     ],
@@ -260,12 +680,12 @@
         "analysis": {
           "summary": [
             "Article discusses data integration challenges",
-            "Mentions IBM as a potential solution provider",
-            "No specific company's challenges are described"
+            "Mentions IBM as a relevant company",
+            "Focuses on general industry trends"
           ],
-          "company": "Not specified",
-          "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — general discussion of data integration challenges without a specific company's problem",
+          "company": "IBM — Technology",
+          "pain_point": "Data integration challenges",
+          "zetaris_relevance": "Zetaris could help with its semantic layer to unify data from heterogeneous sources",
           "lead_score": "Warm"
         }
       },
@@ -290,6 +710,26 @@
         }
       },
       {
+        "title": "Zero-ETL: How AWS is tackling data integration challenges - Amazon Web Services",
+        "text": "Zero-ETL: How AWS is tackling data integration challenges&nbsp;&nbsp;Amazon Web Services",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkZpNGdRbW50NU5tZnBYeFljNjMwWGhNei1Uc2QtWWJzZ2VkTE1BWFlDdjc5TmQtc2hyQ21MM1doRGhDT09mX0VYcWV2b0RCU0pIQUtiM3Y2cnRCOHMwaGF2ZjRiakpaTDNGbGU2OFhjd09lc3UzZjg0cHM2MVB6T0liOFVvMW5Makd0SER1aHNRZ1NjZzdqeWxRTQ?oc=5",
+        "source": "Amazon Web Services",
+        "date": "Tue, 26 Aug 2025 07:00:00 GMT",
+        "iso_date": "2025-08-26",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "AWS is tackling data integration challenges",
+            "Introducing Zero-ETL",
+            "Amazon Web Services is addressing data integration issues"
+          ],
+          "company": "Amazon Web Services — Cloud Computing",
+          "pain_point": "Data integration challenges",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to unify data from heterogeneous sources, thus simplifying data integration",
+          "lead_score": "Warm"
+        }
+      },
+      {
         "title": "DeepSearchQA: Bridging the Comprehensiveness Gap for Deep Research Agents - LinkedIn",
         "text": "DeepSearchQA: Bridging the Comprehensiveness Gap for Deep Research Agents&nbsp;&nbsp;LinkedIn",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZlNTRDFRSTBtZWM2ZkRXTWF6ZV8wY0NNeTRfSWNoUmEtOVFxU1ZDZkhJdklfNXNXVG0zSVcwYnh5aVdMaDZIbGFnNTdIeG44ZHk5NWVLZDNaTkdZRHp3TFpyODAtOFcwdkJtaXNnbmJ0LUJ4M1NBYXVTR1FvN2FCN0RGZllUcXZvZFJpVmlQMnpZOXRiVkVoSlBGelJmR055ZFNNOWxtVWZaS29NMjFQUEh1elRWcEFHYVdqTHNSOA?oc=5",
@@ -300,7 +740,7 @@
         "analysis": {
           "summary": [
             "Article discusses DeepSearchQA",
-            "Aims to bridge the comprehensiveness gap for deep research agents",
+            "Aims to bridge comprehensiveness gap for deep research agents",
             "No specific company or industry mentioned"
           ],
           "company": "Not specified",
@@ -321,11 +761,31 @@
           "summary": [
             "Healthcare IT leaders face challenges integrating data across EHRs",
             "Legacy data from acquisitions is a major contributor to the struggle",
-            "e4health's Tim Brennan highlighted this issue in a recent article"
+            "e4health's Tim Brennan highlights this issue in a recent article"
           ],
           "company": "e4health — Healthcare",
-          "pain_point": "Data integration challenges, specifically with legacy data from acquisitions",
+          "pain_point": "Data integration challenges due to legacy data from acquisitions",
           "zetaris_relevance": "Zetaris could help by providing a semantic layer to unify data from heterogeneous sources, including EHRs and legacy systems",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Data integration across sectors can be the glue that brings together local government departments across sectors, such as education, transport, housing and health. Actually using this data for coordinated planning and programmes is a key challenge. HERD In - LinkedIn",
+        "text": "Data integration across sectors can be the glue that brings together local government departments across sectors, such as education, transport, housing and health. Actually using this data for coordinated planning and programmes is a key challenge. HERD In&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNWRYMWJxSF80aFIwc2s3T0ZSOWk2RU9ZTmlPbHJDLXdHR1JnRFEydjRJWnV4SV9WT0ZPYUFGeGd2cjl6NmVudlFpMGVOWDVFTmhZTUFsR2NUbFowYlZtRWx6ZHJITGxNdVdzUjVKeDFHYTNiOVpKcWZkWkpNRDlXNnk3dnE4QzdlNlR6OXFYcWtsQnJPaHQ2SklRVXk3MEFBeE9oZlFSX1pPQ2JWeGc3VklOcUNMUmhzZGh3UkUzNDBlQzF6bW8wbA?oc=5",
+        "source": "LinkedIn",
+        "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+        "iso_date": "2026-01-30",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Data integration across sectors is crucial for local government departments",
+            "Challenges exist in using integrated data for coordinated planning and programs",
+            "Local government departments across sectors such as education, transport, housing, and health are affected"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data integration across sectors and using integrated data for planning",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate data across heterogeneous sources and enable federated queries, thus facilitating coordinated planning and programs",
           "lead_score": "Warm"
         }
       },
@@ -344,8 +804,8 @@
             "Unmapped fields, incompatible schemas, and fragmented datasets create integration challenges"
           ],
           "company": "Not specified",
-          "pain_point": "Inconsistent and unstructured data causing integration challenges",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to unify and structure the data, enabling easier integration and analysis",
+          "pain_point": "Poor data structure, inconsistent and unstructured data",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and unify data from heterogeneous sources, improving data quality and structure",
           "lead_score": "Warm"
         }
       },
@@ -361,12 +821,212 @@
           "summary": [
             "Overcoming barriers to AI adoption in telecom",
             "Unifying siloed data is a key challenge",
-            "Telus is working to address these challenges"
+            "Balancing governance with access is necessary"
           ],
           "company": "Telus — Telecom",
           "pain_point": "Unifying siloed data",
-          "zetaris_relevance": "Zetaris could help Telus unify siloed data with its semantic layer, enabling easier data integration and access",
+          "zetaris_relevance": "Zetaris could help Telus unify siloed data with its semantic layer, enabling federated queries across multiple distributed databases/systems",
           "lead_score": "Hot"
+        }
+      },
+      {
+        "title": "Use Vertex AI to leverage big data generating from IoT and PLM for business decisions such as: Time-to-Market, Design optimization, predictive maintenance, risk & failure reduction. What is the best practice and challenges for this integration? - facebook.com",
+        "text": "Use Vertex AI to leverage big data generating from IoT and PLM for business decisions such as: Time-to-Market, Design optimization, predictive maintenance, risk & failure reduction. What is the best practice and challenges for this integration?&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NUkFSUF9wRC0xWloxMkR5bGFySTkzWThXNG5YVDQ3WURHaWQza0puSDJHOUFiZm5mQ0RFQnhmdHJ4YlJ4ODFfSDR1c0gtUlJOckxYSktPX2NFRDRxNEZfdFFfeU82RUlJZUNVeFJRMUNLck84cW1VTktCUQ?oc=5",
+        "source": "facebook.com",
+        "date": "Sat, 03 May 2025 07:00:00 GMT",
+        "iso_date": "2025-05-03",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Leveraging big data from IoT and PLM for business decisions",
+            "Using Vertex AI for predictive maintenance and risk reduction",
+            "Discussing best practices and challenges for integration"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The article focuses on using Vertex AI for business decisions, without mentioning specific data silo, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "How Health Care APIs Ensure Secure and HIPAA-Compliant Data Integration | by AVIZVA | Mar, 2026 - Medium",
+        "text": "How Health Care APIs Ensure Secure and HIPAA-Compliant Data Integration | by AVIZVA | Mar, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVdqNnJtcGpZNk10WkZEQmhEX1VzVGMtUVFvckN5ODU1cWhuS1RsY1pac0lPYXkzdlppa1gwNWg2WGFnLVU0dE5mSTJDbEVseUJRZEZFWnRNVHpweUtLcG9fSUFZQTJ1aFBuc01GalNBZ294UktsdVNRUnYyaFIwVXZmWnI1YXQ4dW5xSTNQaVVVUnI5NFk3bmxyanhmeDhZS3dpVTU4bEc1T3NYYkpVTg?oc=5",
+        "source": "Medium",
+        "date": "Fri, 13 Mar 2026 05:29:24 GMT",
+        "iso_date": "2026-03-13",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the importance of APIs in healthcare data integration",
+            "Mentions the need for HIPAA compliance in data exchange",
+            "Highlights the role of APIs in ensuring secure data integration"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on security and compliance aspects of data integration rather than the challenges of integrating data from multiple sources",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "11 Major Big Data Challenges & How-to Solve Them - Medium",
+        "text": "11 Major Big Data Challenges & How-to Solve Them&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR3VvcHdyNGJZcU9FX0xibDdBUDR1TE9DT1AwSWtPdHVkcGFVWU9LYjItUVpHUl9GYklCNld4Mmk2cUJ3SjZNR2tSRlhjYkJRSktFVTluaEhCRDJjbnlxalU1TngwRnRXSTRRTFY1cXZKWm9GSjNaM0ZydjZyaWc1Z3lyeGtZLWlnZTQxMXRZb0dZdw?oc=5",
+        "source": "Medium",
+        "date": "Sat, 04 Oct 2025 07:00:00 GMT",
+        "iso_date": "2025-10-04",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses big data challenges",
+            "Mentions various data-related problems",
+            "Provides general solutions"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — general big data challenges, not specific to data silos, integration, or quality",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "The Importance of Data Integration in KPI Reporting - Medium",
+        "text": "The Importance of Data Integration in KPI Reporting&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeTZjamhIMWtJSU0yYllHTEZfMjRkdnQ4Q0NpX2poaDVtYkpyUzljTTluMTNrbUppR05TNDg2OXVUQ2ZVQ2NpT3lua29CR0JCcGdlNENjdlBBb3NXMjRIXzRpR0p4VHZILTN1RnhtaGZ2WTdqRGtsUW5QOHc2X2pEb05KWDY2ZUNlMm9mSWowWi04MVZBSk9DYlJVOG12aTIxRTBqNQ?oc=5",
+        "source": "Medium",
+        "date": "Sat, 15 Nov 2025 08:00:00 GMT",
+        "iso_date": "2025-11-15",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the importance of data integration in KPI reporting",
+            "Highlights the challenges of working with disparate data sources",
+            "Emphasizes the need for unified data views"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data integration challenges in KPI reporting",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to unify data from disparate sources",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Missed this week’s updates? Don’t worry, @Cardano’s got you covered. 👀 Catch up with the latest Community Digest, featuring the launch of CIP-0113 programmable tokens, expanding Cardano.org into Spanish, and fresh voices from the Community... All this - twitter.com",
+        "text": "Missed this week’s updates? Don’t worry, @Cardano’s got you covered. 👀 Catch up with the latest Community Digest, featuring the launch of CIP-0113 programmable tokens, expanding Cardano.org into Spanish, and fresh voices from the Community... All this&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LZnlrbDl2TjV0VXE0YkVnazhjVzlnaWE3dUdxUHgzX291cnJzaTJOR3lhOE5LSk5IbXVVSk5BbGM2TEpDZjllTlpoNmo1ZUdCR3NpRldxWXhzV2xCWjBkOXAxTi0waXRta19tcmh3WE1GR1pGdGNXeURGalo1QVk?oc=5",
+        "source": "twitter.com",
+        "date": "Thu, 19 Mar 2026 06:22:13 GMT",
+        "iso_date": "2026-03-19",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "Cardano's weekly update",
+            "Launch of CIP-0113 programmable tokens",
+            "Expansion of Cardano.org into Spanish"
+          ],
+          "company": "Cardano — Blockchain/Cryptocurrency",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The article discusses updates and launches related to Cardano's blockchain and community, but does not mention data integration or quality challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Alpha Seeker (@AlphaSeeker21) / Posts - twitter.com",
+        "text": "Alpha Seeker (@AlphaSeeker21) / Posts&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xUEMzWnl3WVg3N0JPelJmSDRWWktqa2RoWTFmd2FTc091S3pQVFBRUE9PdExacUJ4STA1djFRZHZjX3gxRjhNYUx6OHJKRlk?oc=5",
+        "source": "twitter.com",
+        "date": "Mon, 16 Mar 2026 10:08:35 GMT",
+        "iso_date": "2026-03-16",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific company or data problem mentioned",
+            "Twitter profile with no relevant information",
+            "No industry or trend discussed"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Chaintum - twitter.com",
+        "text": "Chaintum&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yZEFZcThnZEpDWnNyMUc0S3gzTXl5b1BGTjE5eTVDZGRoS3VoOGtGaWJaUW5kVzFoXzUweDBVQ2M5Wm5DakNGQXJRNlNDUkRZelk4MkJBLW9DQ1hXNnFEZm5kaEdTRFpzc1E?oc=5",
+        "source": "twitter.com",
+        "date": "Fri, 20 Mar 2026 03:02:28 GMT",
+        "iso_date": "2026-03-20",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific information about Chaintum's data challenges",
+            "The Twitter page does not provide details about data integration or quality issues",
+            "The company's focus or industry is not explicitly stated"
+          ],
+          "company": "Chaintum — Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no clear data problem described",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Python for AI - Full Beginner Course - YouTube",
+        "text": "Python for AI - Full Beginner Course&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HVUZENE9RWmtIX3FiZHkwUklUSFJoTzVFNzdRcEN4WnlXOVJqTEFBM1kzUXRqM2IzQ2dIMnlNRUVDWUhnNjZUMDZaOGVTYkZURlZLRVZR?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 21 Oct 2025 12:31:29 GMT",
+        "iso_date": "2025-10-21",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "YouTube video course on Python for AI",
+            "Targeted at beginners",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the content is focused on AI programming skills rather than data integration or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Software Testing Course – Playwright, E2E, and AI Agents - YouTube",
+        "text": "Software Testing Course – Playwright, E2E, and AI Agents&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91dE11b25kOXVDOTZianBCY05FNjlqTnFMYnFYbHBVY2t5ajN1OVZ1cFlHNEQxUzc2ZVRlb3dSY0hISGs1UGFOWTY3SkxxWENOSng0UHdn?oc=5",
+        "source": "YouTube",
+        "date": "Thu, 19 Mar 2026 10:01:20 GMT",
+        "iso_date": "2026-03-19",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "YouTube video title",
+            "Mentions software testing and AI agents",
+            "No specific company or data problem mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data silos, integration, or quality issues discussed",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "NemoClaw First Look: NVIDIA's Enterprise OpenClaw - YouTube",
+        "text": "NemoClaw First Look: NVIDIA's Enterprise OpenClaw&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pVkVVc3M5eDg4UnJrUVgxaXZMZnFCc0pLdnVUbUtBWWU5WC1EbjE2RHRpSjREZktWOGtqbW95ai1fX25FRTdDZ2xUa3k0THdjazNoVU1R?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 17 Mar 2026 05:42:09 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Video title and link provided",
+            "No specific company or industry mentioned",
+            "No data integration or quality issues described"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data silos, integration, or quality challenges mentioned",
+          "lead_score": "Cold"
         }
       }
     ],
@@ -382,32 +1042,52 @@
         "analysis": {
           "summary": [
             "IBM discusses the true cost of poor data quality",
-            "Poor data quality affects businesses worldwide",
-            "Data quality issues lead to wasted time and resources"
+            "Poor data quality affects businesses in various ways",
+            "Data quality is a significant challenge for many organizations"
           ],
           "company": "IBM — Technology",
           "pain_point": "Poor data quality",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and reduce cleaning time",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and integration",
           "lead_score": "Warm"
         }
       },
       {
-        "title": "Poor data quality hampering businesses and their AI plans - MarTech",
-        "text": "Poor data quality hampering businesses and their AI plans&nbsp;&nbsp;MarTech",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGhhWV83V2dDUVZfbDFkY3hIWllGb2xiUWNJT2d5UHg2MHF0TlNPa3BWRUp6d25UUGxLU1hIaHpNVWhDSDdFZFVwRURzY0tWU21SVHRhOGpuVnU5TkhmZGNWc0c2ZENVLTJINVRnNjAtRXQza0p1R0wzeURDbUx4WjBURGE?oc=5",
-        "source": "MarTech",
-        "date": "Tue, 04 Nov 2025 08:00:00 GMT",
-        "iso_date": "2025-11-04",
+        "title": "How to Get Proactive About Data Quality - MIT Sloan Management Review",
+        "text": "How to Get Proactive About Data Quality&nbsp;&nbsp;MIT Sloan Management Review",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2dwQ3JMWV8tVnBJcGdUOEdrZHVyaHFBRE5KUXJ1Q0F1a0lqSXJfWjV1NTNXMzJqMkFGcWRnazB2dTFsVkVaYmdnOFpjekVXQVIxVWlxck5OZHZES2FWakR6d3h5VXY0YnVvQVRSWGFWcTMxeTVFS19GUGZkRS0yMTBn?oc=5",
+        "source": "MIT Sloan Management Review",
+        "date": "Mon, 05 May 2025 07:00:00 GMT",
+        "iso_date": "2025-05-05",
         "channel": "News",
         "analysis": {
           "summary": [
-            "Poor data quality is a significant issue for businesses",
-            "It hampers their ability to implement effective AI plans",
-            "Data quality problems lead to wasted time and resources"
+            "Article discusses the importance of proactive data quality management",
+            "Provides strategies for improving data quality",
+            "Emphasizes the need for a data-quality mindset"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article focuses on general data quality management rather than data silos, integration, or federated queries",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Data’s dark secret: Why poor quality cripples AI and growth - cio.com",
+        "text": "Data’s dark secret: Why poor quality cripples AI and growth&nbsp;&nbsp;cio.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDFQRFBwZ2pSUlIyVXgwVnQzYXd6dHZSYVUxMTgxNTdoaTBIRS01bk1JU0t1V19lOWo1Q1RKYVFpT0pIeGZCc1BXNWtfR2d3RGt6eXRYaFBrTnUyYnNROFBidklBSnEyY1YwTkMwYUlvVUdSUHNnSFdZdFdBRmJsNWctZ0ZpZjFfcnJxVWhJaTVjVkloN3pKTnJDVXNHb1U?oc=5",
+        "source": "cio.com",
+        "date": "Tue, 08 Apr 2025 07:00:00 GMT",
+        "iso_date": "2025-04-08",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "Article discusses the impact of poor data quality on AI and business growth",
+            "Data quality issues can lead to inaccurate insights and flawed decision-making",
+            "Poor data quality is a common problem across industries"
           ],
           "company": "Not specified",
           "pain_point": "Poor data quality",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and enable more effective data integration and analysis",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and integration, enabling better insights and decision-making",
           "lead_score": "Warm"
         }
       },
@@ -421,13 +1101,13 @@
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
-            "Job posting for Data Annotator (Arabic) at Crossing Hurdles",
-            "Remote work in Egypt with $11/hr pay",
-            "No specific details on data integration or quality challenges"
+            "Job posting for a Data Annotator (Arabic) at Crossing Hurdles",
+            "Remote work opportunity in Egypt with a pay rate of $11/hr",
+            "No specific details about data integration or quality challenges"
           ],
           "company": "Crossing Hurdles — Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — job posting does not describe a data problem",
+          "zetaris_relevance": "Low relevance — The job posting does not mention data silos, integration, or quality issues",
           "lead_score": "Cold"
         }
       },
@@ -442,13 +1122,33 @@
         "analysis": {
           "summary": [
             "Snowflake laid off its entire tech writing team",
-            "Decision is considered detrimental to product discoverability and learning",
-            "Technical writing team is crucial for product documentation and user support"
+            "Decision is considered unusual for a company to make",
+            "Technical writing team is crucial for product discovery and learning"
           ],
           "company": "Snowflake — Cloud Data Platform",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the issue is related to documentation and user support, not data integration or quality",
+          "zetaris_relevance": "Low relevance — The issue is about technical writing team layoffs, not data silos, integration, or quality",
           "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Is bad data stalling your AI projects? 🛑 Data quality is a major roadblock to innovation. If your data isn't accurate, your AI is just accelerating errors. In our latest article, we break down how to fix your biggest enterprise data issues and build a data culture that act - LinkedIn",
+        "text": "Is bad data stalling your AI projects? 🛑 Data quality is a major roadblock to innovation. If your data isn't accurate, your AI is just accelerating errors. In our latest article, we break down how to fix your biggest enterprise data issues and build a data culture that act&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTDN6OGxBYjdhenFyUFZCaWFnM3dfWWxTT2x4dGZicDBvRm5ERGVXdFJOYVc0OHg2NkRyZ19ocGtSUUxGdURMOVBmZFNWQUFiVTVaZTZhSVk0SE10MUVFTmE0TTFnV01rRkNCelY5c0ptNTRSd004TEZBdWQ4QjQ1eGE1SmdoZlUxVFRMUEd4WElqaEJoQkdKV29QUDRaQ0xYTVg3b0ljREFqX1NrNVR5b0dveWg1Um9mOVJfUG0zVEpwWGlPM0U5UE95REJ6RVhaWGh2VWZHc3o?oc=5",
+        "source": "LinkedIn",
+        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "iso_date": "2026-03-10",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Bad data is stalling AI projects",
+            "Data quality is a major roadblock to innovation",
+            "Inaccurate data accelerates errors in AI"
+          ],
+          "company": "Not specified",
+          "pain_point": "Data quality issues",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and accuracy, enabling better AI outcomes",
+          "lead_score": "Warm"
         }
       },
       {
@@ -467,7 +1167,7 @@
           ],
           "company": "Not specified",
           "pain_point": "Poor-quality data affecting AI/ML model accuracy",
-          "zetaris_relevance": "Low relevance — the problem is data quality, but the solution mentioned is data validation, not addressing data silos, integration, or federated queries",
+          "zetaris_relevance": "Low relevance — the post discusses data validation and relevance solutions, but does not directly address data silos, integration, or federated queries",
           "lead_score": "Warm"
         }
       },
@@ -482,13 +1182,213 @@
         "analysis": {
           "summary": [
             "Poor data quality costs enterprises up to $12.9 million annually",
-            "Bad data leads to wrong decisions, compliance risks, and failed AI initiatives",
+            "Bad data leads to wrong decisions and failed AI initiatives",
             "Enterprises are fixing data quality at the source with Inferyx"
           ],
           "company": "Not specified",
-          "pain_point": "Poor data quality",
+          "pain_point": "Poor data quality leading to wrong decisions, compliance risks, and failed AI initiatives",
           "zetaris_relevance": "Low relevance — the post discusses data quality but does not specifically mention data silos, integration, or federated queries",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Data deserts are markets where limited, fragmented, or low-quality data makes it difficult for AI systems to produce accurate predictions. They can distort market visibility and limit how organizations identify and reach certain groups. - facebook.com",
+        "text": "Data deserts are markets where limited, fragmented, or low-quality data makes it difficult for AI systems to produce accurate predictions. They can distort market visibility and limit how organizations identify and reach certain groups.&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUVgxSllOcHJXZndQQlJiOTdCaVlOQldVcWdLSnNFbkVBZVpyNjBmZC1VVVV0RlRZVWttVy1uejk1djFUSnpQdHdVWTdCVlFfUjBsSHNBcEhEQXVGMHB3V0JvbFhVaXRUTW1fMEVPNTV6bjRlQmdQanFqR3FHaG55blAyNUFfNjAzZVVEU3lMQUpFYmJ6V05sUDZ5X28xYnlvZkZ0QXExZmlSRnZzUU9yNDBvR2NqajllaHVzS3J3emNtNEJhbXZheHFSck8ya3RfTHVGMw?oc=5",
+        "source": "facebook.com",
+        "date": "Mon, 23 Mar 2026 15:00:04 GMT",
+        "iso_date": "2026-03-23",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Data deserts are markets with limited, fragmented, or low-quality data",
+            "AI systems struggle to produce accurate predictions in these markets",
+            "Data deserts distort market visibility and limit organization's ability to identify and reach certain groups"
+          ],
+          "company": "Not specified",
+          "pain_point": "Low-quality and fragmented data",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and clean the data, improving data quality and enabling more accurate AI predictions",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "An Open Letter to Georgetown Students, In Response to Recent Announcements about \"Generative AI\" - Medium",
+        "text": "An Open Letter to Georgetown Students, In Response to Recent Announcements about \"Generative AI\"&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUXI3RTJUY3h1S0hGb0NJS0tsRVdMSk12R0s2eDJnT0k1V3czbGsxUlBFSm9RUXh0Z2djZkpaUDFsQTFJUmZzSkZuZnE1U2VJYkF0ZFVUZXRqNFBaUm5qZTl4eG1Sci1JN3paNzBTSlRhYU5rbEtnSUQxNTJNZ2xLc0VGQ2hDcnk3WHJiaE8zd2JQM0I2eE1GN2N2a1NDa3pFSEIzUzRXV0RFSVB5WjJ6bUZtQXR5bEkwLXVOSm1feTFDbVYyZVF4TWxNTnZkek1vRWRXQXJlYmZwT1phMmxiNHNac3ZYQjlOeFE?oc=5",
+        "source": "Medium",
+        "date": "Fri, 20 Mar 2026 15:50:03 GMT",
+        "iso_date": "2026-03-20",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article is an open letter to Georgetown students",
+            "Discusses recent announcements about generative AI",
+            "No specific company or data integration issues mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on AI ethics and announcements, not data silos or integration challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Understaffing as a form of enshittification - Cory Doctorow – Medium",
+        "text": "Understaffing as a form of enshittification&nbsp;&nbsp;Cory Doctorow – Medium",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzJNdXBlOUVLcFA0WEcwZktpRkJGOWxnV3o1Q2F6Y3drSWh6Y1BTeXQwcW93ZUExVEVjazJGdmFPQlUtVnhpZlhxVlBfU3hkbW84bXJVWVVGWE1NN2lOVlRFRzhfNzY5aVNqcXhYUjF1ZHdkbktVTEtEc2w1U1JZQVFHUmhYbVhwLU92MWNKV3EzRzJmbnJlckxpWVVXbUZRWEJzcnB3?oc=5",
+        "source": "Cory Doctorow – Medium",
+        "date": "Mon, 23 Mar 2026 05:56:24 GMT",
+        "iso_date": "2026-03-23",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses understaffing as a form of enshittification",
+            "No specific company or industry is mentioned",
+            "Focus is on labor and management issues"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article does not address data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Understanding Data Quality Assurance and Governance: Why Your AI Model Is Only as Good as Your Data - Medium",
+        "text": "Understanding Data Quality Assurance and Governance: Why Your AI Model Is Only as Good as Your Data&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNd01nWHBaNEZLd04xRERGWXBaaldFRkdXeXBVM3Y0eThqWVlFUE5DeHMyb3hjN0poX2hZeUlOd2xDNkJqcmZLLVhSSS15Y1hZZjdxRVYxUDE5WjFZc0JnZ3c1d3Z2N2gyRFZ0Vk5EU2o4eDEwZGlldFJvbmtkeldjd3VEcTBOb1NpRmNoTW5GOEtUQkNpTFVDakZrNUxuX2dQTG01dUphczhfRGNZMGVBT25UQjY1ODVYdEd3ajFRSXI1cU1iNzVIZ1ZDUld1TGV3RXpBYXZwUjRCMTRQX0Rreg?oc=5",
+        "source": "Medium",
+        "date": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "iso_date": "2026-03-04",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the importance of data quality assurance and governance for AI models",
+            "Highlights the impact of poor data quality on AI model performance",
+            "Emphasizes the need for robust data quality processes"
+          ],
+          "company": "Not specified",
+          "pain_point": "Poor data quality affecting AI model performance",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to improve data quality and integration, enabling better data governance and assurance",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "Matthew Yglesias (@mattyglesias) / Posts - twitter.com",
+        "text": "Matthew Yglesias (@mattyglesias) / Posts&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fMDFQRFUzdV9Pa2FZLWdHNjJfWkpMcHBvRGx5VklYbXNKV1hFRFZ1V0F0UTI1bHdlSlV5RmZWOGpSUHNyLUMwUVNCVlAyUQ?oc=5",
+        "source": "twitter.com",
+        "date": "Sun, 15 Mar 2026 16:32:58 GMT",
+        "iso_date": "2026-03-15",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific company or data problem mentioned",
+            "Twitter posts by Matthew Yglesias",
+            "No direct relevance to data integration or quality"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no specific data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "\"Secure systems klydexglobal exchange ensure uninterrupted market functionality.von\" - Results on X | Live Posts & Updates - twitter.com",
+        "text": "\"Secure systems klydexglobal exchange ensure uninterrupted market functionality.von\" - Results on X | Live Posts & Updates&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWwxa0NnUEZyT0FBZG9wVjNxLUFTeklwTW9LbzNQVnlObFdjZURsRVhrY1dMUzU0NlhxOHI1X29XaXhnbXhLamJCdjhYNzRySUViMk9pc1FqWkxMSXFKOUk4X3hTU3BrVzRyeHlPcXl2eHBiY3E0UEdNNUFPQVRQdE1ORk1ZbDFFNkZpak4yUjNhNVlyX1BSc21wQ0Q0WERZVkxaTHRzNlltcUhXbGtLTjVDR3d2V0NhclcwSFlYQXBxRXlnVHNEanJWM3RNTXBhVkE?oc=5",
+        "source": "twitter.com",
+        "date": "Fri, 20 Mar 2026 08:42:35 GMT",
+        "iso_date": "2026-03-20",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "Tweet about Klydexglobal exchange",
+            "Mentions secure systems",
+            "Ensures uninterrupted market functionality"
+          ],
+          "company": "Klydexglobal — Financial/Trading",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The tweet focuses on system security and market functionality, not data silos or integration",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "\"klydexglobal exchange delivers dependable execution for all users.axg\" - Results on X | Live Posts & Updates - twitter.com",
+        "text": "\"klydexglobal exchange delivers dependable execution for all users.axg\" - Results on X | Live Posts & Updates&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM1MyZVFmZmZLbnhkSnVYX2NLUnV4dnVpWG9zN212Ti03blJHek9UcFVLSkNzNFZfZ1FWdGYycy1mUU42UWFVVTNZUmVUVlZGOFIxNTh1MUdwYjVURUhORzBIT1hZcFZpcWY5Q050VG8zSUNzU244cGptWTZDRmJ3MFpGSnpzM3VEdWh5ZEJpNkp0bVpTVUtKMWh5cFpmNWoySnB0bkR0VlFiUkduVlJHZm1UTHZkbnA2ZkRWNmVQZElGekNabXdwSV9BdDlkcE0?oc=5",
+        "source": "twitter.com",
+        "date": "Sat, 21 Mar 2026 21:26:47 GMT",
+        "iso_date": "2026-03-21",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "Tweet about Klydexglobal exchange",
+            "Mentions dependable execution for users",
+            "No specific data problem mentioned"
+          ],
+          "company": "Klydexglobal — Financial/Trading",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — No data silo, integration, or quality issue mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Why is Everyone So Wrong About AI Water Use?? - YouTube",
+        "text": "Why is Everyone So Wrong About AI Water Use??&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByUm1Wc1hQeHhyRVB0N0F3TnM3M0dXWTdRb0NUSzFFb2xqelRfbnVWdEQ0eENjb3UtSnkzQjVvcEV0MllVRVZZNWxOaUtuQklWRmJvcGFR?oc=5",
+        "source": "YouTube",
+        "date": "Mon, 08 Dec 2025 21:55:41 GMT",
+        "iso_date": "2025-12-08",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Discussion about AI water use on YouTube",
+            "No specific company or industry mentioned",
+            "Focus on correcting misconceptions about AI water usage"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data silos, integration, or quality issues mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Free AI Video Generator on Your PC (No Subscriptions, No Limits) - YouTube",
+        "text": "Free AI Video Generator on Your PC (No Subscriptions, No Limits)&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaWGEwakJ3cGdObEd1T2J0ZXViWEg0WEtTSDdiYll6N0lnRWc2WElIbjE4M0ZCU0ZPSkNDRkpuak9BZmEzZTRhMVNwZHlibnFXemMzbkx3?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 20 Jan 2026 08:00:17 GMT",
+        "iso_date": "2026-01-20",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Article about a free AI video generator on YouTube",
+            "No subscriptions or limits mentioned",
+            "Focus on AI video generation, not data integration"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data silos, integration, or quality issues mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Claudia Sahm: How the Jobs Report, CPI Inflation, and Fed Policy Are Misunderstood - YouTube",
+        "text": "Claudia Sahm: How the Jobs Report, CPI Inflation, and Fed Policy Are Misunderstood&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YUGx4TVl3TnNjZGpqVEkyNHZ3ZkhWbTNZNF9fUWZCOU44RFphS1R1SXREZmVWTXdpM1EtVGpVcGNlS2xyNTBVXzRJbkJ4RFhnbVFLblhR?oc=5",
+        "source": "YouTube",
+        "date": "Sat, 21 Mar 2026 21:30:06 GMT",
+        "iso_date": "2026-03-21",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Discussion on jobs report",
+            "Analysis of CPI inflation",
+            "Fed policy explanation"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The topic is focused on economic analysis and policy, not data integration or quality issues",
+          "lead_score": "Cold"
         }
       }
     ],
@@ -503,13 +1403,13 @@
         "channel": "News",
         "analysis": {
           "summary": [
-            "Article discusses the hidden bottleneck in AI",
-            "Data analytics acceleration is presented as a solution",
-            "No specific company is mentioned"
+            "Article discusses the acceleration of data analytics to solve AI's hidden bottleneck",
+            "No specific company is mentioned",
+            "Focus is on industry trend and general solution"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — general AI and data analytics discussion",
+          "zetaris_relevance": "Low relevance — article does not describe a specific data silo, integration, or quality problem",
           "lead_score": "Cold"
         }
       },
@@ -529,7 +1429,27 @@
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — article focuses on quantum computing advancements, not data silos or integration challenges",
+          "zetaris_relevance": "Low relevance — article focuses on quantum computing advancements, not data silos, integration, or quality",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "A Caching Strategy for Identifying Bottlenecks on the Data Input Pipeline - Towards Data Science",
+        "text": "A Caching Strategy for Identifying Bottlenecks on the Data Input Pipeline&nbsp;&nbsp;Towards Data Science",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX25QQkpwV1JHYjRJUFBsQTBVV0dzdWROQWp4ZW5VU1pkTmtRS09nUVczZ0MzRmFmMXYxcDNZMmE5RlBDbnJRUERRTV9KejlHNUZiWmx2aUZtOWp0anl6NVQyWDZhVnJoVFpxN08weElmdG1jNlYzMFZwZWU3OW0wRXJ2TFkxeGR4ZW52Q3RBRXkyS3FCWXI5cEoxOE8zaGFJSGFIc0JNTlE?oc=5",
+        "source": "Towards Data Science",
+        "date": "Thu, 26 Jun 2025 07:00:00 GMT",
+        "iso_date": "2025-06-26",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "Article discusses a caching strategy for identifying bottlenecks",
+            "Focus on optimizing data input pipeline",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article focuses on caching strategy for data input pipeline optimization",
           "lead_score": "Cold"
         }
       },
@@ -543,13 +1463,13 @@
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
-            "Article discusses AI startups claiming proprietary models or data",
-            "Investor claims none of the 473 startups had actual moats",
-            "Startups often build on OpenAI API and claim proprietary models"
+            "The author passed on 473 AI startups due to lack of actual moats",
+            "Startups claimed proprietary models or data but were using OpenAI API",
+            "The author invests in AI with data moats and can identify pretenders"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — article focuses on AI model claims and investment decisions, not data silos or integration challenges",
+          "zetaris_relevance": "Low relevance — the article focuses on AI model proprietary claims and investment decisions, not data silos or integration challenges",
           "lead_score": "Cold"
         }
       },
@@ -568,9 +1488,29 @@
             "Automating data preparation can help companies recover"
           ],
           "company": "Not specified",
-          "pain_point": "Data quality and preparation issues hindering AI project success",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to automate data preparation and improve data quality",
+          "pain_point": "Data preparation and quality issues",
+          "zetaris_relevance": "Low relevance — the article discusses data preparation, but Zetaris focuses on data integration, silos, and federated queries",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "GitHub - meta-llama/synthetic-data-kit: Tool for generating high quality Synthetic datasets - LinkedIn",
+        "text": "GitHub - meta-llama/synthetic-data-kit: Tool for generating high quality Synthetic datasets&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTBlQTBTR2JScWFydWFjVUFWcGYwUTBVRHRrc3lpZTlDXzhJUWtrNzhuNHhjc2pYYk45VF9NcXVSSmduREVsYjJPRHJUcHRmQ2lObUpwV2lQd1dEcVEzZFRnUzluSzJYbUNtTlMtRnUxWFdSVjNOQ0xaakVHbWt3MjFxYmJtbWMzaEZWXzFKX3poUjN6T19Qa05TclhoYWZwLTZsUFZjdXBDeml2R1lJbXdrOA?oc=5",
+        "source": "LinkedIn",
+        "date": "Wed, 06 Aug 2025 07:00:00 GMT",
+        "iso_date": "2025-08-06",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Tool for generating synthetic datasets",
+            "Available on GitHub",
+            "Mentioned on LinkedIn"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the tool is for generating synthetic data, not addressing data silos, integration, or quality issues",
+          "lead_score": "Cold"
         }
       },
       {
@@ -603,14 +1543,214 @@
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Data scientists are blocked by access requests, broken pipelines, and conflicting metric definitions",
-            "80% of time is spent on data prep",
+            "Data scientists spend 80% of time on data prep",
+            "Access requests, broken pipelines, and conflicting metric definitions are major blockers",
             "Architecture is the bottleneck"
           ],
           "company": "Not specified",
-          "pain_point": "Data integration and quality issues, specifically access requests, broken pipelines, and conflicting metric definitions",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to unify data from multiple sources, reducing data prep time and improving data quality",
+          "pain_point": "Data preparation and architecture issues",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to simplify data access and integration, reducing data prep time",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "The bottleneck for Physical AI isn't the hardware, it’s the data. To scale industrial automation, we must move past manual processes that are too slow and expensive to keep up with the real world. Vision-Language Models are clearing this path, turning massive - facebook.com",
+        "text": "The bottleneck for Physical AI isn't the hardware, it’s the data. To scale industrial automation, we must move past manual processes that are too slow and expensive to keep up with the real world. Vision-Language Models are clearing this path, turning massive&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenhwUE85NW1pMjhGdnhjZ1FkY1NES3dmb1NaazdfaGo2OUtDYjh6US1KNTRBejNLS0x4b21TeGpvNkJmeWw0SmNaTUJtQzBoSHNSOUFxU3JWcXMwd1FrNmlEU0w0a0c3ejFNbEZmbGFhSG5za0oxeGZyNWhDcVRndnlFSXY5SDJQU2Fia1RycG9nODk1TlF4Z0VoT19LeWRCWWp4MzEtaWdkNnBIX0U1N3VUMW1mZWtYeWYwQk4yamU1Qm9sbi1qek1NWnNkRkhOQkhiSEtNZy00SnNWbkNkeg?oc=5",
+        "source": "facebook.com",
+        "date": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "iso_date": "2026-03-05",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "The bottleneck for Physical AI is the data",
+            "Manual processes are too slow and expensive for industrial automation",
+            "Vision-Language Models can help clear the path"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article discusses the need for better data processing in Physical AI, but does not mention data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "From Implementers to Solution Architects - Medium",
+        "text": "From Implementers to Solution Architects&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXBybWIwemJmUUNuV1U5OXRkcXY4Z0FZTFhNR05kT2pwM3BGQ1lEYjRRWFpCOVFxb1pqMm9vdWFUbFZYci1tdjRVRFFuMjRlcnUyMk54M3FBOU1vQlB4Rk92YVdCUXpUU1lGNFh6MHlaa2ZaaEtpb1pqWDI0c2g2aU1HSUF0c0ZIRERFbTI5ZVdEUE9t?oc=5",
+        "source": "Medium",
+        "date": "Thu, 26 Feb 2026 08:00:00 GMT",
+        "iso_date": "2026-02-26",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the evolution of roles in the tech industry",
+            "Focus on career development and skill sets",
+            "No specific company or data problem mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article does not discuss data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "The Day a Google L7 Engineer Tore My System Design to Shreds | by Cloud With Azeem | ExpoComputing | Feb, 2026 - Medium",
+        "text": "The Day a Google L7 Engineer Tore My System Design to Shreds | by Cloud With Azeem | ExpoComputing | Feb, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNF9fbkdfRExXUEp1Yl9mS21OWm5HN2tsbHZHamFnS015MDl0dGdvai1pejNwd3AwQlFxV1R2dnFUc3RVRmY4RFBhZmlBMnZaYXdYQ2ZwcGtfWFRpVk9HYzBTY25QNEFkNUtfdWpPN2NlYlhlR1dCeXdBMUNkbVdNRFF5LUMtNE1aXzAyN3RYM2ZzUFBra0w1WFp3NF96WmV3S1Rxc1lBaUN2Zw?oc=5",
+        "source": "Medium",
+        "date": "Mon, 16 Feb 2026 08:00:00 GMT",
+        "iso_date": "2026-02-16",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article about a system design review",
+            "A Google L7 engineer provided feedback on the design",
+            "The design was for an unspecified system or company"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on system design review and does not mention data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "How data movement — not just qubits and algorithms — will determine who actually wins in quantum AI - Medium",
+        "text": "How data movement — not just qubits and algorithms — will determine who actually wins in quantum AI&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLUZyYnZGZExFcS1HVGJaaVRYMUh6NF9fOXhMYXBIZEtQU1hSWmZabkdEZTBwbVl4NGJydkMyWUpROFpxOFFpaGdHZm9McC1SVGYzUUcwLU5veW1hTUo5UkJtQ293S1R6S05ocURxM3FwN3VfTUhZYTZ3WFNjU2Z3YU0zTjZXOXdMVk1ZV0RwbXN6dG5OMHo5LXlmYWxaZkJoYWlCMEg0YnQzUHdoVHJJSE1MNHE2NHkxeXNlNUxfdjczeHZJTC0ya18xbEVFMEN1czhPYkpyQ1NDN2M?oc=5",
+        "source": "Medium",
+        "date": "Sun, 30 Nov 2025 08:00:00 GMT",
+        "iso_date": "2025-11-30",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the importance of data movement in quantum AI",
+            "Mentions that data movement is a crucial factor in determining the success of quantum AI projects",
+            "Does not mention a specific company or industry"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on quantum AI and data movement, not traditional data integration or silo problems",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Benzinga - twitter.com",
+        "text": "Benzinga&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVDJ6T1NGMjJHYWViT0pZay1KanlqZHQxaFh2Znd1aU80eUgzcVVndTZQaW52M2xLb2ZMZ2p2WDE4RXBIazN0b3hOWnA4RWFGdHRhR0REdVlyR2FGM1pxMDRxanBOWlA2M0hDWVVTWjRLRlJiYm9taFhaVWRIb0tDVFB6dw?oc=5",
+        "source": "twitter.com",
+        "date": "Fri, 13 Mar 2026 22:26:11 GMT",
+        "iso_date": "2026-03-13",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific article content provided",
+            "Only a Twitter link to Benzinga is given",
+            "No information about data integration or quality issues"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no specific data problem mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Results for \" Trading efficiency increases using klydexglobal exchange modern architecture.mvj - twitter.com",
+        "text": "Results for \" Trading efficiency increases using klydexglobal exchange modern architecture.mvj&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2MzcnpxQUw0Y0hmdnd3aWhtaVFya0F6dmxzZUt2VGU4QWRqeE5BNndSaXpBeWM0NkI0QWNIMUc5dTJHVzFONzRaN2JkbDI1aVJaSjB2eml5U045N0E1MHJZNEZFRUk2R3VaVDg3S2RNRXVpWVZMQktwbGFuUWZJQURqZG1hVGhyVmRjLWdKck90VDY3dWNlZzBQeE5NUURER2JLaEt3aTZtWTE5SnMyQ24tUWVINkpKV3FoNWZjRVo0LVlsb3RMTG9mUEI?oc=5",
+        "source": "twitter.com",
+        "date": "Mon, 16 Mar 2026 15:53:01 GMT",
+        "iso_date": "2026-03-16",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "Twitter post about trading efficiency",
+            "Mentions Klydexglobal exchange",
+            "Modern architecture for trading"
+          ],
+          "company": "Klydexglobal — Finance",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The article focuses on trading efficiency and architecture, not data silos or integration",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Odogwu Machalla (@unicodeveloper) / Posts - twitter.com",
+        "text": "Odogwu Machalla (@unicodeveloper) / Posts&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPUndQRVgydElMLTM0WUtkbEdRMTVXN1dnYndDZGpfR3ZkZ0NNUzcwVUVDaXNKVVhJam9odWd1REN3U2xqOGlIaW1PbUY2SXpiRHUtN3cxUkIycWZIbWt4Nk9CR3gyZlNVZXVmeERpbWx4dw?oc=5",
+        "source": "twitter.com",
+        "date": "Tue, 17 Mar 2026 20:11:49 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific article or company mentioned",
+            "Appears to be a Twitter profile",
+            "No data integration or quality issues discussed"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no specific data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Dylan Patel — The single biggest bottleneck to scaling AI compute - YouTube",
+        "text": "Dylan Patel — The single biggest bottleneck to scaling AI compute&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ETzNzY3B0OTg2ZmpXcEhOR2hza09uS1F3dHZRX3hVZWxONW85WThqZjNMMWk2WUoxem02UU1BNERUZ0daQ2VaQk9aLXBMR3QtbGdJeW1n?oc=5",
+        "source": "YouTube",
+        "date": "Fri, 13 Mar 2026 16:26:57 GMT",
+        "iso_date": "2026-03-13",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Discussion on AI compute scaling",
+            "Bottlenecks in AI development",
+            "Importance of compute resources"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the discussion focuses on compute resources, not data integration or quality",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Nvidia Stock Is Even More Undervalued Than I Previously Thought | NVDA Stock Analysis - YouTube",
+        "text": "Nvidia Stock Is Even More Undervalued Than I Previously Thought | NVDA Stock Analysis&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xYlNZWGVib0ZGYnhZVURtQWdsZDBsZ2tUTGlLbTRGWFZQQjRVSkJEQzhOZ1VzYi1KOFBuaWVQdjVtbXZBdkRHdE1TTzJfTXg5SGtEVUN3?oc=5",
+        "source": "YouTube",
+        "date": "Wed, 18 Mar 2026 18:04:51 GMT",
+        "iso_date": "2026-03-18",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Nvidia stock analysis",
+            "Undervaluation discussion",
+            "No specific data problem mentioned"
+          ],
+          "company": "Nvidia — Technology",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on stock analysis rather than data integration challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Solving Steam Installation Issues on Mac (Whisky & Error 0X3008) - YouTube",
+        "text": "Solving Steam Installation Issues on Mac (Whisky & Error 0X3008)&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQR1ZqNUhTRTN4YW5peVJoYTZfTXJTVkFtZXMya0JTVDRNZEpJc2VaYWp0M2JfLUwyMFFKRXlEalFnZFBEbi1qOUxaZmpvbkZSQ2VkdkJn?oc=5",
+        "source": "YouTube",
+        "date": "Fri, 28 Mar 2025 14:08:09 GMT",
+        "iso_date": "2025-03-28",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Article discusses solving Steam installation issues on Mac",
+            "Specifically addresses Whisky and Error 0X3008",
+            "No mention of data integration or AI"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the issue is related to gaming platform installation, not data silos or integration",
+          "lead_score": "Cold"
         }
       }
     ],
@@ -647,11 +1787,31 @@
           "summary": [
             "Article discusses semantic layer architecture",
             "Covers components, design patterns, and AI integration",
-            "Mentions Databricks as a related platform"
+            "Published by Databricks"
           ],
           "company": "Databricks — Data Analytics",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article focuses on architecture and design patterns rather than specific data integration problems",
+          "zetaris_relevance": "Low relevance — The article focuses on semantic layer architecture in general, without highlighting specific data silo, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Agentic Analytics: How Semantic Layers are Powering the Next Era of AI-Driven Decision-Making - CDOTrends",
+        "text": "Agentic Analytics: How Semantic Layers are Powering the Next Era of AI-Driven Decision-Making&nbsp;&nbsp;CDOTrends",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMXdSUlFVcXF0T3liY3NYZldieER0MkNnVmlOM2tnVXRGTTd6UER3c0hTU1dXVmM3OFgzZUtxZWJBd2luRjNIc0swSkxmTFktakhKZTdXQlVjeXVyV21BZDZ0d1o2WUFacW9fWnhsY3g4SDV5cVUzSXI4aGMyZWdEcE5ZMkpqQTNyZjc1b3h6cWxhaGVIWXJ5MmhfdnJoalBscElCOVVINlFrcHl3c3ZDN1g2YjFYdjhRa3VtUFpQRQ?oc=5",
+        "source": "CDOTrends",
+        "date": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "iso_date": "2025-12-17",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "Article discusses the role of semantic layers in AI-driven decision-making",
+            "Mentions the potential of semantic layers to power the next era of analytics",
+            "No specific company or industry is highlighted"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article discusses semantic layers in general, without highlighting specific data integration or quality challenges",
           "lead_score": "Cold"
         }
       },
@@ -665,13 +1825,13 @@
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
-            "Article discusses the architecture of agentic AI tools",
-            "Current architecture has a central LLM with access to connected tools",
-            "Author argues this pattern is bad for data"
+            "Analytics agents need a contract layer",
+            "Current architecture of agentic AI tools is flawed for data",
+            "Need for a better pattern for data access and integration"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance -- the article focuses on AI architecture rather than data silos, integration, or quality",
+          "zetaris_relevance": "Low relevance -- the article discusses AI architecture and the need for a contract layer, but does not specifically address data silos, integration, or quality issues",
           "lead_score": "Cold"
         }
       },
@@ -685,13 +1845,33 @@
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
-            "The article discusses BI challenges starting in the data model",
-            "Mentions data modeling, semantic layers, and data-driven leadership",
-            "References books on data modeling and analytics"
+            "BI challenges start in the data model",
+            "Importance of data modeling and semantic layers",
+            "Reading books on data-driven leadership"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article focuses on data modeling and BI challenges, not data silos or integration issues",
+          "zetaris_relevance": "Low relevance — general discussion on data modeling and BI challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Semantic layers are emerging as core infrastructure for agentic analytics. Why? Because agents need context for accurate analytics, and that context is the semantic layer: it tells agents how business metrics like revenue or MAU should be calculated. Without t - LinkedIn",
+        "text": "Semantic layers are emerging as core infrastructure for agentic analytics. Why? Because agents need context for accurate analytics, and that context is the semantic layer: it tells agents how business metrics like revenue or MAU should be calculated. Without t&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPamMwaHZ1WXg3ejdRZlhIRXpXU1RKR2lNalJkNy1KS1pYc1c4TTNZMEVaV01DTHFnMkVEckNxcmNaTmhSV2RJeVJoVWZERHhfMnRKMnh6ZnhjTHlmWnNMT2toMTlOWmZMMzg0UnZQRV9ka0dkYmRBMFN1NmpyT29VekJhYlFLMncwZDJvOVRJT0p1VXdoSUcxZlUzSFF3UldiejYyQ3Blb3RBa2xScTJKakNZWDVjdWM2SDVFWlktdEN5VHZrSmc?oc=5",
+        "source": "LinkedIn",
+        "date": "Wed, 18 Mar 2026 22:06:13 GMT",
+        "iso_date": "2026-03-18",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Semantic layers are emerging as core infrastructure for agentic analytics",
+            "Agents need context for accurate analytics",
+            "Semantic layer provides context for calculating business metrics"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article discusses semantic layers in general, but does not mention data silos, integration, or quality issues",
           "lead_score": "Cold"
         }
       },
@@ -705,13 +1885,13 @@
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Facebook improved analytics scalability with a semantic layer",
-            "Faster metrics and reusable queries were achieved",
-            "Shared ownership across teams was enabled"
+            "Facebook improved analytics scalability",
+            "Implemented a semantic layer",
+            "Achieved faster metrics and reusable queries"
           ],
           "company": "Facebook — Technology",
           "pain_point": "Data silos and integration issues slowing down analytics",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to unify data and enable federated queries",
+          "zetaris_relevance": "Zetaris' semantic layer could help similar companies unlock faster metrics and reusable queries",
           "lead_score": "Hot"
         }
       },
@@ -725,13 +1905,213 @@
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Data teams face increasing pressure to deliver trusted insights",
+            "Data teams face pressure to deliver trusted insights",
             "Need to integrate GenAI responsibly",
-            "A strong semantic layer is essential for standardizing metrics and accelerating queries"
+            "A strong semantic layer is essential"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article discusses the importance of a semantic layer but does not mention a specific company's data integration or quality challenges",
+          "zetaris_relevance": "Low relevance — the article discusses the importance of a semantic layer but does not mention a specific company or data integration problem",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "NADRA is inviting applications from senior Business Intelligence professionals for the position of Deputy Director (Semantic Business Intelligence Developer). This role is centered on Teradata-driven analytics, enterprise semantic layer design, and BI governa - facebook.com",
+        "text": "NADRA is inviting applications from senior Business Intelligence professionals for the position of Deputy Director (Semantic Business Intelligence Developer). This role is centered on Teradata-driven analytics, enterprise semantic layer design, and BI governa&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNT2RKc2xGU3VrenVacmNzNG9oTnpzV0I5VW9tTTYxbGExSGozb0dLM003anROaGVUTS1HN0labkZNak14cm5SeDdQdUtZX2wwLXhZSWwzQ2M2Wktwa3FyQVVKQWU0WVJQZGNZTWFVWHR4anF5VFVLQWZxc2NXT0R5aklfaENaX0dTZ3daWFdwa3h0eWo3WVk0OW9QdFpCdDFlUlAwTEVKTzVtc0JCd3BRMENXaktzSkpoOTB4N1pjcThzdGxXRkYxV3RBM3d3clR6eENvT0pOdXM2OVJ1b0xsYnBpcHlzdw?oc=5",
+        "source": "facebook.com",
+        "date": "Mon, 19 Jan 2026 08:00:00 GMT",
+        "iso_date": "2026-01-19",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "NADRA is hiring a Deputy Director for Semantic Business Intelligence Developer",
+            "The role focuses on Teradata-driven analytics and enterprise semantic layer design",
+            "The position involves BI governance"
+          ],
+          "company": "NADRA — Government",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The job posting does not mention specific data integration or quality challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Enterprise AI Has a Production Problem Nobody Wants to Talk About - Medium",
+        "text": "Enterprise AI Has a Production Problem Nobody Wants to Talk About&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUHI1QTNNYzY4THgwYWRDeUQtSUpxLUdqeWFtb29iRDFFTDFvTEhva1NNdjZJbnZLakZ3ZlA5VlM4UzJ4VWx1TFRSYTBxRzFJekVsaXlmb2dpc3lKakVzSHVTS1FZekN3MHJsRFlfRWoyVGdlWl9FekllMTFoNjlnOVh5WTF6RF9fZGdPSmV6czh5VmlIVVM5VFBuZ2puLW9lOGNsQ1pKdGpRNC1Xa2ZPckpBMFhQaDZ4R1BVWnFB?oc=5",
+        "source": "Medium",
+        "date": "Sat, 21 Mar 2026 21:12:07 GMT",
+        "iso_date": "2026-03-21",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the production problem in enterprise AI",
+            "Mentions the difficulty of deploying AI models in production environments",
+            "Highlights the need for better data integration and management"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on the production problem of AI models rather than data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Why now?. Three forces making the semantic layer… | by Shrikant Lambe | Mar, 2026 - Medium",
+        "text": "Why now?. Three forces making the semantic layer… | by Shrikant Lambe | Mar, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqcTJ2TENhcjA3X1JhOUJjT0FXa18wZ1g1dVgyanQ4LTdxNTRfN3BrSmpLMkFRY2Zyalgxd21rUlpKY01XUkFScFpodHB5cVctb3dFQVZIQW91MUFIUXVEakhaMm0?oc=5",
+        "source": "Medium",
+        "date": "Tue, 24 Mar 2026 16:52:43 GMT",
+        "iso_date": "2026-03-24",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the growing importance of the semantic layer",
+            "Mentions three forces driving its adoption",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article is about the semantic layer in general, not a specific company's data problem",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Metrics as Code: Building a Semantic Layer With dbt and MetricFlow - Medium",
+        "text": "Metrics as Code: Building a Semantic Layer With dbt and MetricFlow&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekNaSEEta1lfaFRIMjlvWTNxcFlPNnRUUDZIYmhxR0FWSnpWTC1sWnZJRjMyczlhU2x0SEp5bTdiZVlkZXo0VmwyMkNoZFYwWWVrZHR4U1pUOGptSzY2TGxEWVJVT2g1OFdwdTVFVW53SFJ2UmgyTlktR2ctWi1WU253aG1wbUpZcGMwei1kMm50b3RMX0RCbEVmYUJEX0Z2dGw1WDdxNGpJall1R0V3SkNjZExwWm9GUERFOUxKWQ?oc=5",
+        "source": "Medium",
+        "date": "Fri, 13 Mar 2026 07:00:00 GMT",
+        "iso_date": "2026-03-13",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses building a semantic layer using dbt and MetricFlow",
+            "Focus on metrics as code and data transformation",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — article focuses on a specific technical approach rather than a company's data challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Bio Protocol Việt Nam 🇻🇳 Community on X - 3.4K Members - twitter.com",
+        "text": "Bio Protocol Việt Nam 🇻🇳 Community on X - 3.4K Members&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzZUh4ZTc5MjE3QmZOckhjOFBkUVJVdkVaclYyYUl4SnQ3VThNMUE0ejdJRFIzOHRIX0tSOS1HNkkyU3R6V0loUkFKZWtUTFVpcHhhY01EbGJuNVNPaGFLVFdERHBMTXdxazZQd05mcGltUmx4d2dLSw?oc=5",
+        "source": "twitter.com",
+        "date": "Tue, 17 Mar 2026 11:51:59 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "Bio Protocol Việt Nam community on Twitter",
+            "3.4K members",
+            "No specific data problem mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data silos, integration, or quality issues mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Odogwu Machalla (@unicodeveloper) / Posts - twitter.com",
+        "text": "Odogwu Machalla (@unicodeveloper) / Posts&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPUndQRVgydElMLTM0WUtkbEdRMTVXN1dnYndDZGpfR3ZkZ0NNUzcwVUVDaXNKVVhJam9odWd1REN3U2xqOGlIaW1PbUY2SXpiRHUtN3cxUkIycWZIbWt4Nk9CR3gyZlNVZXVmeERpbWx4dw?oc=5",
+        "source": "twitter.com",
+        "date": "Tue, 17 Mar 2026 20:11:49 GMT",
+        "iso_date": "2026-03-17",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific article content",
+            "Twitter profile page",
+            "No data integration or quality issues mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data problem described",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Jenn Tesch (@jennt_allium) / Posts / X - twitter.com",
+        "text": "Jenn Tesch (@jennt_allium) / Posts / X&nbsp;&nbsp;twitter.com",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9neWlMTnBGQUJpczdsMjVfRjJkWXZ5OEVBZlBPUmwyQjMyblk3RHJ2Y3AwTHdzZVZGa3NkVWpQc3g4QnB2M3Qw?oc=5",
+        "source": "twitter.com",
+        "date": "Sun, 22 Mar 2026 01:17:01 GMT",
+        "iso_date": "2026-03-22",
+        "channel": "X",
+        "analysis": {
+          "summary": [
+            "No specific information about a company or data problem",
+            "Twitter profile page with no relevant details",
+            "No industry or data integration challenges mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — no data problem or company mentioned",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "From Data Insights to Business Decisions with Zoho Analytics - YouTube",
+        "text": "From Data Insights to Business Decisions with Zoho Analytics&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YRlFxWnozZGxDLUxNRFY0Y19CSk1uQ3BYUlM2QWd1NkhTTTBYMDdoSUxuRmk0VHdUMU91cFlxMUdnQ1AycEoxQzk3ZkgxTXFVcFlScVFB?oc=5",
+        "source": "YouTube",
+        "date": "Wed, 18 Mar 2026 13:01:20 GMT",
+        "iso_date": "2026-03-18",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Video about Zoho Analytics",
+            "Focus on data insights and business decisions",
+            "No specific company or problem mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — general analytics discussion",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "AI Writes SQL at 95% Accuracy. Do You Need a Semantic Layer?? - YouTube",
+        "text": "AI Writes SQL at 95% Accuracy. Do You Need a Semantic Layer??&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFYmdkTWlNQlNOZDBzYjNjTU9qX2h6dVFxZHhJNEI2UUt0LTZWb002OUhpQzBrUnhaQUlLUzVDMmk4b1pXTWxnVkh3R3VhVkE2OF9rMUF3?oc=5",
+        "source": "YouTube",
+        "date": "Fri, 13 Mar 2026 05:04:58 GMT",
+        "iso_date": "2026-03-13",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Article discusses AI writing SQL at 95% accuracy",
+            "Questions the need for a semantic layer",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on AI-generated SQL rather than data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Semantic Layers in the Age of AI are 100% Needed - YouTube",
+        "text": "Semantic Layers in the Age of AI are 100% Needed&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjU3lHYzdrclNESU9IeEVfVUhHTEl6blNzWXpmeHhCbzZPWk5RQ0pfU21fLXBCS05xX1o0VWVZSEJPaHJDSG1kVkxWN1ZzSHAyQjZDSVVB?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 24 Mar 2026 12:00:30 GMT",
+        "iso_date": "2026-03-24",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Discussion on the importance of semantic layers in AI",
+            "Mentions the need for a unified data view",
+            "No specific company or industry mentioned"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the topic is related to semantic layers but does not describe a specific data problem",
           "lead_score": "Cold"
         }
       }
@@ -748,33 +2128,53 @@
         "analysis": {
           "summary": [
             "Article discusses Amazon Redshift federated permissions",
-            "Focus on simplifying multi-warehouse data governance",
+            "Aims to simplify multi-warehouse data governance",
             "No specific company is mentioned"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article focuses on a specific Amazon Web Services feature",
+          "zetaris_relevance": "Low relevance — The article focuses on a specific AWS feature, not a general data integration problem",
           "lead_score": "Cold"
         }
       },
       {
-        "title": "Scaling Data Mesh with Universal Semantic Layers: From Proof-of-Concept to Enterprise Reality - EPAM",
-        "text": "Scaling Data Mesh with Universal Semantic Layers: From Proof-of-Concept to Enterprise Reality&nbsp;&nbsp;EPAM",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQWhONmx5Tl9vOVBRS0hqWm5mT0Y3SS1MNFFldmtXTDBlckozUy1lQVh3UDRCdm5fUHFVY05oRWxhWk5JSk9Qd0lUSHNObW9pMjRVSkYycGtESXVZeEdrYndRMm1aS05KYmFUSWQtRXJXb1lIVnVzOUFQWjAwdjJEdWE5bmJ5YmJRNlczY1JUR25oVVVwZDNoazBnaEJtUkVOZzNXN3c3Zy13M0FUeGpwU3BDRzFrblZKYnRHSU9FTXhmWGRNR29V?oc=5",
-        "source": "EPAM",
-        "date": "Sun, 17 Aug 2025 07:00:00 GMT",
-        "iso_date": "2025-08-17",
+        "title": "Data Mesh Demo Recap: Breaking Down Data Silos with Internal Marketplace - Snowflake",
+        "text": "Data Mesh Demo Recap: Breaking Down Data Silos with Internal Marketplace&nbsp;&nbsp;Snowflake",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbWpmeUNUUDZKOWQ0VEdIRm9QaGpUOXZ2aGVtOUtGZUd0d2VjVEh1ZnA1cFo0bXdVZDh3OWRYVFlUZmZJdUVFSXVEeHdqLWdhdDMtYmtwVU4wbXY1dFM3UVV1V3RzQjZsWEsycFJMV2l2QUR3Wmx6N2dFZkFEb0N2RnZR?oc=5",
+        "source": "Snowflake",
+        "date": "Tue, 20 May 2025 07:00:00 GMT",
+        "iso_date": "2025-05-20",
         "channel": "News",
         "analysis": {
           "summary": [
-            "Article discusses scaling data mesh with universal semantic layers",
-            "EPAM is involved, but no specific company problem is described",
-            "Focus on industry trend and technology"
+            "Snowflake demo on Data Mesh",
+            "Breaking down data silos with internal marketplace",
+            "Data integration and accessibility"
           ],
-          "company": "EPAM — IT Services",
-          "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article discusses a general industry trend and technology, without highlighting a specific company's data integration problem",
+          "company": "Snowflake — Cloud Computing",
+          "pain_point": "Data silos",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and query data across multiple sources, further enhancing Snowflake's data mesh capabilities",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "From Monolith to Contract-Driven Data Mesh - Towards Data Science",
+        "text": "From Monolith to Contract-Driven Data Mesh&nbsp;&nbsp;Towards Data Science",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCVFFKQ2ViNVFiRWFBOUZBa0JXVXI4WFFTQ3lUQ09LR181LTcwNWFGMGJyMjQydzNmRU1xUUdDMDl2dHZqLXVPYXB4Y1RydnlVcVNZcmotei0tSmExU0lSY09zOVptSkhzTWFwRGNUdENnVUFrc2ZUU194c0d5TVE?oc=5",
+        "source": "Towards Data Science",
+        "date": "Fri, 20 Feb 2026 08:00:00 GMT",
+        "iso_date": "2026-02-20",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "Article discusses transitioning from monolithic data architecture to a data mesh",
+            "Focus on contract-driven approach to data integration",
+            "Towards Data Science is the publisher"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on a high-level architecture approach rather than specific data silo, integration, or quality challenges",
+          "lead_score": "Cold"
         }
       },
       {
@@ -789,11 +2189,11 @@
           "summary": [
             "Article discusses data architecture trends",
             "Compares Data Mesh, Data Fabric, and Data Virtualization",
-            "No specific company or problem described"
+            "No specific company or use case is mentioned"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — article focuses on high-level architecture trends rather than specific data integration challenges",
+          "zetaris_relevance": "Low relevance — the article focuses on high-level data architecture concepts rather than specific data integration challenges",
           "lead_score": "Cold"
         }
       },
@@ -813,8 +2213,28 @@
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article appears to be more focused on architecture and operating models rather than specific data integration challenges",
+          "zetaris_relevance": "Low relevance — the article appears to focus on data architecture and operating models rather than specific data integration or quality challenges",
           "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "From a legacy on-prem platform to a fully cloud-hosted data mesh on AWS, HEMA has been busy. I caught up with Tommaso Paracciani from HEMA, a Dutch retailer with 740+ shops across several regions plus a strong online presence. His team led a full mig - LinkedIn",
+        "text": "From a legacy on-prem platform to a fully cloud-hosted data mesh on AWS, HEMA has been busy. I caught up with Tommaso Paracciani from HEMA, a Dutch retailer with 740+ shops across several regions plus a strong online presence. His team led a full mig&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNamRFRF9RSmdvOU5iN1hsazlLUDJtZzk2YnQwS0tnSDVSQjloNmNma2JZQi10VmJhTVZYOWNxZnBiRVVFc3Y2Vk9oMEtoc3NuTmsyOEZtVzNTY2tHUjdHbzFRTEJwRlFzeG9FZ25qekZ6aUVHRjFuYnhGSkVBanVEMlFVYUNPWkp1RUxaS1BFbVBIZXhTX2U1QXc2di1OWldodkRfakRTVHFiTEtFMXdCaWYwaWVWaDJkaUtWVg?oc=5",
+        "source": "LinkedIn",
+        "date": "Thu, 11 Dec 2025 08:00:00 GMT",
+        "iso_date": "2025-12-11",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "HEMA, a Dutch retailer, is migrating from a legacy on-prem platform to a cloud-hosted data mesh on AWS",
+            "The company has 740+ shops and a strong online presence",
+            "The migration is led by Tommaso Paracciani's team"
+          ],
+          "company": "HEMA — Retail",
+          "pain_point": "Migrating from a legacy on-prem platform to a cloud-hosted data mesh, potentially involving data integration and quality issues",
+          "zetaris_relevance": "Zetaris could help HEMA with its semantic layer to integrate and unify data from various sources, ensuring high-quality data for analysis and AI training",
+          "lead_score": "Hot"
         }
       },
       {
@@ -827,13 +2247,13 @@
         "channel": "Facebook",
         "analysis": {
           "summary": [
-            "Article discusses reinventing enterprise architecture for smart manufacturing",
-            "Transition from static to cognitive and data-driven architecture",
-            "Enabling autonomous decision-making"
+            "Article discusses transitioning to a cognitive, data-driven enterprise architecture",
+            "Focus on smart manufacturing agility and autonomous decision-making",
+            "No specific company or data problem mentioned"
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — the article focuses on enterprise architecture and smart manufacturing, but does not specifically mention data silos, integration, or quality issues",
+          "zetaris_relevance": "Low relevance — article focuses on high-level enterprise architecture principles rather than specific data integration challenges",
           "lead_score": "Cold"
         }
       },
@@ -848,13 +2268,33 @@
         "analysis": {
           "summary": [
             "Manufacturers have more data than ever",
-            "Unable to act in real time due to data constraints",
+            "Lack ability to act in real time",
             "Value stays locked inside the system"
           ],
           "company": "Not specified — Manufacturing",
-          "pain_point": "Data silos and inability to act in real time",
-          "zetaris_relevance": "Zetaris could help by providing a semantic layer to unlock real-time insights across multiple systems",
+          "pain_point": "Data silos/integration and inability to act on data in real time",
+          "zetaris_relevance": "Zetaris could help by providing a semantic layer to integrate and query data across systems in real time",
           "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "AI in manufacturing isn't failing because of the tech. It's failing because of the gap between IT and OT. Here's how leading manufacturers are closing it and moving from pilots to performance at scale. Link in Bio. #Manufacturing #AI #DigitalTransformation #Indu - facebook.com",
+        "text": "AI in manufacturing isn't failing because of the tech. It's failing because of the gap between IT and OT. Here's how leading manufacturers are closing it and moving from pilots to performance at scale. Link in Bio. #Manufacturing #AI #DigitalTransformation #Indu&nbsp;&nbsp;facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdktUODM2ZFVUS0V2VW1lNnFSTTVvamxVTTBXcHM4dVpwSjlSbEYzbTJtNUU1WWpZa3FfTGUzaVlnQksxZllkTGlnMkRyRlA0b2ZPWVpiU1dMYmxyNEx0Y3IzS0t1U3BXc2FNbEtBc3ZGN0VkNlFza3dKOEE3VWR2cEZqZXp1LVRJQ2NZcmtOaHp4QU1vN0ZjaDhRb0xZOE1Vc2JVcWo3YTVfclJKZXp0VU01VmRWeUVvdVB3a1pvT1J2b1B2OHNMMHA3aUM2NEdkRlYxejJn?oc=5",
+        "source": "facebook.com",
+        "date": "Tue, 10 Mar 2026 14:01:09 GMT",
+        "iso_date": "2026-03-10",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "AI in manufacturing is failing due to the gap between IT and OT",
+            "Leading manufacturers are finding ways to close this gap",
+            "Moving from pilots to performance at scale is the goal"
+          ],
+          "company": "Not specified",
+          "pain_point": "The gap between IT and OT is hindering AI adoption in manufacturing",
+          "zetaris_relevance": "Low relevance — the problem described is more about organizational and cultural gaps rather than data integration or quality issues",
+          "lead_score": "Cold"
         }
       },
       {
@@ -893,8 +2333,148 @@
           ],
           "company": "Not specified",
           "pain_point": "Not directly relevant to data integration",
-          "zetaris_relevance": "Low relevance — discussion is about data architecture and management, not specific data silos or integration challenges",
+          "zetaris_relevance": "Low relevance — discussion is about data architecture and management, not specific data silos, integration, or quality issues",
           "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Should I be aiming for a single semantic data model for my org, or a series of domain specific models (loosely federated) that accomplish specific goals? - Reddit",
+        "text": "Should I be aiming for a single semantic data model for my org, or a series of domain specific models (loosely federated) that accomplish specific goals?&nbsp;&nbsp;Reddit",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdVBlVHBFdzRyQ1N0eUkxbTZoV1lTNmhiV1dSWFpBOTFGUXdtTk1YMXI0NzNWazNyeHBJWWdqbHNFbWpaNFE1M0gwc2tSSmpOaTFmSnc5bjNQekpmLU9ycmhaQ2tHekJwSFgwWkViZzhucWxlaGZsY010ZFp5QWp3eVVYWjdKbUFqVmdMeEZ1LWhickN1U2FmeF9rVUE?oc=5",
+        "source": "Reddit",
+        "date": "Tue, 09 Dec 2025 08:00:00 GMT",
+        "iso_date": "2025-12-09",
+        "channel": "Reddit",
+        "analysis": {
+          "summary": [
+            "The author is considering two approaches to data modeling",
+            "A single semantic data model for the entire organization",
+            "Domain-specific models that are loosely federated"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the post is about data modeling approaches rather than data integration or quality challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Federated Query Engines: The Future of Cross-Cloud Analytics | by Manik Hossain - Medium",
+        "text": "Federated Query Engines: The Future of Cross-Cloud Analytics | by Manik Hossain&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORVdyNEh3ay1STElKS1VYZnBJOEpNbk5GOUJod3R6YnZORFROQndJaklabC1jMzZUTVFBdVNrbTlaazVFd19pQUJ0VU9zM0VZdEJ0QWVOSTVNSmZwM25DMU5uWXBrZGFmWWNCbzY0OVVUTnNtcURwcF9hc1F4aVFJd0NfTnlLSmFscGMyVnhlaEFUX1Y1U1BRV3Fma2J2aTluQ01qY2QxMmI?oc=5",
+        "source": "Medium",
+        "date": "Sat, 11 Oct 2025 07:00:00 GMT",
+        "iso_date": "2025-10-11",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses federated query engines",
+            "Mentions cross-cloud analytics",
+            "No specific company is identified"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article is about a general trend and does not describe a specific company's data problem",
+          "lead_score": "Warm"
+        }
+      },
+      {
+        "title": "🏛️ dbt for Data Mesh: Patterns for Federated, Domain-Oriented Teams - Medium",
+        "text": "🏛️ dbt for Data Mesh: Patterns for Federated, Domain-Oriented Teams&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmw3RTN2TE5yLXRqWXNmYkdNNjVSdmxSSHg2QU1tVVRwbFJvNGlCZ2tXNUFrdll4MWotWk5ibHpfQkQzWmFPWXRKb2didXJDRnpvdUpqM3pyMjRha3o4UUNnN1N0SDVxWWJyS0VnLTBLYkRBZmpFaW9RdFZvOWdUVFp6a05lSkI4RzM2MDhGanlHdldQVm9MSWVKM3czeno2ZTBRdERQbHBycnp6T3RlQ1ljXzF4a1BfNG9nZTg1U1E?oc=5",
+        "source": "Medium",
+        "date": "Thu, 24 Jul 2025 07:00:00 GMT",
+        "iso_date": "2025-07-24",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses using dbt for Data Mesh",
+            "Focus on federated, domain-oriented teams",
+            "Patterns for implementation are provided"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article focuses on dbt and Data Mesh, not specifically on solving data silos, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Data Mesh: An Evolution Beyond Data Warehouses and Data Lakes - Medium",
+        "text": "Data Mesh: An Evolution Beyond Data Warehouses and Data Lakes&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSk1ldzB3MkZyYmZ5R1lXNlIxWmpPYzRmNUtYeGYtVnBLTWptOGFfWmhzWlJ4UXdZVFlYNWlFb3NFcVAtdjVGX0MxU2VQRjVVaTFPRnJKV2pWZUFsdGJuWkl4RzBnYmZzazlfUEt6Uno0Z3VlVGRyT2daa1QtNzVHb21hcEgxbTE3aHBXQy1UYUxKRHR3VTRCdmpUSHFiczdyeGZrVEhwaw?oc=5",
+        "source": "Medium",
+        "date": "Thu, 10 Apr 2025 07:00:00 GMT",
+        "iso_date": "2025-04-10",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Article discusses the concept of Data Mesh",
+            "Data Mesh is presented as an evolution beyond traditional data warehouses and data lakes",
+            "It focuses on decentralized data ownership and federated governance"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the article discusses a high-level data architecture concept rather than specific data integration or quality challenges",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Access is a Key Data Mesh Driver | Starburst - YouTube",
+        "text": "Access is a Key Data Mesh Driver | Starburst&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZVC1xSndVYTZyMnFDRWlRZndnNVlKdEpzX1RWQ25mOGNpRE9sVm5FZU1xR2hnSUZPb0FJNk9DWXRuclBlbXZTTGdpckJmVURZLUR3NjRR?oc=5",
+        "source": "YouTube",
+        "date": "Thu, 24 Jul 2025 21:15:34 GMT",
+        "iso_date": "2025-07-24",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Discussion on data mesh and its drivers",
+            "Access is highlighted as a key driver",
+            "Starburst is mentioned in the context of data mesh"
+          ],
+          "company": "Starburst — Data technology",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — The topic is more focused on data mesh and access rather than specific data silo, integration, or quality issues",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Data Gravity: Why Data Pulls Everything Toward It | Uplatz - YouTube",
+        "text": "Data Gravity: Why Data Pulls Everything Toward It | Uplatz&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xTWRraWEwMlpxM0hNWEVDQnNUOS1jaV9WWGg1RGVVMjFTWXI1aldUMlQzZ0ZsY3BMUFVBT0R3QnQ4TGx5aXM5U1RqTkJpVGN4OEM5Q213?oc=5",
+        "source": "YouTube",
+        "date": "Sat, 15 Nov 2025 14:45:07 GMT",
+        "iso_date": "2025-11-15",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Video discusses the concept of data gravity",
+            "Explains how data attracts applications, services, and infrastructure",
+            "Describes the impact of data gravity on business and technology"
+          ],
+          "company": "Not specified",
+          "pain_point": "Not directly relevant to data integration",
+          "zetaris_relevance": "Low relevance — the video discusses a general concept rather than a specific data integration or quality problem",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Building a Data Lakehouse at 7bridges | Starburst - YouTube",
+        "text": "Building a Data Lakehouse at 7bridges | Starburst&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KUVcySGE3VUVRd3hHVHF0T1NEQm53V3Rfd1VLSXlTbWNYR2VQYjBNZkJPRGRodlJza2UxZTdEb1RndS1BdC02RmJiOXZIbWU3dFkybThn?oc=5",
+        "source": "YouTube",
+        "date": "Fri, 25 Jul 2025 01:19:22 GMT",
+        "iso_date": "2025-07-25",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "7bridges is building a data lakehouse",
+            "The project involves data integration and management",
+            "Starburst is involved in the project"
+          ],
+          "company": "7bridges — Not specified",
+          "pain_point": "Data integration and management",
+          "zetaris_relevance": "Zetaris could help with data integration and management through its semantic layer, enabling 7bridges to unify and query data across multiple sources",
+          "lead_score": "Warm"
         }
       }
     ]
