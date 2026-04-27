@@ -3,3 +3,7 @@ __pycache__/
 .env
 venv/
 docs/news_raw.json
+
+# Sensitive sales-intelligence content (synced via GitHub Secrets in CI)
+zetaris_knowledge_base.md
+search_keywords.txt
