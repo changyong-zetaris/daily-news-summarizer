@@ -42,6 +42,13 @@ Respond in this exact JSON format:
 Respond ONLY with valid JSON, no markdown or extra text."""
 
 
+# Only the sections most useful for lead-scoring are sent to the LLM. Sending
+# the full KB (~12 KB) per article exhausts the Groq free-tier daily token
+# quota; the trimmed prompt keeps classification accurate while staying ~70%
+# smaller. Update PROMPT_KB_SECTIONS if other sections become decision-critical.
+PROMPT_KB_SECTIONS = (8, 10)
+
+
 def load_knowledge_base() -> str:
     """Load the Zetaris knowledge base from the ZETARIS_KB environment variable.
 
@@ -57,13 +64,32 @@ def load_knowledge_base() -> str:
     return kb
 
 
+def extract_kb_sections(kb: str, sections: tuple) -> str:
+    """Return only the requested top-level `## N.` sections from the KB markdown."""
+    header_re = re.compile(r"^## (\d+)\.\s", re.MULTILINE)
+    matches = list(header_re.finditer(kb))
+    if not matches:
+        return kb
+    wanted = set(sections)
+    chunks = []
+    for i, m in enumerate(matches):
+        section_num = int(m.group(1))
+        if section_num not in wanted:
+            continue
+        start = m.start()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(kb)
+        chunks.append(kb[start:end].rstrip())
+    return "\n\n".join(chunks) if chunks else kb
+
+
 def build_system_prompt() -> str:
-    """Compose the system prompt by appending the knowledge base to the base instructions."""
-    kb = load_knowledge_base()
+    """Compose the system prompt with only the lead-scoring relevant KB sections."""
+    kb_full = load_knowledge_base()
+    kb_trimmed = extract_kb_sections(kb_full, PROMPT_KB_SECTIONS)
     return (
         f"{BASE_PROMPT}\n\n"
-        "===== ZETARIS KNOWLEDGE BASE (reference) =====\n"
-        f"{kb}\n"
+        "===== ZETARIS KNOWLEDGE BASE (lead-scoring excerpt) =====\n"
+        f"{kb_trimmed}\n"
         "===== END KNOWLEDGE BASE =====\n"
     )
 
@@ -130,7 +156,12 @@ def main():
     model = config["settings"]["summary_model"]
 
     system_prompt = build_system_prompt()
-    print(f"System prompt size: {len(system_prompt):,} chars")
+    kb_full_len = len(os.environ.get("ZETARIS_KB", ""))
+    print(
+        f"System prompt: {len(system_prompt):,} chars "
+        f"(KB trimmed from {kb_full_len:,} to ~{len(system_prompt) - len(BASE_PROMPT):,} chars, "
+        f"sections {PROMPT_KB_SECTIONS})"
+    )
 
     with open("docs/news_raw.json") as f:
         raw = json.load(f)

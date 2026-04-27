@@ -3,5 +3,8 @@
 
 settings:
   results_per_keyword: 3
-  summary_model: "llama-3.3-70b-versatile"
+  # Use llama-3.1-8b-instant: 5x larger free-tier daily quota (500K vs 100K
+  # tokens) than the 70b model. Quality is sufficient for Hot/Warm/Cold
+  # classification when paired with the trimmed KB excerpt in summarize.py.
+  summary_model: "llama-3.1-8b-instant"
   max_article_chars: 3000

@@ -12,7 +12,11 @@ permissions:
 jobs:
   summarize:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
+    env:
+      # Stream Python stdout/stderr in real time so progress shows in CI logs
+      # while the Groq API loop is in flight.
+      PYTHONUNBUFFERED: "1"
 
     steps:
       - uses: actions/checkout@v4
