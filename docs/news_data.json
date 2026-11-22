@@ -1,6 +1,6 @@
 {
   "_metadata": {
-    "fetched_at": "2026-11-21T23:36:22Z",
+    "fetched_at": "2026-11-22T23:54:07Z",
     "keyword_count": 10
   },
   "keywords": {
@@ -12,24 +12,6 @@
         "source": "Informatica",
         "date": "Tue, 17 Nov 2026 22:49:23 GMT",
         "iso_date": "2026-11-17",
-        "channel": "News",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "AI Data Quality: Challenges & Best Practices - AIMultiple",
-        "text": "AI Data Quality: Challenges & Best Practices&nbsp;&nbsp;AIMultiple",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YME5KUzFONXBuV1U4RHdMUHhmZDBJaXNRSXQ3MXNuM0tjVGc4c1ZRZC1YRGdYRndROW1KN3h5ZzdoeGtCSk9WdWZwYm02SjQ?oc=5",
-        "source": "AIMultiple",
-        "date": "Wed, 18 Nov 2026 08:00:00 GMT",
-        "iso_date": "2026-11-18",
         "channel": "News",
         "analysis": {
           "summary": [
@@ -60,6 +42,42 @@
         }
       },
       {
+        "title": "AI Data Quality: Challenges & Best Practices - AIMultiple",
+        "text": "AI Data Quality: Challenges & Best Practices&nbsp;&nbsp;AIMultiple",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YME5KUzFONXBuV1U4RHdMUHhmZDBJaXNRSXQ3MXNuM0tjVGc4c1ZRZC1YRGdYRndROW1KN3h5ZzdoeGtCSk9WdWZwYm02SjQ?oc=5",
+        "source": "AIMultiple",
+        "date": "Wed, 18 Nov 2026 08:00:00 GMT",
+        "iso_date": "2026-11-18",
+        "channel": "News",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Why Data Quality and Data Readiness Can Make or Break AI Initiatives - LinkedIn",
+        "text": "Why Data Quality and Data Readiness Can Make or Break AI Initiatives&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWi0zNnl2RDYxTnBQY2JHeC1KbW9MX2syTGlCYUxoT095cUE1cEtWajJwdHRMQ0NpWHRQZmRtOC0xMnRrMU9kWjVuRDMtMFpUMnZZMXpzai1tT24tdTFncVVvMllPd1I3OFJrbmlFZ29uZzh4R3NPa0Y2QnRBbUFFTnREMnpOSUQ0bW1IU0pHcWdWS3VmeGYxdWNpSEhydWxZZElIU2hRZVlYdmIxZTRFc0NqU004RG9hWE5yVllRZw?oc=5",
+        "source": "LinkedIn",
+        "date": "Sat, 21 Nov 2026 06:30:25 GMT",
+        "iso_date": "2026-11-21",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
         "title": "The EQΦS Asia AI study (April 2026) identifies four structural corrections that lift the market score from 0.337 to 0.401 and cut the predicted AI project failure rate from 94% to 82%. They hold under every scenario. Measure data quality before deploying. Requir - LinkedIn",
         "text": "The EQΦS Asia AI study (April 2026) identifies four structural corrections that lift the market score from 0.337 to 0.401 and cut the predicted AI project failure rate from 94% to 82%. They hold under every scenario. Measure data quality before deploying. Requir&nbsp;&nbsp;LinkedIn",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONFpHREVDSm1ZSmRoZVRQT01HYmp0ZG1FSjdld0JEaUhKMWZweFBBZVRueEthbTAtbU8xaWN0cDhEMW45TUdkSFdmeDVvZGVoYVZnQXFiQlV2MVVlREZpT0hfVHNRT0trZXZCSWZGamR1ajJNZ0lGOUllRHEwZjZsSjRIQ2JYdFZaRGc1emxEN180d00xMmpjOFh1QUtCZ05ZUG0zV3d4RmNQR1ZqaXlBaTFCNlZXYjhLeWxuVl9jSExoQjNOdjBXVkFfX3pPbkZRbXhrUDRuaU9QSEct?oc=5",
@@ -78,11 +96,11 @@
         }
       },
       {
-        "title": "When an AI pilot works in the demo but stalls in production, the first instinct is to blame the model. The cause is often the data. Our new guide covers the three foundations enterprise AI depends on, and how to build them: https://hubs.ly/Q04Fp4440 Most enterp - Facebook",
-        "text": "When an AI pilot works in the demo but stalls in production, the first instinct is to blame the model. The cause is often the data. Our new guide covers the three foundations enterprise AI depends on, and how to build them: https://hubs.ly/Q04Fp4440 Most enterp&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWlozUURnUG51THdVTmVVN2k1MDVKUXdva1hNX3NWcS1CQTlJVEtVUHlTb2lxcUFvSTgyR0VrTHVGRlJPWXZ6bGp5ajFlMHN4RWFvTlNKNDlLY2d4RDlZMDUwVDVZTkZTR0hWa1dUVTdRSkRFRGVLMVFaTlNodGQ0YXRYcF9RZWUzTS1sMlFDYnhtbF8yR1FjUGlZbGlzOWYyUmVqd2lMX3g4V2k4cHRsVEstQ2xiX29UbU5ZOUtIaHVJbU1sUERqbnZxM1pqamlsdVB6REhRclZKNm10OXBMVXRQTmNCQQ?oc=5",
+        "title": "“𝐁𝐞𝐭𝐭𝐞𝐫 𝐀𝐈 𝐒𝐭𝐚𝐫𝐭𝐬 𝐖𝐢𝐭𝐡 𝐭𝐡𝐞 𝐑𝐢𝐠𝐡𝐭 𝐏𝐫𝐨𝐛𝐥𝐞𝐦” Most AI projects don’t fail at the model. They fail at the question. On AI & Data Driven Leadership, Hardik Parikh explained where expert-led AI training really begins: not with data, but with the problem - Facebook",
+        "text": "“𝐁𝐞𝐭𝐭𝐞𝐫 𝐀𝐈 𝐒𝐭𝐚𝐫𝐭𝐬 𝐖𝐢𝐭𝐡 𝐭𝐡𝐞 𝐑𝐢𝐠𝐡𝐭 𝐏𝐫𝐨𝐛𝐥𝐞𝐦” Most AI projects don’t fail at the model. They fail at the question. On AI & Data Driven Leadership, Hardik Parikh explained where expert-led AI training really begins: not with data, but with the problem&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMiuwVBVV95cUxPM0VqMHFHc0NjN3Q1RGNWZjh1ZnpwdmV4VkJrZEtnd29fQW9Cd3Z4OTBfOGtLaVRwMFFrSjNOdnZnZU5PZjl1d0hjX0NKR05CTUZpaVRETzhoS3ktUzNGRE93a1JWM2R2Y2tzbGFHc1NiZnBqTHN1aDRGZ095NzVaS1p2OURUenN1eUtRYzFxTzA1Z213ZUhvNGxLMWRnOTlOcjg4N2R4b0xBN2xtYk93QTRtYzQzTzlGNkM0dGh6ZzhoSk1JRVJwWUFSazBzQmtnMGJaRDZla05qRlc1RVpTWGsxdnBmckRDT3JJeW5peENfT19RbW54OXlFRlZISnNjREt5MlpFcmNHUzViUUF0ck9STnd0ZjRQUDVkeERVd3Jia2lQVkdrSEFTdDBfemdYa29Qcm04WXBjS1V3NjJoWXY1bUE0aGJ1RXV0SWdjdlFsVHFiT284MXpHRlBGdWdjVl9YNTZJcWpGbTNIbHBTTEtadW9laEd3dHpKdV96ekhjRXB6M3o3eHNCSjhCNnpfUGxVZldJT2l6dGNaLTkxU1ZxNENWWVpZUVdRRlh2LWxTUkN5RUc2aWxhVDZnXzB6b0F2UUdvVld1MlFvM2R6ZVM0Wl9kZzNYR25EdHV0cHVYUDJlN3pfb2d5b1NSZU1jZ3VqeTdTUldwWVBSM255NXVvWlVtYlBVOFlrRDlHbjNUd1JUWGxPaDhjLVdHQTNueXhBMnl5MEZDSEl3ZXJ4Rk5yclNCd2pUZV9KWUhDbGd6MTF2ajc5LUt3X3lPMmEzNnhNVWdzTUxtOTJDZi1hWkJWdGFUUkExTk5VZWI4cmZIclBnOFdlay0xamxYVU9aa1J4TGxMWl9wR0hXdE9QRkR0VnBYZ0J0ZWxOTTNqQmxXQXVfdlpGWXlXTFdfbmV5U2h1NGRrd0dHRkE?oc=5",
         "source": "Facebook",
-        "date": "Mon, 16 Nov 2026 19:00:04 GMT",
+        "date": "Mon, 16 Nov 2026 13:30:29 GMT",
         "iso_date": "2026-11-16",
         "channel": "Facebook",
         "analysis": {
@@ -114,12 +132,12 @@
         }
       },
       {
-        "title": "Most companies don’t have an AI ideas problem. They have an AI results problem. On today’s episode of the AI & Data Driven Leadership Podcast, Dean Guida sits down with Larissa Schneider, Co-Founder of Unframe AI, to talk about why so many AI pilots n - Facebook",
-        "text": "Most companies don’t have an AI ideas problem. They have an AI results problem. On today’s episode of the AI & Data Driven Leadership Podcast, Dean Guida sits down with Larissa Schneider, Co-Founder of Unframe AI, to talk about why so many AI pilots n&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaU5waXlpQUN4N252cGFPX3h2b1JUZXg0dGlNc294b3l0Y2todWZUU3R0Wm92SVNvRnJsMmMyZ3VYdjNFeUtjdXZjdVR5VXRFc2thX0JqUmhKcUxVQjNsMGVqbGgyUTg1MW1Gd2tMbkE1T1V4RzJKVHRoQ05CRE9QVWI0eGdmejVlZ1AyWFllbFhuNnhtZlBaamJURS12RzlZLUZZWGlPczhxQ3laVEtJWng2TEE3MF83aVZoWlV2QlV5LTMyNHRQMlJtS2pEZzZULWJ0SlJLZVBmRnRiaGc?oc=5",
+        "title": "You don't need to become an AI engineer. You need to know enough about AI to point your data quality skills at it. That's the idea behind Quality Data and Trusted AI, a half-day tutorial at DGIQ + AIGov 2026 on Monday, November 16. DataKitchen's Chip Bloch - Facebook",
+        "text": "You don't need to become an AI engineer. You need to know enough about AI to point your data quality skills at it. That's the idea behind Quality Data and Trusted AI, a half-day tutorial at DGIQ + AIGov 2026 on Monday, November 16. DataKitchen's Chip Bloch&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWkhtQXNjOXZqeVpLbEVLbHYtanZzakdtSGpTRlF1VWtienFaTWJmT18xbmNnN3g2TjJEWEdtSG0zTzlySk5pSHZ6QUdaZXhCM2syR2EtSXppdnJ4YmlGaE5HcjhjamkzM1hvdHBjc0I2V25MMkxqamRCaGZIMmQ3eUpFcTd4eFU5eWdtLU9tOXktR1ZEU3lYMGN4VVRSamVWVll5eXUtd1ZFeC1iU0c2WW1ZSTlLVHNKVHZ1UzFOblE5bHpvTGRjMTBTSlZyaVZNSUhDRzJXQ1ZQTkZo?oc=5",
         "source": "Facebook",
-        "date": "Wed, 18 Nov 2026 14:06:10 GMT",
-        "iso_date": "2026-11-18",
+        "date": "Mon, 16 Nov 2026 17:00:19 GMT",
+        "iso_date": "2026-11-16",
         "channel": "Facebook",
         "analysis": {
           "summary": [
@@ -132,11 +150,29 @@
         }
       },
       {
-        "title": "Data Governance Consulting: How to Start a Programme Without a Year-Long Policy Project | by m4qaon | Nov, 2026 - Medium",
-        "text": "Data Governance Consulting: How to Start a Programme Without a Year-Long Policy Project | by m4qaon | Nov, 2026&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWx1OTgxQUUyS3BoZXhicFhGVEZXRWJ6amEzdC1rU3pqVlg4bGFLVVltaVhzOUREY2ctSnFRek1ac21jSVRxRnIyOFlUaTJtRU0xUkx4SGZPYkRhaG5EUmZSampWbE40V0puRldOT0R3RzhmRkEyT1QxVmc1SkJUNElkdzlEai1lSlY1N0VucVdIcmlzLUZKS19CQmRSUHpCYUdneWJhUHl5TmZTNnpWS1Vrc0M0cUU3X1dyclZKTkpFRFMx?oc=5",
+        "title": "Calling Google’s Decisions API from BigQuery | by Jeff Nelson | Google Cloud - Community | Nov, 2026 - Medium",
+        "text": "Calling Google’s Decisions API from BigQuery | by Jeff Nelson | Google Cloud - Community | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZlVjdVpzNkF0eGExWGJMcFFiRFlNRHVEM3plYl9oRlZHVUkwTmRmamtGU0tSSzZXenFlZXg2XzZ3SVF3QWdSLWNOV2tVTWp4SGYwN1hmajhDeEpRblg1cjhTRXpIVEc5Yzd0QXFMemRpNWgtMlQ5dmFaRHpjMmdlekE1TzJDMEp0elpoZldBdXVwZw?oc=5",
         "source": "Medium",
-        "date": "Sat, 21 Nov 2026 17:28:39 GMT",
+        "date": "Thu, 19 Nov 2026 11:39:46 GMT",
+        "iso_date": "2026-11-19",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Three Mindsets When Building Forecasting Models | by Siqi Li | Nov, 2026 - Medium",
+        "text": "Three Mindsets When Building Forecasting Models | by Siqi Li | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmRHZ05fMVNVSnNrMndLcUNEblFTakpFenhuUlJhVDdDdGhkQTFrUzlUWGRDZGdWMUFHazBmbElHU1B6Ny1YZVRkLUotZng0NUZVa3ZEaVhpRGppZFctUmhlTEJEbEN0dFJMMHhkZDNHX19JVzJ1dVJaQ092bDRzRUJJYWFpSXAyNFl3ejFjX00?oc=5",
+        "source": "Medium",
+        "date": "Sat, 21 Nov 2026 20:56:35 GMT",
         "iso_date": "2026-11-21",
         "channel": "Medium",
         "analysis": {
@@ -150,47 +186,11 @@
         }
       },
       {
-        "title": "From POC to Production: What Must Be Proven Before an Enterprise AI Use Case Becomes a Project - Medium",
-        "text": "From POC to Production: What Must Be Proven Before an Enterprise AI Use Case Becomes a Project&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ2pXZ296SndoQXFaWWI5X2hzUU5kUE5hWDdzbFd1VWJRN0VuSVlkYXY4dndyekJBczVRY1lkV1BtbVdJWmdJaDJnNHY1N2RSZDVic0xnTk9qbUw2bXhhTVRINWJpM2lQOTRXeFhDN041UThkQ0hyXzNKUzVYcHM1TTREbG0wSFhFbUVDUklkMHpoc2lUTlU2X0R5VjE4emZPaFBRY2ZvLVFFQjc2d2pNbGcxalI4TFhScG4xZkJJNXF4NHVlZ2VtN0xMT3FpQkZfNWdXYg?oc=5",
-        "source": "Medium",
-        "date": "Tue, 17 Nov 2026 05:29:33 GMT",
-        "iso_date": "2026-11-17",
-        "channel": "Medium",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent - YouTube",
-        "text": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wZGh6dU42Q2FKT0ljZkZ5LUJzb2t5aUozbFpfQTcza3paeTZaX0JFQXJ3NjltTlh6NXdlYjRuQkdhRVJpcHZsOXpyVk85U1YtS0ljT3RR?oc=5",
+        "title": "TT5a Measurements of Data Quality ISO 25014 and ISO 14224 applied to Asset Management Data - YouTube",
+        "text": "TT5a Measurements of Data Quality ISO 25014 and ISO 14224 applied to Asset Management Data&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GUDhoaV91STgxb05RRVpNOUt3M3A0T2ZtQmpFSlQ1cjZncWVrWmhIaVVoWHdHZndwZ3BrQWZEMi1CanFqWWJEc3FSYm9MRmFkZWdyTHNR?oc=5",
         "source": "YouTube",
-        "date": "Thu, 19 Nov 2026 20:00:09 GMT",
-        "iso_date": "2026-11-19",
-        "channel": "YouTube",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Harvard Just Discovered AI Isn't Actually Working - YouTube",
-        "text": "Harvard Just Discovered AI Isn't Actually Working&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sWnJHT1dGS3RjSTFkZ1N1c0tMRDR0di1EbXdSOUplRlhpdm5mRm5lLXRaWlp5SGlzTFdzZlRvcTB3ZDJySjBDSlJNVnVsMDdEQXlQekd3?oc=5",
-        "source": "YouTube",
-        "date": "Mon, 16 Nov 2026 12:45:37 GMT",
+        "date": "Mon, 16 Nov 2026 20:30:27 GMT",
         "iso_date": "2026-11-16",
         "channel": "YouTube",
         "analysis": {
@@ -204,11 +204,29 @@
         }
       },
       {
-        "title": "How to Explain ANY Data Engineering Project in an Interview? 🔥 | Complete Guide - YouTube",
-        "text": "How to Explain ANY Data Engineering Project in an Interview? 🔥 | Complete Guide&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZeXNabHJnMmxFd2E2VkwzMVJBV2dENUpJT18xVExGQ2UxRl9HUVpPNFVNalVlaW1vUnNXUGhxVlJ5WWVINjhrTmVaeExuRWVSQ0E3bWxR?oc=5",
+        "title": "How to Handle Data Quality Checks, Failed Jobs, and Retries - YouTube",
+        "text": "How to Handle Data Quality Checks, Failed Jobs, and Retries&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JYUJwQURSUjBQSXdwOFZIdkhodm83TGlCX2U4WG5kbm5vX25DMlNsemlFV3VmTUJQa1RqSERUX1l2VE45Sm80Mmo0cnZfRjUyLVhTNUd3?oc=5",
         "source": "YouTube",
-        "date": "Tue, 17 Nov 2026 07:15:36 GMT",
+        "date": "Tue, 17 Nov 2026 19:00:29 GMT",
+        "iso_date": "2026-11-17",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Who Owns AI Governance? | George Firican, LightsOnData - YouTube",
+        "text": "Who Owns AI Governance? | George Firican, LightsOnData&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14SzlhQlhydVpsYmhYZ01CbDlhZmU0UGVQTE1aLWtNcHdJWXNCM3hILW10RWxWRVp6M0dHbHdkbFhBZElGbmRqOUs0NEFVZk0wQmJkTzNB?oc=5",
+        "source": "YouTube",
+        "date": "Tue, 17 Nov 2026 05:00:35 GMT",
         "iso_date": "2026-11-17",
         "channel": "YouTube",
         "analysis": {
@@ -242,12 +260,30 @@
         }
       },
       {
-        "title": "Why Information Hoarding is incompatible with the AI-Driven Enterprise - LinkedIn",
-        "text": "Why Information Hoarding is incompatible with the AI-Driven Enterprise&nbsp;&nbsp;LinkedIn",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb1RYdUVMT0tnbDhic0l1MVJ5dmVvSVNicEt1NkdGM19zUWdjVEVqR1FlbzJKOGVndzNvd2t1SmhGODlGQmdkRmpzVEpMeUs0YVc0dVA4UTBjYWlmWjFZMW9lR0pxMXFBZ3ZLd2FiRU10cDlfVjFlUkNNQmZRVUxlVjNvc1hKMTRtemNMWGZxMG1veFZE?oc=5",
+        "title": "The AI Pilot Trap: Why Great AI Demos Fail in Real Enterprise Environments - LinkedIn",
+        "text": "The AI Pilot Trap: Why Great AI Demos Fail in Real Enterprise Environments&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeDNPZk5IRW4xZlF1NW90RW9jQTRBcnZuVE5DMW5Bc2pabjktdFc4OXNodC1kS1pQZy03NnBJdGp6R1p3cUZkR0RMcFcyYUQ3VUZiOWwzaGxlcW9hUUpNUmExa2hoeXRpZnJzbkVlRFIyMWxOa2ZURllyNHZzRk0wV1h0SS0xMVROSWVwLWdfejZrX3hoT0NuNVZ0YWN2MVRaaEE?oc=5",
         "source": "LinkedIn",
-        "date": "Sun, 15 Nov 2026 20:30:02 GMT",
-        "iso_date": "2026-11-15",
+        "date": "Thu, 19 Nov 2026 21:00:32 GMT",
+        "iso_date": "2026-11-19",
+        "channel": "LinkedIn",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Enterprise Architecture Stuck in Silos? Rewire for Outcomes That Drive Delivery. You build capability maps. You document roadmaps. You run innovation labs. And yet.. Why do business teams still call EA \"the ivory tower\"? Why does legacy debt still drown mo - LinkedIn",
+        "text": "Enterprise Architecture Stuck in Silos? Rewire for Outcomes That Drive Delivery. You build capability maps. You document roadmaps. You run innovation labs. And yet.. Why do business teams still call EA \"the ivory tower\"? Why does legacy debt still drown mo&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRkdWcFBSNUh4eTFhc0tQZWxQRHlkWDlXN0hrWXRVN0YtZThvZ19hSnZhLUM4RUEwZFowTXNnbDhnaGFmRGxXbUNKZGZnZTNwOEFLTlN0T0xDY0EtVjVGTHhGeDZ2QkpWNTlKc0U4S2IzYzQxV0ZrQ1lNME5iOXVDS1c5OTR1dWdPbWRLLWtmYVByS0lGZmdOY1BMT0RNUkJ3Rzk1bDI2akw4dUFSQjYwOHROMXctdERUT2J0TzlB?oc=5",
+        "source": "LinkedIn",
+        "date": "Sun, 22 Nov 2026 05:17:29 GMT",
+        "iso_date": "2026-11-22",
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
@@ -314,103 +350,13 @@
         }
       },
       {
-        "title": "Columbus Businesses had a WEEK: a $500MM soybean plant opens an hour north, New Albany breaks ground on 620,000 sq ft of industrial, and DHL pitches an $82MM Pataskala campus - Reddit",
-        "text": "Columbus Businesses had a WEEK: a $500MM soybean plant opens an hour north, New Albany breaks ground on 620,000 sq ft of industrial, and DHL pitches an $82MM Pataskala campus&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVC1neFB0YkNadC1Ra3NFTXhBWW8tcG9pWEpaMGF2RTREd1BtR2oxLWNRbXZwY2h3VnJWQTBycU5fMXl6Mzc5SjRoUFRDdVM3Tnp2cVhwcDNLOXF4Y0ljOGV1NjAxbnZTS1VrVGJfSkhpS0J6anN0NEpNeFMxOHdGRlpaRnpXc2llUGctYWpKSVNjSVBQRVNta3BaUVVGdzQ?oc=5",
+        "title": "Why aren't the UK government acting faster on AI when the general public can already see the mass job losses it's potentially leading to? - Reddit",
+        "text": "Why aren't the UK government acting faster on AI when the general public can already see the mass job losses it's potentially leading to?&nbsp;&nbsp;Reddit",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYlVkWThpMDZxd1NxNl8ydDk3T2IyZjF2b2xIQ0RhSl9lZ2ZlWVlPZkpyWmpSTmZUS1JFNXREeVRiWFZtTUlMWktYXzI3dzl6QXZTNzZtaGthaGxkU1JGQ2NGcGdSQnpIYWROVWtIU2V3aGZ3a0o0YUI0X2hOQWo5azdqWmJVc3pzUnhQWGhsLXQwQUxOeUwyQ01qRHR6Zw?oc=5",
         "source": "Reddit",
-        "date": "Fri, 20 Nov 2026 14:23:57 GMT",
-        "iso_date": "2026-11-20",
+        "date": "Thu, 19 Nov 2026 09:08:44 GMT",
+        "iso_date": "2026-11-19",
         "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Claude Code Is Designed to Make You Dumb - Reddit",
-        "text": "Claude Code Is Designed to Make You Dumb&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV2J1UGVXWTZlSnkxWF9JWmhoaTl2ZzhkNVJLRC0tYjJpMDZPbEFnUmhLY3ZfTnA0OEFhcjdEM1gzUTdlVFEtNDY3ckZEWkMtX21uRUtkbmFpUkdydVoyLW1GVFZaUzVwRHZzd09ZQ2o5OTFvajMySEk2TXBFUkZKcXZ3UEd0Y2VKbkFSckNHZGtPN3UxZEVYeDdR?oc=5",
-        "source": "Reddit",
-        "date": "Wed, 18 Nov 2026 12:03:23 GMT",
-        "iso_date": "2026-11-18",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Unified Enterprise Intelligence Through Generative AI Integration | by Siva Hemanth Kolla | Nov, 2026 - Medium",
-        "text": "Unified Enterprise Intelligence Through Generative AI Integration | by Siva Hemanth Kolla | Nov, 2026&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOVYtWkpHN3dRdlBWc2JtMl9mQVc5bTJKV2djZ3BkaTVQaXQ4M0hnS1NwSjRzME8zVll1NlNIbXJqamdXSG9vSXBRQ3FNcERaNWRQRld5RDNiNEUtUWM0RDRpdUlwdEpDTGIyMFQzUnk1ZEVMYURKS3R3d3g5VndXMzF5X1JfekZvVXZNQlZPOVdoeG1la1ZwR01yTHhDYTZmNmdMSS1DX0F0UVI1aEZIOV9RSmNheUt2?oc=5",
-        "source": "Medium",
-        "date": "Sat, 21 Nov 2026 06:34:25 GMT",
-        "iso_date": "2026-11-21",
-        "channel": "Medium",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Improving Operational Efficiency Through Power BI Data Visualization | by Triveni Kolla | Nov, 2026 - Medium",
-        "text": "Improving Operational Efficiency Through Power BI Data Visualization | by Triveni Kolla | Nov, 2026&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajhlSzNNY2hNcnV1SElKNmNiVUNBZHpER2VhdXlIRXRTaUVUSkNYaENCcGFnaFVrV3Q2a0tZY19RdFNubjdxenhjRGRKNzhvTDdZSUh3eVhPNXlhOWtud0lKMjQ3WGlnQ3YyU2xNNXoyVWhDbXhkS0VmUEtCLVl5bmp6ZFB4NjUyUUI5emk1MlVnQnhnOEpYWG9GWTdtX0c2dmE3bjlJaXktZXdGUlBMdG9ZV3lZc1E?oc=5",
-        "source": "Medium",
-        "date": "Sat, 21 Nov 2026 09:18:11 GMT",
-        "iso_date": "2026-11-21",
-        "channel": "Medium",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "How Knowledge Graphs, Ontologies, and Reasoners Keep AI Honest | by Vishal Mysore | Nov, 2026 - Medium",
-        "text": "How Knowledge Graphs, Ontologies, and Reasoners Keep AI Honest | by Vishal Mysore | Nov, 2026&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSHh6QWdFQnl3NmZPcXVyOUpZSE1hTWpUYkN1MDJ1MEpubEoyTTdnUFdVS1c2RjZCV1NkZE5heVEwNEFQS1loelpSVVczM2lzeUNnRVo4VXhpU09FNXZIM3dXektfX0piQ0tsQzFnWjgxU05YeUdQWFFZdUd4MHVTZ3NFb3ZmWFQySG9jSk5mSGdUenJzR2p2ekV4Q2ltNzdEa1E?oc=5",
-        "source": "Medium",
-        "date": "Sat, 21 Nov 2026 13:01:42 GMT",
-        "iso_date": "2026-11-21",
-        "channel": "Medium",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Modernizing Government Applications for Secure, Governed AI - YouTube",
-        "text": "Modernizing Government Applications for Secure, Governed AI&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GdkhFLUJTUGxscE5qa1psNHJQa3JKS0wyOUxsUlUzejE5V0cwZ3VhNFd5ZDN0c19qZUZGenFscERiMERvZExBRHlDYkFVTHhVSjBUaG9B?oc=5",
-        "source": "YouTube",
-        "date": "Sun, 15 Nov 2026 16:00:21 GMT",
-        "iso_date": "2026-11-15",
-        "channel": "YouTube",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -440,12 +386,30 @@
         }
       },
       {
-        "title": "Why Growing Companies Get Trapped by \"Human Middleware\" (And How to Fix It) - YouTube",
-        "text": "Why Growing Companies Get Trapped by \"Human Middleware\" (And How to Fix It)&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtaER4SXByMV9JYnpCWXFVcHhTUkZzcE1hZ0JzRWZFVkpSYzZOYzFHX1FFZlpGSkU5NDI4ODNfODhuS0M2TnA3UFZlNGNXbGpuc0Q5T1NB?oc=5",
+        "title": "Where does your data live? Unifying AI data on Azure with VAST | ODSP2244 - YouTube",
+        "text": "Where does your data live? Unifying AI data on Azure with VAST | ODSP2244&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ed3RGSG40Q0lMazJFUjIwZDZKX2lBZk93Y2NRc1gycUJibnNUU0o2Y1ZHQm9jUnJpcVF4NnRYcVNpOUt3VDh3aDlaWThlS3FBVFJ0dTRB?oc=5",
         "source": "YouTube",
-        "date": "Mon, 16 Nov 2026 07:25:16 GMT",
-        "iso_date": "2026-11-16",
+        "date": "Wed, 18 Nov 2026 06:26:15 GMT",
+        "iso_date": "2026-11-18",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "2 key Pros and Cons of Zero Copy Architecture - YouTube",
+        "text": "2 key Pros and Cons of Zero Copy Architecture&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VQUNWSGN4UWdMaHlSZlZNS2luWkktN1FZVW5GYmMwOUNrNXFzNUx5dTFpQUxYRzM2STBNYnB5UkptSVY2Z3JGM3VTUGRWeGJfcTlXTQ?oc=5",
+        "source": "YouTube",
+        "date": "Sun, 22 Nov 2026 21:15:42 GMT",
+        "iso_date": "2026-11-22",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -460,12 +424,12 @@
     ],
     "data integration challenges": [
       {
-        "title": "Data Integration to Measure Losses on Mexico's Toll Roads - Mexico Business News",
-        "text": "Data Integration to Measure Losses on Mexico's Toll Roads&nbsp;&nbsp;Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWV9UcnBPX3ZrZFZMZFNRNm5TTjhrdDdSX3VVSjRIbGYzWDdDU0hqaGxVN1ZwRkxDZEl4OEZQeW5YZDRUOWlNMk5FTTI2djY5V2ozT3NyZnBhX0twcGtzTjE1NE9CVDlka1M0OVdXWkNPU1FNeHBPTkx6U1QzRDQyaEM3Q21TTTJpdGkzekJuSURRQ3RiOUhMem00N2dXMGM?oc=5",
-        "source": "Mexico Business News",
-        "date": "Fri, 20 Nov 2026 14:33:17 GMT",
-        "iso_date": "2026-11-20",
+        "title": "Artificial intelligence aids multi-omics data integration in cancer drug discovery and development: from targets to drug synergy - Nature",
+        "text": "Artificial intelligence aids multi-omics data integration in cancer drug discovery and development: from targets to drug synergy&nbsp;&nbsp;Nature",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiTnVzMTZxT2dXdFJHc3p1cFlkWDZMNFBacG5sU3ViQllqMXdZY2VmRkkxTnF1WmNabFRIYzVIMzNhQWtYVXY1VlFUSnZXQlJIY084QndIbG5ZV1BHbnpz?oc=5",
+        "source": "Nature",
+        "date": "Mon, 16 Nov 2026 12:49:43 GMT",
+        "iso_date": "2026-11-16",
         "channel": "News",
         "analysis": {
           "summary": [
@@ -478,12 +442,12 @@
         }
       },
       {
-        "title": "Benefits Management Software Market: Growth Challenges and Strategic Opportunities - LinkedIn",
-        "text": "Benefits Management Software Market: Growth Challenges and Strategic Opportunities&nbsp;&nbsp;LinkedIn",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRy1BWlB1Y1JvNTZvVHVtcUVzUWZWWWNyVW5zb0NQY3VmcElSVEp6YTFLZVljY0prcmJ2emZnSkhOSG5TRW1zaE1YRk1heWNHbzhXT0E2b1pIeWFDVTcwdTc0bjdNYXdCVXZheWo3cjZXdVJJMjU0Ym56VkdoZEFWY1NoWkk3UXd4Wi1Fb0NyUFFFcW5B?oc=5",
+        "title": "Cloud Data Integration Tool Market: Current State and Future Outlook - LinkedIn",
+        "text": "Cloud Data Integration Tool Market: Current State and Future Outlook&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOczA5ZHgxRVBRbDdjMk04U2t1LW1vS3dzUzUxY0hoVE9BT3dIaWpiODdIbHZiWGY3cHNqVXJER2ROc3k2aUtRWFI0bHlYSVdSWGtOUlJVX2J5V2hJX0tDSlRYU0hxbkJFLVU2bE1IcnhlbllUV0M4YmJVbXRjR1pLdHBkTEh5aVU1RmlwN1lhN1VBTE9NaFlR?oc=5",
         "source": "LinkedIn",
-        "date": "Fri, 20 Nov 2026 11:07:51 GMT",
-        "iso_date": "2026-11-20",
+        "date": "Tue, 17 Nov 2026 03:40:13 GMT",
+        "iso_date": "2026-11-17",
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
@@ -532,24 +496,6 @@
         }
       },
       {
-        "title": "How much value is hidden in data that sits disconnected across your technology environment? When operational data is fragmented across systems, teams and platforms, it becomes difficult to gain a clear view of performance, identify trends and make informe - Facebook",
-        "text": "How much value is hidden in data that sits disconnected across your technology environment? When operational data is fragmented across systems, teams and platforms, it becomes difficult to gain a clear view of performance, identify trends and make informe&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN0N5c1JyaFhpNEJ1V1pIWlNsTE5IWnNkWm1aS1BzTzRrVEplQ2NDQThoZzhGX3cwWW1sN0tLZzBfVTBIRjRCc25BcDRPdWtZcjNmQlVyMzl1ZGhUc29yT3BkT2ZETHMxS3diekxaVG1NYUZ4N1NOUFp1NG9wRDA2WGFWM1gtQm4wdHMyTW9iNkNyR2hEZ3ZWelJ4TWZPME5xUHJaakFLUGh4NWVBeXNtdXpWRHlGMDlKNGpQMW5uMmlVOHhkdlhicDJ5VEZjVTFaWm9WSzVn?oc=5",
-        "source": "Facebook",
-        "date": "Tue, 17 Nov 2026 10:10:00 GMT",
-        "iso_date": "2026-11-17",
-        "channel": "Facebook",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
         "title": "𝐃𝐢𝐬𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐬𝐲𝐬𝐭𝐞𝐦𝐬 𝐡𝐨𝐥𝐝𝐢𝐧𝐠 𝐛𝐚𝐜𝐤 𝐲𝐨𝐮𝐫 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬? Fragmented data limits visibility, slows decisions and creates unnecessary work. This digital integration platform connects existing systems, assets, and workflows without replacing y - Facebook",
         "text": "𝐃𝐢𝐬𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐬𝐲𝐬𝐭𝐞𝐦𝐬 𝐡𝐨𝐥𝐝𝐢𝐧𝐠 𝐛𝐚𝐜𝐤 𝐲𝐨𝐮𝐫 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬? Fragmented data limits visibility, slows decisions and creates unnecessary work. This digital integration platform connects existing systems, assets, and workflows without replacing y&nbsp;&nbsp;Facebook",
         "url": "https://news.google.com/rss/articles/CBMi1gZBVV95cUxNZ0tPT010cGlNUTdHLTg2YWpzV3BIUnJ6MVJQX09WVVJWbUVYUy1GUGQ5YUdGWDdpNGh5dUVfcDBZX3lER0Y4bWE3WUotMzR4U0dJT1k3MVFHSVRGd3dSemF6THNlYThjMS1YSy1nQ0ZwclZGMnpEU3VaZ1lETzB6dDNqNWx5MzRmUUp4azJ6a2xnVmJkUTZjWGRSQWluQnFlYk9FUGZxNHVjR2tkcTNDWjhHZkd2OER1OVo1c1lqalQ3eDloSEVnRGZXTWVzeE9oREpFQlltNWFCUUdjQTFIVnZLOTVGVmJqOGx6R1dqNkdFNkJYTE1YRFZEdHIxVDk2cnFxaWFXbjJtWlNIOVF1Q181UHZhUDhmZzNCSFlXU0F6bm5BZFpUZzFITW9mNDlVUTJTa1BJbWZubXRTaEhPQjRDOHI4bTdCMU1VVkt0X0pKTkFOWHFjUXRMMDNsNXBkdmNlY20yYldGTF9oRnZ2Q2hxc1BNV1NmWFh3WmtrMnpCUXZYRzh4N3lEcDJoMnNnamtoZmxkTy1rZVA4RElYM1hGdGRvX1F6d3lfdkYxT1BpMnVTREZHX2ZZUXk1RVFMQnMwRmM0SVNLVkthZGtmeGZMeVZQUWt2cGNPM3U2NnZuOThvcU5LZEp4X1Z4ZTZKTXJobDJwLWlBSlBsQUxTb2t1UFZMU1M2SWVDZHhuQ2UzVTAtM3BDTmdNVS15RjlpWmFNZWhtV19faEtibU5Rb25SQl92VW1mQ1VPakRfYU9keUNDby1yMEVnNlpNWWZOOElHSUYxSml4MjU3Z2FNeTBUNThZYjRHX1duOG5mZlBrRjRXYmw5TzRYeWtSVW02ai1FX21JeG14NjFkT1JoVzZPQjRUSVFHR0xIVy03Y1ZCdVpfX0tlVWdaUHNhSDZkLXQ1YVBfRXFCbVRNalpqbnh0NXpBanBMR2w4eFZsRWdmYTBMVFY1UG1TY2ZsMGNEdWFZaGlFTXVMN3Nrd2c2OFR3LV9FcGoxMm9paExvdkRVeDhoRE9jOG43OFJlNkxiMzV5UExzTHVsNmx1aEpHQy1CUFd3V2J2VjNOdnRveVpBU285ZjZ3ejVKaXpTY3d2UWJTMF9TQ1VRdkF1UG95LUllQTRyZw?oc=5",
@@ -586,12 +532,12 @@
         }
       },
       {
-        "title": "Is Anthropic the end of the AI hype cycle? - Medium",
-        "text": "Is Anthropic the end of the AI hype cycle?&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcjM3NldibXVHWVlSNUpsU0l1bjZhczd2S29BUUNmNE1TbFpKcGRMVHl4X0tMNmZscnlDN1czZ2hFaXBpbTJ3cmw3NFNYZnZSa2lkTWEyZWs0SzZrVU51LVJzZWVBLVd6bjkyMklhVVQyckpZWUsyOG04eERha2RpMExTbkpCejZXNlVxekVXYmxQVWVYekhUNlRZcV9nck1sbGphbUZ3?oc=5",
+        "title": "When Did Christianity Become So Entangled With MAGA? | by Maia Niguel Hoskin, Ph.D. | Nov, 2026 - Medium",
+        "text": "When Did Christianity Become So Entangled With MAGA? | by Maia Niguel Hoskin, Ph.D. | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMklJWFlWWFFrei1HRzAyblp6Mld4eXhnQmkzbmlHVDVoemZ0MnpPUjgxM1JyV1VLSEJLN09PTzFqbUFCa3RmdWlkTjRwbU1IaGtjTEVzN0RWcEFsc2F5T1VZUkFSazg2djVPN2xnNmhpd3NjTVZoWlZvS0J3Rjg3TXBiZWI0c2tTdXQ4azlzTURTQQ?oc=5",
         "source": "Medium",
-        "date": "Fri, 20 Nov 2026 17:59:30 GMT",
-        "iso_date": "2026-11-20",
+        "date": "Wed, 18 Nov 2026 13:16:01 GMT",
+        "iso_date": "2026-11-18",
         "channel": "Medium",
         "analysis": {
           "summary": [
@@ -604,13 +550,13 @@
         }
       },
       {
-        "title": "Hitachi Energy - X",
-        "text": "Hitachi Energy&nbsp;&nbsp;X",
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeHBBS29VMDNaV0FxS0NVWEZzOXJMMU5jQzRTbGRDWE4xOV84TUtDeGlBWW1FNmtvTnJHcXBJNHp3U0RNbU9QUmtFVm5rTVRSLUtWNDZMNWJZZE5QZGFpSlhoNXFYODltejY2bVRFWmlSVnFjdU83cDAyNF81Vy1tYlUzTF9DVnE2TFE1cS01cHBwNkNxbE5VcUVuRDhJU2E1OVBnOE9hLXhXU1B5RHMzR1V4bnoxX0dQSUR3dDVUMkVEYlFnMnJWZVh1NzN5QlhQWEFYYXVJZUlkX1V6N1JaU1Y0RkN0UjJ1NHlaM0xFbXU0SVdFRXdDRlNKQjNBRUhQbllBQ1I4MA?oc=5",
-        "source": "X",
-        "date": "Sun, 15 Nov 2026 11:27:44 GMT",
-        "iso_date": "2026-11-15",
-        "channel": "X",
+        "title": "9 Free GitHub Repos That Make AI Tools Way More Powerful | by The Explainer | Nov, 2026 - Medium",
+        "text": "9 Free GitHub Repos That Make AI Tools Way More Powerful | by The Explainer | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSUFIRC1WX3RwT0xIeFdMTjFPc3F2bWZTUldVQmVDancwY3NkS2pCRHYzdjZPSnZYd2hkcmY1bElEN25UZUp3bmFhcWxTMEVCcWZVeDVmNkRjcFF6M1RUclZkN0NjTHRYWXFSQTZodWliOUNMd19yYnhLVzB5RzZCaW9jb0xzS3NEalZaRll0WnR5MjVNTWVTU3ZfSU9qMkdJMkR2aw?oc=5",
+        "source": "Medium",
+        "date": "Thu, 19 Nov 2026 12:02:08 GMT",
+        "iso_date": "2026-11-19",
+        "channel": "Medium",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -622,12 +568,12 @@
         }
       },
       {
-        "title": "Connecting the Operation: Ambatovy’s Data Integration Story - YouTube",
-        "text": "Connecting the Operation: Ambatovy’s Data Integration Story&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DdDBQdUlxal9SSW5SWUUtWXVBLXE1RFZiekNqSUozQktVV3JHUjkyaC1pNVVPaDBISnQyRHhhQmpOdjF6Q0JFaWwyZFU3ZlNqY2lFbzlB?oc=5",
+        "title": "SAP Joule Studio Certification Training - Hands-On Demo & Exam Guide | SAP Joule Work Training - YouTube",
+        "text": "SAP Joule Studio Certification Training - Hands-On Demo & Exam Guide | SAP Joule Work Training&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xbHNaQ1RGLXEtV0hTMGlmZll4QkI4MkpyalZfUFlfNWt6ajlxWHctZmV3cDQxMDl6eFhFdm9YM3FJckI4WDhaTTV5Z01PS015eW9uZkFB?oc=5",
         "source": "YouTube",
-        "date": "Thu, 19 Nov 2026 19:20:07 GMT",
-        "iso_date": "2026-11-19",
+        "date": "Tue, 17 Nov 2026 09:20:45 GMT",
+        "iso_date": "2026-11-17",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -640,11 +586,11 @@
         }
       },
       {
-        "title": "How to Simplify Industrial Data Integration | Robustel E2C Trinity - YouTube",
-        "text": "How to Simplify Industrial Data Integration | Robustel E2C Trinity&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BdDEwVTdtSjc1ODgtQm16cWNjazJNekZ0eTNVQjhHM2ZIakNwM3NQMWcxSTBaQ2U1QkQzYll6NkpSR1g2VFh5ZkptNS1aNmlNWHNxNm9n?oc=5",
+        "title": "AI Is Coming for Nigerian Bank Jobs. Are They Ready? - YouTube",
+        "text": "AI Is Coming for Nigerian Bank Jobs. Are They Ready?&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3aXQwczNwejhUckxOMFZGb1VBVndNTEVSdUxtZzhsWlV2N1haYXBhNmJuaDJmWkFjaHdjQzZCRUhfb2JzNEF6LUhsYnZyODFubHU4UWZ3?oc=5",
         "source": "YouTube",
-        "date": "Fri, 20 Nov 2026 08:20:28 GMT",
+        "date": "Fri, 20 Nov 2026 17:15:19 GMT",
         "iso_date": "2026-11-20",
         "channel": "YouTube",
         "analysis": {
@@ -658,12 +604,12 @@
         }
       },
       {
-        "title": "CLAIRE GPT Data Integration Agent | Salesforce Badge | Quiz - YouTube",
-        "text": "CLAIRE GPT Data Integration Agent | Salesforce Badge | Quiz&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wcTNWT1FrazdCclJ3ZHIyajhVN3ZLMnBHeGdFa0t3RncyaHVTdHRXdHYya3ZrR0I1cjlHNHNSN1BlU3hBU0ZEeFU1dnFCQnBlOVUydVFn?oc=5",
+        "title": "Walking Challenge with Kamesh bro - Are Wearables Really Accurate? - YouTube",
+        "text": "Walking Challenge with Kamesh bro - Are Wearables Really Accurate?&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83ZFBQTzViLXZqRXV1Y25DUFNSdlVSSVNXMDJHWTA0MEVvb2hmT2xEQmJhV3Q0U2lCbExIM3lWRHB1V0FkYXhHMzQwSTJoQkx5ZmY2UGlB?oc=5",
         "source": "YouTube",
-        "date": "Sun, 15 Nov 2026 11:45:34 GMT",
-        "iso_date": "2026-11-15",
+        "date": "Sun, 22 Nov 2026 12:30:06 GMT",
+        "iso_date": "2026-11-22",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -696,12 +642,12 @@
         }
       },
       {
-        "title": "Why ERP Data Quality Will Decide the Success of AI Projects - LinkedIn",
-        "text": "Why ERP Data Quality Will Decide the Success of AI Projects&nbsp;&nbsp;LinkedIn",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2d2V3ZocFNqMHNUUDMxM2dINkpMcUlrdDVWMGNzTWJqNElnYXVBdUVFTzU1aDNrUWs1TmNWUkRQekJ0N0R1dmFXbGZBTUlrQ2FWUThaTGtOdWxjUTdzaVVoZTFlYUU3am44cmRDQUhtZjhIOUdIM2tERnhWRGREaWdLLW5hUWptN0I3SjE2aXM3VWkwTjl3V013bEFmX29fWmlsMmpFM3lDSDdkVlh6aXFiSnlPdlhIU0dNdTd3?oc=5",
+        "title": "The bottleneck to scaling AI across the UK public sector isn’t algorithm sophistication. It’s legacy data debt. As part of Digital Transformation in the Public Sector Week 2026 techUK, our Head of Public Sector, John Newton, has contributed a thought leadership - LinkedIn",
+        "text": "The bottleneck to scaling AI across the UK public sector isn’t algorithm sophistication. It’s legacy data debt. As part of Digital Transformation in the Public Sector Week 2026 techUK, our Head of Public Sector, John Newton, has contributed a thought leadership&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaXRPeWZFb283NnVmTVpVUldMblROUGsybmZqYWJJbWVkRVpfOXBBcDJvSlJ5UVZheC1jeFl4WG9ETVNpc0ttbGRNQ0hVNTlzZ0p2Q2lCekl3U3BYMzJtN1pUZExZNWVFQzcxWmtCa1JZcmFJeW5reHJ2Umpmazd5Rzg3UHk4MVJmVFByelhxYmFaN2NvS1FIQTBlV2VTTXMtTE0xVkh4d3Y2R19aQUcxSlZSYU9uOGs?oc=5",
         "source": "LinkedIn",
-        "date": "Fri, 20 Nov 2026 10:30:47 GMT",
-        "iso_date": "2026-11-20",
+        "date": "Mon, 16 Nov 2026 11:03:01 GMT",
+        "iso_date": "2026-11-16",
         "channel": "LinkedIn",
         "analysis": {
           "summary": [
@@ -732,11 +678,11 @@
         }
       },
       {
-        "title": "You don't need to become an AI engineer. You need to know enough about AI to point your data quality skills at it. That's the idea behind Quality Data and Trusted AI, a half-day tutorial at DGIQ + AIGov 2026 on Monday, November 16. DataKitchen's Chip Bloch - Facebook",
-        "text": "You don't need to become an AI engineer. You need to know enough about AI to point your data quality skills at it. That's the idea behind Quality Data and Trusted AI, a half-day tutorial at DGIQ + AIGov 2026 on Monday, November 16. DataKitchen's Chip Bloch&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWkhtQXNjOXZqeVpLbEVLbHYtanZzakdtSGpTRlF1VWtienFaTWJmT18xbmNnN3g2TjJEWEdtSG0zTzlySk5pSHZ6QUdaZXhCM2syR2EtSXppdnJ4YmlGaE5HcjhjamkzM1hvdHBjc0I2V25MMkxqamRCaGZIMmQ3eUpFcTd4eFU5eWdtLU9tOXktR1ZEU3lYMGN4VVRSamVWVll5eXUtd1ZFeC1iU0c2WW1ZSTlLVHNKVHZ1UzFOblE5bHpvTGRjMTBTSlZyaVZNSUhDRzJXQ1ZQTkZo?oc=5",
+        "title": "Can your organization trust the data behind its AI decisions? As AI agents move from making recommendations to taking action, trusted and connected data becomes the foundation for effective decision-making. High-quality, consistent information helps agent - Facebook",
+        "text": "Can your organization trust the data behind its AI decisions? As AI agents move from making recommendations to taking action, trusted and connected data becomes the foundation for effective decision-making. High-quality, consistent information helps agent&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQazJJZ0VqTE9iSXRRbC1lXzJJdGxDZWxYWnNwa0hpa29QR2pITDZSaFVQeHpjRlpOenpuTTFaQm9nQU1WOHA5aTdDVzhCZGFzSkNVbC1OZlp6cTZvbTVLcDhKb1R0YWF4dk9scHpSYnRqeXloSkgybXpzYkhUclBNbW1ka3JNVFAxRmJKYXBQQTRZcml0OFJzVWxVNDd6TWYxR0NtY24tVFRsQVp5R3B1c2hUdlBIdVk2WU5ETUhaOUlwMVJhYlhjZWhjQWh0Y1FBUzVnV2Vfaw?oc=5",
         "source": "Facebook",
-        "date": "Mon, 16 Nov 2026 17:00:19 GMT",
+        "date": "Mon, 16 Nov 2026 17:09:27 GMT",
         "iso_date": "2026-11-16",
         "channel": "Facebook",
         "analysis": {
@@ -750,12 +696,12 @@
         }
       },
       {
-        "title": "Implementing Data Quality & Observability in Real-Time Data Warehouses | by Mansi Raghav | Nov, 2026 - Medium",
-        "text": "Implementing Data Quality & Observability in Real-Time Data Warehouses | by Mansi Raghav | Nov, 2026&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUXphZlM1NXI5Vkw3NnBud1BNUldtV1dCazNRYTRISVJhdnd4Zkh1SDRzYW1KamUxRU4yNGFGOE0zaEZXODRIdHpVZzI0bGpuNlVMNlc1YkRoZnhObzExWG96MFM5Y3pJRkxnYUl5dUtsRkZFYjV0NVF2Ni1zN2VxVVhjT2hocXFSSkhZWmhyRC00Mmc3Tl9INHZSSjQ4REZnb3k0dU9aQmRQS05RdjQ1cGY0aw?oc=5",
+        "title": "From AI Pilots to Production: What It Really Takes to Scale Enterprise AI | by Nooral.ai - Data & AI Company | Nov, 2026 - Medium",
+        "text": "From AI Pilots to Production: What It Really Takes to Scale Enterprise AI | by Nooral.ai - Data & AI Company | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFNKcG4wWU1Ba1pTZFN4dUNNSnJiN0VVNjdZMkJrSy1NWkt3dDV5WGtZenhIV0lnTUgwbzhqNHNBd2REeW54TGU4dmZ6ZE9BSTdmRm14ZFhvOGpGWENrdTlOZVIxbmU2dkdlX0k0TkRvOEJMRk04WUo2eU5idTB2SUJHczBLa0xrdFBGUFg0REpScmI2U25lN1pmSHZLTGlBZXNkUFF3NTBrY1RsaWo5V3RpRGRjeV9a?oc=5",
         "source": "Medium",
-        "date": "Fri, 20 Nov 2026 13:45:29 GMT",
-        "iso_date": "2026-11-20",
+        "date": "Tue, 17 Nov 2026 10:07:59 GMT",
+        "iso_date": "2026-11-17",
         "channel": "Medium",
         "analysis": {
           "summary": [
@@ -804,11 +750,11 @@
         }
       },
       {
-        "title": "AICA ROI Calculator | Calculate the Cost of Poor Product Data & Potential Savings - YouTube",
-        "text": "AICA ROI Calculator | Calculate the Cost of Poor Product Data & Potential Savings&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ueW15MXdLYWRVakxKVjYzeVBGQi1SVWFzS0pyVWNDS0s3S1VRbGlKdlhKU3M3NFFTUWFFNEotbm54Y1BfMnZ1aGhtcGZ3OXg2VWxyRXZB?oc=5",
+        "title": "AI Guidelines and Principles: Ethical Implications - YouTube",
+        "text": "AI Guidelines and Principles: Ethical Implications&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nVHpWSFBCd0duVUV1NnBpdWtPQXRjRTRNUXpCN0NuLTdVOE9OUDRPRVhaaXhOZWlBdDNxV0VBeFBYa0toZFpQTHY2NWpvVUhORloxaElB?oc=5",
         "source": "YouTube",
-        "date": "Mon, 16 Nov 2026 05:44:09 GMT",
+        "date": "Mon, 16 Nov 2026 22:30:10 GMT",
         "iso_date": "2026-11-16",
         "channel": "YouTube",
         "analysis": {
@@ -822,12 +768,12 @@
         }
       },
       {
-        "title": "AI Guidelines and Principles: Ethical Implications - YouTube",
-        "text": "AI Guidelines and Principles: Ethical Implications&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nVHpWSFBCd0duVUV1NnBpdWtPQXRjRTRNUXpCN0NuLTdVOE9OUDRPRVhaaXhOZWlBdDNxV0VBeFBYa0toZFpQTHY2NWpvVUhORloxaElB?oc=5",
+        "title": "AI Isn’t Eliminating Project Managers. It Is Taking Apart Their Jobs. - YouTube",
+        "text": "AI Isn’t Eliminating Project Managers. It Is Taking Apart Their Jobs.&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiNzRKaGdfSHc4ZmtxNkJxNWcxYjYwMkFLaHhkQ1BMVjBLY2lMRU9lemdBenhFRldQejh2QUhtbkt0MXRISUNjZ2lqYVlJRm9rM3c3MkFn?oc=5",
         "source": "YouTube",
-        "date": "Mon, 16 Nov 2026 22:30:10 GMT",
-        "iso_date": "2026-11-16",
+        "date": "Sun, 22 Nov 2026 18:39:46 GMT",
+        "iso_date": "2026-11-22",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -914,48 +860,30 @@
         }
       },
       {
-        "title": "do you keep one state per environment or one per team and why - Reddit",
-        "text": "do you keep one state per environment or one per team and why&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSTJSRGFlUWlOMW1DTEoxSmQyZUVNUy1zbV9TUlpVU0NxTmpUcm9HNTd0amRidnBsTlh1eHQyOVBNckFPUkM0T1k3Rll4bnNUN1pXNXc1RTdsU2FiTVg2LVBSeEpudXpNUGdST0ZvLXJzUkZmQ1d0WU5VaGUzdXhVbUw0OF9Ha0piSkNQT05Eemp3am14MkNRR0tZSzNnYlotdVFR?oc=5",
-        "source": "Reddit",
-        "date": "Wed, 18 Nov 2026 10:57:00 GMT",
-        "iso_date": "2026-11-18",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "I feel overwhelmed (and dumbified) about my workflow - Reddit",
-        "text": "I feel overwhelmed (and dumbified) about my workflow&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUHFtd3UxOEc2VWRZZXBJRHhGaEpOeUlpVHk3UEFmc0xEd0plejJ5ZmJOWDA0ZXk0WUstU2pWYUs4eGhSQTh3UGtGZnlNZzF3T2J1SGVHWkZHanB5bVFHZUdUWi1qS0gyejlxOWpmZ1I4VnRRbFh4Tk9NNnp3dFJrYVpDNFRYMjBtUVowSU1PdVdKOHNSLUx5VzRTcmN4SzNBaW5rak9kQQ?oc=5",
-        "source": "Reddit",
-        "date": "Wed, 18 Nov 2026 16:45:29 GMT",
-        "iso_date": "2026-11-18",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
         "title": "ELIMINATE BOTTLENECK IN YOUR BUSINESS | by Candy Chan | Nov, 2026 - Medium",
         "text": "ELIMINATE BOTTLENECK IN YOUR BUSINESS | by Candy Chan | Nov, 2026&nbsp;&nbsp;Medium",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbkk4Q2NuVXhpdi1aSVZib1Z2MnMwSS1NeGVreTZOQ1VuRlJNVVZlaHlMSGVRYlR2cmhsTmRmY2dKWml0SGx2NXQ3OS1DRF9hbnE2YThLblpPendwcFhUa1ZDYkx5eHNHT3EyY3lZSzVWd1dyZkstLXhVbzgtZjdXamRPajNPQlU?oc=5",
         "source": "Medium",
         "date": "Mon, 16 Nov 2026 14:01:34 GMT",
         "iso_date": "2026-11-16",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "20 Advanced PySpark Scenario-Based Questions Every Data Engineer Should Know - Medium",
+        "text": "20 Advanced PySpark Scenario-Based Questions Every Data Engineer Should Know&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ2VtVXlyX3R0YmtwRkl5aDc1WldLc0ItX2JWcl9QUUtrMXFmdzIwekw0SGZXSm45UUl0dVNHejVBMkE0QXMwa29pWVpEX2VuZUlnUWdDTjlLaG5kazlSRENpcTY4eU1VSUl5cTlOck1iWHY0Z1hFU2hqZVVwYkFqcnVBOC1ZTVZtalgtc3l2dUlxWjRKUUE0NnUxRF83WTMxUU1OenpIY3lqdTBCcVE0dlY0cDB3Mmd0eXNuVVhEdkRrS3J1bVE?oc=5",
+        "source": "Medium",
+        "date": "Thu, 19 Nov 2026 18:31:14 GMT",
+        "iso_date": "2026-11-19",
         "channel": "Medium",
         "analysis": {
           "summary": [
@@ -986,12 +914,12 @@
         }
       },
       {
-        "title": "Daniel Rock | The Free Hypothesis: AI and Shifted Bottlenecks in Science - YouTube",
-        "text": "Daniel Rock | The Free Hypothesis: AI and Shifted Bottlenecks in Science&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WYUpUcUIwZ0NuN1JQc295Y2t0UGtZN2ZIcThPNVlyTlhUSTNrX3RsVW9KM3IxcDQtazNvSy1QOEhTZ2psa0l0NmJMc2NkOGhTZHBjbGxlT3NzNXNDd21qelo5QkNzM0VSX1FVdEVMMnVRT1U?oc=5",
+        "title": "Google Gemini Is a Whole New App Now 🤯 (Full Tutorial) - YouTube",
+        "text": "Google Gemini Is a Whole New App Now 🤯 (Full Tutorial)&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jUDdfbnUwT2trR25sUU9uck55MnpoOFR4d1NnM2VlWnRzcm5ZRzhVRXBXSHROVFpGWnlFeEhCZGJwOXJtSjBfZVE1WHBwU2lmczhyQXVR?oc=5",
         "source": "YouTube",
-        "date": "Tue, 17 Nov 2026 00:31:38 GMT",
-        "iso_date": "2026-11-17",
+        "date": "Thu, 19 Nov 2026 16:14:08 GMT",
+        "iso_date": "2026-11-19",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -1042,24 +970,6 @@
         }
       },
       {
-        "title": "580 - Hand Tommy a messy semantic model and he will get there, after years of bridging business questions to the tables. The open question is what happens when that same model gets handed to an AI. #semanticmodel #powerbi #ai #data - Facebook",
-        "text": "580 - Hand Tommy a messy semantic model and he will get there, after years of bridging business questions to the tables. The open question is what happens when that same model gets handed to an AI. #semanticmodel #powerbi #ai #data&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUE5CVTJaN3huR0hlcklpZG8tMmRCRl85RzY5ODl1VkhrSmY1QTZTaGN2WXlSZVpGVUk1dHdoRHNRQnJJczRPLXNnUC1YZElvT1JDaVM5OTFJd3J3SUFGc182aElLY2VuR2VkOGVTdUozZ25keENWVldfb3BrUlpJTjhQTGEzMzJXMGtNejdheXA0NVpNcV82cmVDV0NpeXZaMUZnRWUtWEYtY25feTk5Mnlyd1M3YVJSMlYtSk9kZDQzUklDVG12bGhya0pZeTE1TVlKTk9EX0hudw?oc=5",
-        "source": "Facebook",
-        "date": "Tue, 17 Nov 2026 04:55:51 GMT",
-        "iso_date": "2026-11-17",
-        "channel": "Facebook",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
         "title": "NVIDIA/auto-ontology builds a semantic layer from your metadata so text-to-SQL agents know what 'revenue' actually means, validate generated queries against certified definitions, and return provenance. Apache-2.0. 13,007 GitHub stars as of Nov 15, 2026. I - Facebook",
         "text": "NVIDIA/auto-ontology builds a semantic layer from your metadata so text-to-SQL agents know what 'revenue' actually means, validate generated queries against certified definitions, and return provenance. Apache-2.0. 13,007 GitHub stars as of Nov 15, 2026. I&nbsp;&nbsp;Facebook",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNHB3UzVHUHpUcWNlWms5cjJKVDh6NnZ3TzltampjcndweWo3a2xwcmxiSS1iZU5RMTlobFhZeE9Za01vaHhTejlidUVXTkgzUERpUHFzQ1hoTWRYUVFhSEE3aWFBT095azYySU5oZDE5S29OWTdPR0pFR3NEcEJPcVNScXZLWFA3ZTN3ZTQ5YmZ0SE1DNW9paUpURENFR3ZTdkFlUEVEaXIzN3ZWcm1UbVhWbmRUa1hEaFpNOG83NzVWbnBNWnAyYnVmVW9IWWNfVUhJck4xR1Q4VE9a?oc=5",
@@ -1078,11 +988,29 @@
         }
       },
       {
-        "title": "So... was Jev actually useful? - Reddit",
-        "text": "So... was Jev actually useful?&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ2M4bUE4Vm5LRFlyQTFfdzZVRkN0Qi1LWno0ZlYyUC1wQnl4TXFxcHBQbktPaEJFbWoybFdIeFNhamdaRmplMWh6RXlGaFdTRUUzM004WmpiejA5dFFCclF5YXpWM3Y5SkhyZHFRTUZRTUJkSzZqWDhZV2RfM1hwUjFrYw?oc=5",
+        "title": "Disconnected data does not stay a data problem. It becomes an operational problem. Southern States ToyotaLift was managing key operations across SQL Server, SharePoint, and other isolated systems. Teams lacked one trusted view of performance, and KP - Facebook",
+        "text": "Disconnected data does not stay a data problem. It becomes an operational problem. Southern States ToyotaLift was managing key operations across SQL Server, SharePoint, and other isolated systems. Teams lacked one trusted view of performance, and KP&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWEJEUFp5dkp3SXczS3NjMnl1N1JfSy1ZSHpOeDdYMXNSRmdLbm9QV0J4Zm5QbVpOMEhLbzIta2p0bzBrdUhpajdJSVBkMVRSVzVNRE1pUUhhNzZjdjBWTmFQOExVd29PZHMwWVBUVUtJeHhtUHNkeHpPcDBVdHBncDZreEN3Mi1sYmFJR0FfdUpiMXdDWkVJeWItODd4YUhoSjVuZlh0UkswVEpiWnFNdGptZ1JSY1NjejhpeGN3eVl2SUxfd2J5a1lnNEJsSDZEeXEwZDhlbG5xb0UtT3c?oc=5",
+        "source": "Facebook",
+        "date": "Mon, 16 Nov 2026 07:30:27 GMT",
+        "iso_date": "2026-11-16",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "16k notes, 40k+ attachments, and over a decade of my life. All connected. - Reddit",
+        "text": "16k notes, 40k+ attachments, and over a decade of my life. All connected.&nbsp;&nbsp;Reddit",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb2NVYzAtRzZwQWQ0SnJCSHBNWGJMX0JVNDJkcjA4aUtVR3h0WmVtYzVVS1NiRDBacnJaY2Q2WGtGOW95QlNzeEh1MHJ1cC1jZ24xOEJ3anJqcU5ZVE1rZlJOd3VBOF83bDJnTWdXVzJxWXZibDZLN2E4c0JPekhDeUhMeFVFbURhby1qaW1kNEhVQXA1M0ZtTVRseG9ENzhlOFNuSFV3?oc=5",
         "source": "Reddit",
-        "date": "Tue, 17 Nov 2026 06:15:31 GMT",
+        "date": "Tue, 17 Nov 2026 02:36:15 GMT",
         "iso_date": "2026-11-17",
         "channel": "Reddit",
         "analysis": {
@@ -1096,30 +1024,12 @@
         }
       },
       {
-        "title": "Number of team members needed to support Fabric platform - Reddit",
-        "text": "Number of team members needed to support Fabric platform&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdjFWV1RfTTdrXzdSUU9LTDhuSWtaVlNvVnhoMXo0SHBUR2VnbzVhbllvZnN5MFdac3pWb2JNb1F1blU4ZGgzLXdKUlZ6TzhnaC1CS0lkOFJRRkxzeDluMlNhdmpmRkFKWDhKUE9IbmFsb2hSWmdvSjM4OUR3Ylp4YXEyRjRXMm1Qai1mU2wxNXRCZHRvNndXR3FFemdDekliZENfLVB3ZEpRdw?oc=5",
-        "source": "Reddit",
-        "date": "Thu, 19 Nov 2026 17:41:44 GMT",
-        "iso_date": "2026-11-19",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Your AI Agent Can Reach the Data. Can It Follow the Meaning? - Medium",
-        "text": "Your AI Agent Can Reach the Data. Can It Follow the Meaning?&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbElhb21uN2MyNEpXaHVDeW5LZzQyLWZ0NUV1QS1hZ0d5ZDlwYXhhZklnYWpTNDYyZkprejFNTTVvRDJBVEpWMWF1S0ttZFZPbThNQnhzV2EzSVhZN2czR3NtaVhRb1d2Wm9xVF9pczhTd1BfX0pBM28xbU51Tlp6b28zZVVtVGo5UUpMMzhTMHlNMWU1RmdSZVdoRExWamdTTmNZRnJfU2ZicU56d0ZJZjBKRHY?oc=5",
+        "title": "Product Analytics, Two-Sided Marketplaces - Medium",
+        "text": "Product Analytics, Two-Sided Marketplaces&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbXZhRzNuc0xUZGotNjNzandBTXE5ZmtaSWx3VEIzTnJYbzg4NFpxRTZHSTNuOFVFbnljSmgxamFCd3BUUGREbUtrd2I5UTZ6R2tveUxadmFIaHZielhnNXdIWldLTEJCcmE1dE9Bd083emQ1WXdiSGZ4blI3OFdrX25GOFJVOUFoTlI4YXVmQ3MzZXRPNGww?oc=5",
         "source": "Medium",
-        "date": "Sun, 15 Nov 2026 18:02:12 GMT",
-        "iso_date": "2026-11-15",
+        "date": "Wed, 18 Nov 2026 11:34:50 GMT",
+        "iso_date": "2026-11-18",
         "channel": "Medium",
         "analysis": {
           "summary": [
@@ -1132,12 +1042,30 @@
         }
       },
       {
-        "title": "Data Agent Context Layers | Databricks Genie vs dbt Semantic Layer | Uplatz - YouTube",
-        "text": "Data Agent Context Layers | Databricks Genie vs dbt Semantic Layer | Uplatz&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zQVZWRVphRlhaRkdVQkVCazM2aEpsYk9HeHQ1eE1rdlJyT2xteUxnQ0M5aXp3LU5jNFhReTlQQkZFVlhlVFhUZ3BOcTJHRjV3SUpYM01R?oc=5",
+        "title": "Evolution of Power BI in the agentic era | BRK349 - YouTube",
+        "text": "Evolution of Power BI in the agentic era | BRK349&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOcVltdHc5WmxJanZoU0hxOFZGUTNDblp4QnhjaU4tU0d6Qk5hV0J0TFJFRVNkVkpZNWhabWx4Z3g1dGlMYjRMOEo1cDlJV0FMUWRLc3hB?oc=5",
         "source": "YouTube",
-        "date": "Mon, 16 Nov 2026 03:19:28 GMT",
-        "iso_date": "2026-11-16",
+        "date": "Wed, 18 Nov 2026 07:27:01 GMT",
+        "iso_date": "2026-11-18",
+        "channel": "YouTube",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "What's Going on with AI?? Alex The Analyst November Livestream! - YouTube",
+        "text": "What's Going on with AI?? Alex The Analyst November Livestream!&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aejFHMlcxelhzc0R1RTN2dU01UEoyNkNfMEY1VzJjWW1DUlh6aVB5VEVzLWpoUXhsdzE4Y005WnJGWm1iLVQ1UG5SQk1fR25jakRpLWtn?oc=5",
+        "source": "YouTube",
+        "date": "Sat, 21 Nov 2026 04:24:56 GMT",
+        "iso_date": "2026-11-21",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -1166,51 +1094,15 @@
           "zetaris_relevance": "",
           "lead_score": "Cold"
         }
-      },
-      {
-        "title": "Future of Data Analytics – AI & Microsoft Fabric - YouTube",
-        "text": "Future of Data Analytics – AI & Microsoft Fabric&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pQVFFS3FCZk9iU2pTUlBZMHdsaThFdEhsaVd0RXh1d2U4Y1cydU8tdjM3RlJPUTVVVUtmYzJ0Qk1pZkdXek1WbDA0ZW9Gazc2ZXBzU1dB?oc=5",
-        "source": "YouTube",
-        "date": "Thu, 19 Nov 2026 19:09:00 GMT",
-        "iso_date": "2026-11-19",
-        "channel": "YouTube",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
       }
     ],
     "data mesh federated query": [
       {
-        "title": "Director-Enterprise Data Platform at Access | Information Management — Chennai, Tamil Nadu, India | LinkedIn Jobs - LinkedIn India",
-        "text": "Director-Enterprise Data Platform at Access | Information Management — Chennai, Tamil Nadu, India | LinkedIn Jobs&nbsp;&nbsp;LinkedIn India",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeTVadDdUdVBZazN4c05oLXlkNlpEQUVsRzZpQ1g0V2g0VkZ2VWVmakRRS29LbDlqdGdtdDFLZE9sdzhQRzdRZVdGUEhMbTNzS1dTT1diOEtBRGNuZ0RZbC1rUGJzWkNWNHBoUzYzdGdlZC1EMkZHbUlaQ29jZXU5QktTcm5IOURhQW5XdzlQeE5uTFNwUkFkbEhIT19GT2h0VmVzMzVQNlBjWE0xLUktRA?oc=5",
+        "title": "Data Platform Architect at Accenture in India — Bengaluru, Karnataka, India | LinkedIn Jobs - LinkedIn India",
+        "text": "Data Platform Architect at Accenture in India — Bengaluru, Karnataka, India | LinkedIn Jobs&nbsp;&nbsp;LinkedIn India",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOTFxbnU1YkZrVDRrcFlFaERIUTQwTkg1XzlrVDhRZGt3NXpwNjF1bVpPVWJjRnlGN19fSjNyNVV6Yjk1UkhEbEtDS0ZHYWpDN01QVXQtakJYRzRJRmpnWFhZNWpxRlJkWnlvNVBBd2RKd2ttYTBWaHViS1F2V0hTUHFoVFN6LXBWMmxHd0xKZjB4b2Rn?oc=5",
         "source": "LinkedIn India",
-        "date": "Sun, 15 Nov 2026 01:48:02 GMT",
-        "iso_date": "2026-11-15",
-        "channel": "LinkedIn",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Data Product & Asset Governance Associate Director - LinkedIn",
-        "text": "Data Product & Asset Governance Associate Director&nbsp;&nbsp;LinkedIn",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMEJNX0Y2YlYyNmFqcTFDYzBaTi1kWWhfQ2JfYnJLelNIa3pvNHNCbk14dExBTjRDNm9abExUMDJOMmttVmdLMElOQ2d3dFV4UkF3WlRpNHhjYXdVR3JRUUtTR2o5blE2ck1kTDdWZzl3YUFmVWwxa0lxT08yTG9obDFweEFhZUtCczVZWGUyT2dkcXZVNUM5U2Fnd25QUzk0OHc?oc=5",
-        "source": "LinkedIn",
-        "date": "Tue, 17 Nov 2026 22:41:17 GMT",
+        "date": "Tue, 17 Nov 2026 22:36:07 GMT",
         "iso_date": "2026-11-17",
         "channel": "LinkedIn",
         "analysis": {
@@ -1224,30 +1116,12 @@
         }
       },
       {
-        "title": "HTML, CSS & JavaScript - Facebook",
-        "text": "HTML, CSS & JavaScript&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zTUU0a3pXRllZRTFHTkpHOWxGR0JXVHZfVmJQWW0zQU9KYzNlR3BPYk4zNVpDalVuczlNRkNud1lqSHF4dXA4TnFFM2pSM3BWSW8zWmlkUFdpelg5MEJrTzZ5a19PMGxudlNOcmtQcFBZQ0pPRXhRVm5BSnA?oc=5",
+        "title": "M2M Tech. . At #SC26 in Chicago, DDN invited M2M Tech to take the stage at the DDN Booth Theater. Alex Bouzari, DDN CEO and co-founder, explains why the data layer had to scale as supercomputers took on bigger simulations. Jennifer Y., M2M Tech’s Di - Facebook",
+        "text": "M2M Tech. . At #SC26 in Chicago, DDN invited M2M Tech to take the stage at the DDN Booth Theater. Alex Bouzari, DDN CEO and co-founder, explains why the data layer had to scale as supercomputers took on bigger simulations. Jennifer Y., M2M Tech’s Di&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUU9qS1p6UnNxblZmb2d3ZExWaDg5RjdNc1YzNjk2VjJGVkd6ZWZ2TmFCQWJuVXBsenQtOUVzNV80cUV0Y2JHbk92THB4RXNxRnpnWFhLNnlkNTdVdm16bHNBTW8tVnpfdm1KLTdaT1EwT05HakZHNTZpak1BNEJJaTJDY1BRWUZxUnhOcHplWDl2bGdUQWprZ1N2a3lxTzZsa3Z1ZmlsY3MteWJuV2xpVXpFcC1OaTVNbmdxRWYteWxuZFdDSXVqeEZWQXNxZF8tOHNSZnhTNmlBemh3VXc?oc=5",
         "source": "Facebook",
-        "date": "Tue, 17 Nov 2026 05:04:40 GMT",
-        "iso_date": "2026-11-17",
-        "channel": "Facebook",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Five levels of GeoAI for farming at IGISC 2026 - Facebook",
-        "text": "Five levels of GeoAI for farming at IGISC 2026&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUklIbGp0d3JwaWVTT3I0bnBOdUdRSkoxaXVVSFRpeVRFeW9kcEZRWUxoSmZHVjBvY1FkSkxRTmxta2dZNzF3OG93WDlWTmlWVUF2X0doVzZmVnYwcnhnaTFJbWFSVkJSY1JFN0ZSN2RpcE9HOUhWcVVDLWV4YjFSOGhuanpxZVNqMkttYQ?oc=5",
-        "source": "Facebook",
-        "date": "Wed, 18 Nov 2026 14:00:00 GMT",
-        "iso_date": "2026-11-18",
+        "date": "Sat, 21 Nov 2026 02:01:48 GMT",
+        "iso_date": "2026-11-21",
         "channel": "Facebook",
         "analysis": {
           "summary": [
@@ -1262,10 +1136,28 @@
       {
         "title": "EarthCam. . Your jobsite cameras just got more connected. EarthCam has launched App Marketplace, bringing together more than 50 apps and integrations directly within Control Center. From automatically sharing progress photos to connecting jobsite image - Facebook",
         "text": "EarthCam. . Your jobsite cameras just got more connected. EarthCam has launched App Marketplace, bringing together more than 50 apps and integrations directly within Control Center. From automatically sharing progress photos to connecting jobsite image&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLUdrQzk2c1JrX3l5Yjk5TDhDTFA1dWhjX2tRWnJ1NUlYVFo4VVFjSVRneU43WnV3dFJZUVFmOGVpb2pQSVFaZXpreXZPRk11bTRaZzc0aHFBbGFMb2tJeXlUZ0pfeTZ2WjBvTjdtNTJxT2NFZ1cyWmU1VWpsbzExVFNPMHU2T2xUMC16MmNFOExYQU1BZDhzRndScnlIa1ozTnlLeTV0TmRWd3BnV1U3THFfVS1iZm91dVh1RXZQMHVDUlFhTVhZMUlzR2tRVzliQXlsdENEYVJLQQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSTVYdmtxOXhTbk4wU1ZpVmtveWJNQ0FLbEhlSVFRSFZ6c05ua0hqVjlPbWF6YVIwWWl4U3M4N3JpWWJ1WDR4RVhBSVNYeUFVaHJjRVpJc3VyZFRxX1AydXhLQmJlYi1naGtFMGtrQTkySUpzeGY2bHJBRmQ0VF9CaUdOVThXckdYYjdvb2dOemNUQ2g4SnA4UVNWdnVPWkxlTWdFcG9rR3pYcVEzMDh5bllyZU00OExYTEJJVXR4LUZ2ZHhnYktkdnVSZk9xUnlEbnZBY2dfREdEdw?oc=5",
         "source": "Facebook",
         "date": "Fri, 20 Nov 2026 00:10:01 GMT",
         "iso_date": "2026-11-20",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "I recently gave a keynote talk at iGISc 2026 on how GeoAI actually works - thank you to @Jorge Alberto Montejano Escamilla for the kind invitation! In this talk, to prompt the idea of spatially aware AI, I revisited the “Land or water?” question asked by celestepo - Facebook",
+        "text": "I recently gave a keynote talk at iGISc 2026 on how GeoAI actually works - thank you to @Jorge Alberto Montejano Escamilla for the kind invitation! In this talk, to prompt the idea of spatially aware AI, I revisited the “Land or water?” question asked by celestepo&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWnkwWHZXVGlpMDRCZjh5Wm5BT2tnd2wxMkdDdi1tWk5fS0hQTEdtM1hNY3ZSVGdmRFlCWkdWdXpPVWdkVHE5d2RxZVRwd3Q2VlNBMFVoclZPM0l4SnE4NS1qVHpnODBIOW9kQUlJMHU5bGlHa2NBaXNKN1BaaHhXZnE1Uzl1dVFod2hSby1fLTZua01mb2NHSlJ5UTFRRVFGSTFGMWhqQmVycjI1SXZWNWx0ajZaU2Q3VHF4SDZTSzlkbE1sZDgzWG9jc25UaExXZmFXLW5CWnhmZ08xUGltOWln?oc=5",
+        "source": "Facebook",
+        "date": "Wed, 18 Nov 2026 14:00:00 GMT",
+        "iso_date": "2026-11-18",
         "channel": "Facebook",
         "analysis": {
           "summary": [
@@ -1316,6 +1208,24 @@
     ],
     "data lake migration failure": [
       {
+        "title": "The New York Times. . More than 2,000 migrants reached Spain’s Canary Islands by boat over the weekend, with the highest number on Saturday, the maritime rescue service said. The archipelago has experienced a surge of arrivals from West African countri - Facebook",
+        "text": "The New York Times. . More than 2,000 migrants reached Spain’s Canary Islands by boat over the weekend, with the highest number on Saturday, the maritime rescue service said. The archipelago has experienced a surge of arrivals from West African countri&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNczNBSVhpekVSdVJGT2ZhME1xZjhMZVpmODFuY3JZM3BhbnhMZEthZFk1R2hPOGl3REc2cjVhSTJXaS1UWDY0b2FjaWFDMUR6ZlhPdXdZTWxZS3QwT1pySkRpblVOQlcybjNDQ2FIRmtQYXdxRTFqSzVTbUZOMHU4ZkNQWEVVdXFCQ2dyMkRjTVU3TE1Fc3N1Sk5IWkdTU1Q1VFJhdmRVMDZTajRQaFJQODRPdVJldnVQdDRvbmswN0tQVEdLR0VNNE9nQ3pMS1FWVXhSMw?oc=5",
+        "source": "Facebook",
+        "date": "Mon, 16 Nov 2026 18:00:10 GMT",
+        "iso_date": "2026-11-16",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
         "title": "'COMPLETE FAILURE!' - Spain's opposition leader Feijoo blasts Sanchez over Canary Islands migrant crisis ahead of election Spain's opposition leader Alberto Nunez Feijoo slammed the government's migration policy as a 'complete failure' during a visit to El - Facebook",
         "text": "'COMPLETE FAILURE!' - Spain's opposition leader Feijoo blasts Sanchez over Canary Islands migrant crisis ahead of election Spain's opposition leader Alberto Nunez Feijoo slammed the government's migration policy as a 'complete failure' during a visit to El&nbsp;&nbsp;Facebook",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRDUtY3lJOHpTSEhEV2NSSUU0c3hjNUFQbE5EYlduMjE4Mzd6bXpQY200d1ZlS3JOTVBybXZvVXN5YUhhRlQ4TlJJOTN3VVRlZElIbm9PbEc1aTBncWdJaE9hdkNDejRUQVo1XzVZYXRCMnFkRHIwOS1TVElCd3ItbU1KSl9jRTlLMkx5TUJqb05RSXJ1UFFqajNpMl9jNVVUVnJJcVN1QTNORVE4OWk5M3dNdWtyLVRuQkpEWkNpbzV1YVFuSnlsTVFhXy1ldE9fTWMzVXZCWGNOUQ?oc=5",
@@ -1334,12 +1244,12 @@
         }
       },
       {
-        "title": "South West water bird saviours are rallying to save WA's iconic Black Swan one rescue at a time. Receding waterlines after a dry winter are adding to threat from predators. - Facebook",
-        "text": "South West water bird saviours are rallying to save WA's iconic Black Swan one rescue at a time. Receding waterlines after a dry winter are adding to threat from predators.&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTUNXZGZad1IwSDM3MjlrV1NIeFlqaS1wSzVwTXkzQVQ4WlVVdG93dEN1ZW5kZzZqWF9aZmlERmVONHZ4QkhuWkNmRmxHN29BVUR0b2VGeVUxYWNpSnFQcTZXTXFYLUdYWG1FUldwR0Vob1c5cjZWNWRTRTE3RHJELUlnbWc2bm5rWkNDVVNWNjJUZTdiT2ZXWGVvODZPaTNJeHpvWTdpVG1URFIwRVprZU1xTGxSUUNweWgtai1lcXBSYXlzVFNZV3ZLeHVaczFlZE84dXdfblhHMVgzcmxr?oc=5",
+        "title": "A Cave Swallow that nests under a Texas bridge can end up over Lake Erie in November, and a cold front may be the ride. Why are swallows here in November, of all months? It keeps happening: Ontario's rare bird alert for the week of 22 November 2024 liste - Facebook",
+        "text": "A Cave Swallow that nests under a Texas bridge can end up over Lake Erie in November, and a cold front may be the ride. Why are swallows here in November, of all months? It keeps happening: Ontario's rare bird alert for the week of 22 November 2024 liste&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaU5lcFZ1QU9jLTNkVi1HY1R4SzJTTGxzOVZtZzEtMmt6TnJybDRGQklaUlhtVVBHUXhOR2xQUmdnd196LTBpdWFXYmw0dFI0eHNwRVVLZ244MVllakZfa0JxREVYZnZPWDRMY3ZBRTAxbkk3QjlaX0FRM0dRcVhXMWdjRzNla1BaaVJwYW9Gd2h1Z1JhMHVUdC0xTjZCVjVtTTRiZ21uZERUelM4enpVY2w5dHNFWHBnY3V2R1VMTktiZG9xdXI2STZ0VUM0WURoUHN1R3pKeWJUVEFkcmc?oc=5",
         "source": "Facebook",
-        "date": "Fri, 20 Nov 2026 09:51:48 GMT",
-        "iso_date": "2026-11-20",
+        "date": "Sun, 22 Nov 2026 11:12:51 GMT",
+        "iso_date": "2026-11-22",
         "channel": "Facebook",
         "analysis": {
           "summary": [
@@ -1352,30 +1262,12 @@
         }
       },
       {
-        "title": "Deaths and disappearances along maritime migration routes to Europe increased by nearly 20% during the first nine months of 2026, with the United Nations High Commissioner for Refugees (UNHCR) warning of the growing risks facing refugees and migrant - Facebook",
-        "text": "Deaths and disappearances along maritime migration routes to Europe increased by nearly 20% during the first nine months of 2026, with the United Nations High Commissioner for Refugees (UNHCR) warning of the growing risks facing refugees and migrant&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWVFGRFNrNm9adFczMnRodHJselpCR1NaNUJSUnUyaVBzTWhNcXVaNWNOeVhWYWZIZ1Y1WDBoS3ZSU3hQM252WWk4V0IwUzBBc0VxR0xIcDRZTTU2WHVuOFBLeHVYd2pkaGRaeXBId1BWdEFMQmJPNGJhZnM3UW9mLWpGVm4zQkp2ckh2Z2VTZW90Um5RbUFDZml5MzhjbkFQSlhRNUN5elFGYmdmVDN2cWNJejExcS00azlxUUJ2ZElnbzlDQlVXVmgtS0xHdlI5N2FFQ0o1ajNPbWplQV84?oc=5",
-        "source": "Facebook",
-        "date": "Wed, 18 Nov 2026 19:50:03 GMT",
-        "iso_date": "2026-11-18",
-        "channel": "Facebook",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "r/salesforce - Reddit",
-        "text": "r/salesforce&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc2FtMHlLZTdxZkMtZFE0UzctTWFNUHZNTjB6UUM3WTk5T0JnOVlSLVBmd1hLckxTRHZzS3F2eWVKWmlfal93Y3NaWjVYZWxsVF92WTJfOHNLdG01YlVEd2lud0xTZmVOOEowMXpHVDRjdDg2MExTaWdTd0Q4WGFXMmFXLWUtTzlXdEE?oc=5",
+        "title": "An outsider’s perspective on the UK right now. How accurate is my impression? - Reddit",
+        "text": "An outsider’s perspective on the UK right now. How accurate is my impression?&nbsp;&nbsp;Reddit",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0VsYUxLU1lLQ3ZlbDYxTnFKdHpRRTdtb29FcFd4VUctMmZBMHN1LXVOWUtRWjNHckJHNUVrYUV6ZjEyUnB0amVnMnpVRVc5QnNmUUhLNk50eExNRG1ta3h1am5WNE50ZV9sbU8xcHB5YjRTRnRHN1JLSzYwQjFzSkw5UExGLXFaRmJjTzR1TzNSVTlLdHFoQWJiOHlDVVpSRFE?oc=5",
         "source": "Reddit",
-        "date": "Sun, 15 Nov 2026 06:45:52 GMT",
-        "iso_date": "2026-11-15",
+        "date": "Sun, 22 Nov 2026 08:07:01 GMT",
+        "iso_date": "2026-11-22",
         "channel": "Reddit",
         "analysis": {
           "summary": [
@@ -1388,49 +1280,49 @@
         }
       },
       {
-        "title": "Can I just say I hate the STAR format for interviews? - Reddit",
-        "text": "Can I just say I hate the STAR format for interviews?&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWjNZY19iWGdLSllxMDhESFVMOVpuRGNlTXJIRVczMG5taC1pWUVldjVHb0RZajVPdnVQYnd3OHp6QjMweXpsa3RtTUlrLUtySFJQZHpfZGx1cWZ1SjJHT3Y2WXpxd2VvbUFaSEFtZDRvdUNNWHBVY00xZXRfdEs4cXBZRUhFb1FLYzkzWk0xTU9Hd1RYd0M2ZW4zRkhYb0RK?oc=5",
-        "source": "Reddit",
-        "date": "Mon, 16 Nov 2026 18:04:01 GMT",
-        "iso_date": "2026-11-16",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "US aviation shutdown blamed on L3 Harris installed router - Reddit",
-        "text": "US aviation shutdown blamed on L3 Harris installed router&nbsp;&nbsp;Reddit",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTGNsMVZJQWlvZk1nZENldXdpWGQ5a2Jocm5JSjAyWXdfN0Uyb2Q3U09LM01GZE1jQWZRV29HZjZya2Z0NFVVWWlJaFFHR1hJamFvQzFRR2czbGVudGIzVmhxLVhremRsS1E5eWtnYkRZd3BTa0hqUXVHYkJOT1pWTldXZmdLai04c0toMllJMV9VLWJzeTNn?oc=5",
-        "source": "Reddit",
-        "date": "Sun, 15 Nov 2026 01:22:21 GMT",
-        "iso_date": "2026-11-15",
-        "channel": "Reddit",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Rebuilding Guardian: How Pinterest Upgraded Its Real-Time Abuse Platform to Modern Infrastructure… - Medium",
-        "text": "Rebuilding Guardian: How Pinterest Upgraded Its Real-Time Abuse Platform to Modern Infrastructure…&nbsp;&nbsp;Medium",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTlYtZTdBcVF3ay1iZVBBeEVYVkhkZlFfN0NXWno4UkJzQUtDMGZkaUhKLTNLcU5SX3l1V2xOTDB4ZHNZcUY4NmE3cm56c2F4dUFMU1hJSEhqRHRlZUR1cUxNV2lnZ2hNVnJZVU9pS05qUy1HUEE0T2Vfc2ZZWkJJUzE3ZjAzeUUtQU15dXVSajZZWlBJRDFTVmhOZUd5U0FwcWdxUl9mRUJ4Zm96emtkSmQtejNiTHRBVlB0MGlkNkVWRGFfX05NVDhtLWRaUlA2ZjY4SU5iWDZJeHNZaGhtT1BmTkw?oc=5",
+        "title": "Designing a Microsoft Fabric Medallion Architecture: Bronze, Silver, Gold, and Data Quality Gates - Medium",
+        "text": "Designing a Microsoft Fabric Medallion Architecture: Bronze, Silver, Gold, and Data Quality Gates&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcm9LaTJvaGZienBTTGFhbmNZdXd1MUUtSXRkcU53T0ZwUnJGdnlhZ0dURF9tRTUxTVlPVGhfMC0tT0l4RDlqN29SQlMwd1ZsUmdOcVVJckpMdnJCeWxtRGVOQTd0eGFWamlXeDVvS095QzlmbW9sMC1GWklUeGQxZXFkdHpiYmpEenlGWGdUeC1YaTFGWXI1MXEtWGtUSkhTTlJuRXltaldDM050ZmZMNUpNZWxBRVRDYnVKYTRYZWtseXZ2c3czS29KU1hWOTkx?oc=5",
         "source": "Medium",
-        "date": "Mon, 16 Nov 2026 16:01:02 GMT",
-        "iso_date": "2026-11-16",
+        "date": "Thu, 19 Nov 2026 09:10:20 GMT",
+        "iso_date": "2026-11-19",
         "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Building a Reliable Data Platform on Azure: What Actually Matters | by Niti | Nov, 2026 - Medium",
+        "text": "Building a Reliable Data Platform on Azure: What Actually Matters | by Niti | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVJtSFYxNnVIVkdpU041d3VHdTdjcEFSa2ZWOERxYUZqSjZWejA1R2lSbDJialM0T3RoSE1FSkVGZks2NnNnRTlKb2JXT1NsQXhGczZCUHRVeUtnNVI1SzAyeVR5c0h3Tkx1cU9iYkZ2QmZsOG1uTFNIc0NPYmZfbGJ5amVSdExMV2JYWmw4dmlzN0lBb25PeVVkcUZQUVk3WmdRTERuRVZBSHM?oc=5",
+        "source": "Medium",
+        "date": "Fri, 20 Nov 2026 12:44:30 GMT",
+        "iso_date": "2026-11-20",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "The Billion-Dollar Tennessee Projects That Failed — And What’s Left of Them Today - YouTube",
+        "text": "The Billion-Dollar Tennessee Projects That Failed — And What’s Left of Them Today&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xeWFSSmdEdUlmbEdHbTF0cVRoZTNXTzV2T0xJQnVoZ2ZlYVJqR1dLaEdrNWE4SGlUQkx5S3VuLUtDa2EteHN2YTRRYUtCbWJvM1Vhc2Jn?oc=5",
+        "source": "YouTube",
+        "date": "Thu, 19 Nov 2026 16:45:20 GMT",
+        "iso_date": "2026-11-19",
+        "channel": "YouTube",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -1448,24 +1340,6 @@
         "source": "YouTube",
         "date": "Thu, 19 Nov 2026 19:52:00 GMT",
         "iso_date": "2026-11-19",
-        "channel": "YouTube",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "SUPER El Niño Is About to Flip the Pattern... - YouTube",
-        "text": "SUPER El Niño Is About to Flip the Pattern...&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYm1oNDlXRVdXTk9YMGwzZ0JQSGJRRTVKSk9yaFBnV0VSY0lGbEZSR290V1N6ZXBRcXhHQW9QRHlnaUJvMGExSlBQOXZSSnk3YlFrMUN3?oc=5",
-        "source": "YouTube",
-        "date": "Sun, 15 Nov 2026 22:30:00 GMT",
-        "iso_date": "2026-11-15",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -1498,13 +1372,31 @@
     ],
     "enterprise data governance": [
       {
-        "title": "Shadow AI: How agents bypass data governance programs - TechTarget",
-        "text": "Shadow AI: How agents bypass data governance programs&nbsp;&nbsp;TechTarget",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGszUUJXZTNXY1VTVFBEbXFicTZ3NHN0LVNHSnd4R0JYT2NxNWFFUTJ4X0tqNVlnMmstai1TWmNvcUxlMkJHeVNJOWRWNE5mOThrcU5mWi1SaWlHdjVyaUtQTW9kNWptWlJDc3Y4SmdXQWZMenVZT1FEeFVHaHVtQi1pcHdJV0pxVkFIRl90Vi1KZHhuTm0w?oc=5",
-        "source": "TechTarget",
-        "date": "Fri, 20 Nov 2026 19:40:27 GMT",
-        "iso_date": "2026-11-20",
+        "title": "Informatica & Microsoft: Trusted Enterprise Data - Salesforce",
+        "text": "Informatica & Microsoft: Trusted Enterprise Data&nbsp;&nbsp;Salesforce",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHlfaXNZRTR4dWlmS252UXM1V1FSX1BvYkxJV3c4aHVLVm9XN1RzU3NvbmNvZE4xcDRRNVBJQzRESDFwWVBrUGYzNGlwY2ZFVzNraTEwVWdWQXBlbThPdld6dkpRY0JuUktOWGZQMXdvRDhMbGpxODkwcExzMTNZUWJLMzZpTWVNT19XVGZyYi1VeG9Za3dJVVAyUmhGU2VraHc?oc=5",
+        "source": "Salesforce",
+        "date": "Tue, 17 Nov 2026 18:15:06 GMT",
+        "iso_date": "2026-11-17",
         "channel": "News",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "Global Head of Data Governance & Management | Enterprise Data Governance | Data Quality | Metadata & Lineage | Master Data Management 20+ Years of Experience? Can You Build an Enterprise-Wide Data Governance Framework That Ensures Data Inte - LinkedIn",
+        "text": "Global Head of Data Governance & Management | Enterprise Data Governance | Data Quality | Metadata & Lineage | Master Data Management 20+ Years of Experience? Can You Build an Enterprise-Wide Data Governance Framework That Ensures Data Inte&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOHMtS29rWU1XWkpvQW1qbWktckYyVFM2d3N4M2VjU3AtQ25yMFJORmowSGZQc2xYcXNKZlBCcGExbDdnUWgyTE9tTWJBbXQtX1Bzd0FJdU9ubUNPM3Y5eXViUHJQdS00SENzcEpmc0xBUkd1UWtDYzh1M1RuUWdRUDhvQVViNnN5NF81R29UdExQTmNCME5DdldzdEVEM0RDclA0NUhNbzEySjQzRER5bXdROU9PY1VwajQ4cGdYd0NnbVlhNXFPUUlENjBlYnl4bm1N?oc=5",
+        "source": "LinkedIn",
+        "date": "Sun, 22 Nov 2026 03:01:57 GMT",
+        "iso_date": "2026-11-22",
+        "channel": "LinkedIn",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -1570,13 +1462,31 @@
         }
       },
       {
-        "title": "The latest IDC MarketScape report states: \"Governance is designed into the platform rather than added on. It includes unified policy management, automated data discovery and classification, granular access controls, and end-to-end lineage tracking, which, to - Facebook",
-        "text": "The latest IDC MarketScape report states: \"Governance is designed into the platform rather than added on. It includes unified policy management, automated data discovery and classification, granular access controls, and end-to-end lineage tracking, which, to&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPM3ByNl9iaTltX3RmS1NPcU5td2ZiTVdQdUZRbHI4T2hpZkpJLU10OWN0d3BFQ3o0bXN0S2RUeTMtX2l6ZWhIYjBLa2plUks1ZkExU0Q5WEx4MmV5Tm5ZTDNaMzduMW1EZ3lBZVNOczdmWURtQXZWNE5nU3V2eXhjZ2JwWTg2eU40bVJsV0dtd1pJVGdhS3E0VjM3ekdrVXUzSWVubkdjLVFSVzV4ZkFKeENDTE8tYXVBOEpYMHVCcWRLb1dpYy1mMDdlQjZjbXdVRERpUXVTal80bmFL?oc=5",
-        "source": "Facebook",
-        "date": "Tue, 17 Nov 2026 02:00:00 GMT",
-        "iso_date": "2026-11-17",
-        "channel": "Facebook",
+        "title": "Under the hood of Booking.com’s search engine | by Ashwin Konale | Booking.com Engineering | Nov, 2026 - Medium",
+        "text": "Under the hood of Booking.com’s search engine | by Ashwin Konale | Booking.com Engineering | Nov, 2026&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUUE2ZEpwSDFOaTE5TWdkcTk0OFRSQ3VxYmdXU2tJQ3dpY1lzREQ3b2Jha010MXZxZkdhOGRJTzJUVFo5c213WDB1TklMSWMyLW45aWhKWUpDX3lmUjFsalNLTThqTzI3UUZVRm1Eb3gxckRtTnZoaHBYR1NfNHN1aG0zWG1FMEVIR2dUUVk5WVNkeGtSaS1oR2YzaVpDdDFNRFE?oc=5",
+        "source": "Medium",
+        "date": "Sat, 21 Nov 2026 16:51:27 GMT",
+        "iso_date": "2026-11-21",
+        "channel": "Medium",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
+        "title": "7 AI Tools That Feel Like Unfair Advantages (And Aren’t Just Recycled ChatGPT Wrappers) - Medium",
+        "text": "7 AI Tools That Feel Like Unfair Advantages (And Aren’t Just Recycled ChatGPT Wrappers)&nbsp;&nbsp;Medium",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdlp4MjBiM3JnZWE1VUppSkp1eGF2VnhLaUZvN240VlRuUENjRXdZSlg0OVFvdWx1Z0Mxdl9NWFlIcjc4dmpuU1R6dDE3RnU3NlptUGlsNW1oY3oxYlRfN2pkRWZmQURBVnVmcW4zb25TaXhLRjBmUzhxcnI2QmRNblJfZkFXRGRCZXRWanNnR1poU1RZdkRCcmUzcTluOTFCa1FjSVpsWkZJVFA3MFVPOUtqRXhOWTZ1djQ0aksydzh3UWNnVm40?oc=5",
+        "source": "Medium",
+        "date": "Thu, 19 Nov 2026 11:56:01 GMT",
+        "iso_date": "2026-11-19",
+        "channel": "Medium",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -1606,48 +1516,12 @@
         }
       },
       {
-        "title": "Vonage - X",
-        "text": "Vonage&nbsp;&nbsp;X",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQd0g1Tms1MjZSd3AwcElYODlvekxtRkV5UGhoRm53V1ZraEZ2UEN5OWtjLWs5Qm5DRjJnTkZTal9XclhxQW9LRDEtVE84cloxMEVnM0xZa0dGYm5YWk9zQ3JRZ2Z4ek5VQmk5MHNHZ3h2NDF1ZzR0d2pkU1dMUHBQakVmMm9ONUIybVREMENMal9CTFg4Vl80U2s1YVdlYWhYVWFtYWczaWJWbDV1eHlPLVBYTEFiVEQ5RExaT3hheG41emFhV3NYQnFpNVI2bDFRa1VZOG1obHhYZGNPOEc1RkRzdmk?oc=5",
-        "source": "X",
-        "date": "Wed, 18 Nov 2026 05:39:40 GMT",
-        "iso_date": "2026-11-18",
-        "channel": "X",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Microsoft Ignite 2026: Top Announcements - YouTube",
-        "text": "Microsoft Ignite 2026: Top Announcements&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAySUdSbkNEMHQ0aC1EWFpvd3p3bHRFeVM0RHFyMGRqUHNpb25Qa2hENnh0QXR2dFR5WXVmWFNDdEVvaXh1ZGNabTExVThpeFJlTlNaZ0JB?oc=5",
+        "title": "Why Your Enterprise Needs RAG on AWS Bedrock: A Deep Dive | AWS Cloud - YouTube",
+        "text": "Why Your Enterprise Needs RAG on AWS Bedrock: A Deep Dive | AWS Cloud&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSdGZzWmltYnNmSm9uUHk3Q0hoQlljWG0zN3pSa24xRkVyeVR4Z2lfUmFWekxMMXMtbHk3Zk1zVHVPS3FGZWNJb2RfUndTRkFYblRwV1VR?oc=5",
         "source": "YouTube",
-        "date": "Wed, 18 Nov 2026 03:18:30 GMT",
-        "iso_date": "2026-11-18",
-        "channel": "YouTube",
-        "analysis": {
-          "summary": [
-            "Analysis unavailable due to API error."
-          ],
-          "company": "Not specified",
-          "pain_point": "Unknown",
-          "zetaris_relevance": "",
-          "lead_score": "Cold"
-        }
-      },
-      {
-        "title": "Anthropic's Record-Breaking IPO - YouTube",
-        "text": "Anthropic's Record-Breaking IPO&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRNWNMajJpR19Mdm5FVEVDeTd5RU5NVkViSnFLbTBWSHdWOF9HczNpR3BFd2lLbzVheFFkeTlCbXhLaW1weFQ5d2p2OE1ZcElCNmg4cVJB?oc=5",
-        "source": "YouTube",
-        "date": "Thu, 19 Nov 2026 18:59:16 GMT",
-        "iso_date": "2026-11-19",
+        "date": "Sat, 21 Nov 2026 15:00:07 GMT",
+        "iso_date": "2026-11-21",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -1676,17 +1550,15 @@
           "zetaris_relevance": "",
           "lead_score": "Cold"
         }
-      }
-    ],
-    "data warehouse consolidation": [
+      },
       {
-        "title": "First Shift: Chip controls, Suez routing and rail consolidation reshape supply chain risk - Supply Chain Management Review",
-        "text": "First Shift: Chip controls, Suez routing and rail consolidation reshape supply chain risk&nbsp;&nbsp;Supply Chain Management Review",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSXdHcE5vUTBocGlKVUJGQkJaNlBMWTJYeFBJUG1GUWJOMlpfWnM4Y3lzMEx3cC1RLTlaQzc5cFN5YVlNcEhUUW5CNDEzYXU2Z3VJWVVicWV1bzZsV29Ja2E0MFhtZF9KVGJQcmRJMFZ2WFV2dk9laHJPUVN1T3RfTWhFcDg5RzJLRXZTWUZvajZwcE5hSFI5MU1NbmR0S0dtdzJLNmMyWnVsQi1nU2F3OWpNVE1BN00?oc=5",
-        "source": "Supply Chain Management Review",
-        "date": "Wed, 18 Nov 2026 14:50:00 GMT",
+        "title": "Five brand new ways to use Claude at work - YouTube",
+        "text": "Five brand new ways to use Claude at work&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DaHh1SHlReXFmUVFXSFB6Z2R4dkZ3ajlRVDF1WG1tUzR3WUNyVmNOUHdmcXFIX2JQM1dHZ0lGTVFiak92clprWnRqYW5sbGZoMWFHSkZB?oc=5",
+        "source": "YouTube",
+        "date": "Wed, 18 Nov 2026 18:39:05 GMT",
         "iso_date": "2026-11-18",
-        "channel": "News",
+        "channel": "YouTube",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -1696,13 +1568,15 @@
           "zetaris_relevance": "",
           "lead_score": "Cold"
         }
-      },
+      }
+    ],
+    "data warehouse consolidation": [
       {
-        "title": "Data Warehouse Software Market Competitive Landscape and Emerging Opportunities - LinkedIn",
-        "text": "Data Warehouse Software Market Competitive Landscape and Emerging Opportunities&nbsp;&nbsp;LinkedIn",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVkpsVDJCUlUzZDNscm9TVjNOX05jTlRsUXNLOXdVRW1wYUg0OTlfMmd3aVM4UnJmazFpclNDSFZhdFFIa2tYb3ppTEx3YlJJTXRVbW0xMTdheXBTZk1nZGFiWjdaN3pnUHFlQ29ERU9qZzV3UVBma2JONlNqd0FwSWdhY0JjVmJsRXBGUzRlbzc2a1E?oc=5",
+        "title": "Snowflake is quietly changing the rules of enterprise data architecture. And I don't think enough people are paying attention. ❄️ For years, Snowflake was primarily about data warehousing, SQL, pipelines, and analytics. But that story is changing. Fast. Look at - LinkedIn",
+        "text": "Snowflake is quietly changing the rules of enterprise data architecture. And I don't think enough people are paying attention. ❄️ For years, Snowflake was primarily about data warehousing, SQL, pipelines, and analytics. But that story is changing. Fast. Look at&nbsp;&nbsp;LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3RGS2p1akNHaXcwVmdzSlljSy1HRUVNRlRfckN6QVZjZldQbWZaUkNTdTdfMnFjUEV4MnhaRkRWVVE5NW9CRVV1LU1VRXVUTWdqRHBIRHJzNzlaakh3RXpPazdOVllIT2dDcnNlWU1oYllFTU1ybUJyUVRPSHlXRk9ZckFRLUl5TEw2aEJybHBlaHNodWZwODIzT2t3amdTR3Y0UTRGZVdMM2VUUHhqZ3dhVUFQN0RDQ1ZPRjE1SQ?oc=5",
         "source": "LinkedIn",
-        "date": "Thu, 19 Nov 2026 05:39:43 GMT",
+        "date": "Thu, 19 Nov 2026 03:01:28 GMT",
         "iso_date": "2026-11-19",
         "channel": "LinkedIn",
         "analysis": {
@@ -1752,6 +1626,24 @@
         }
       },
       {
+        "title": "Rimini Street and #AmericanDigital Give SAP Licensees More Control Over Cloud Modernization Rimini Street, Inc. announced an expanded partnership with American Digital Corporation in which American Digital serves as a solution partner for Rimini Cloud - Facebook",
+        "text": "Rimini Street and #AmericanDigital Give SAP Licensees More Control Over Cloud Modernization Rimini Street, Inc. announced an expanded partnership with American Digital Corporation in which American Digital serves as a solution partner for Rimini Cloud&nbsp;&nbsp;Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMUdEbl9zNERnbzVMQnJRMHlyV1FFUjI3MFRaRFhpdGx6SWhzWURxWEhCcEswb0xyX01JVGNXZFhZdjNiWWh3THZkQThQMnR6NFRrVWpfaDNlOGhRY2ZNT0JfSmhNMk56ZXIzUjFHNFNoc25qQ2dWUVVuZUtNNndjYlBNXzNhUk9pQUZsUVpSUEVFWnZSUTV2OGRtUXZtTmYzRTd6RkJJSEVQTEhOSktnUU5vMllBY0h6UHNBR1VqX2lRLXVMeHphQkFNT3JNSERZbTEyZw?oc=5",
+        "source": "Facebook",
+        "date": "Thu, 19 Nov 2026 10:59:44 GMT",
+        "iso_date": "2026-11-19",
+        "channel": "Facebook",
+        "analysis": {
+          "summary": [
+            "Analysis unavailable due to API error."
+          ],
+          "company": "Not specified",
+          "pain_point": "Unknown",
+          "zetaris_relevance": "",
+          "lead_score": "Cold"
+        }
+      },
+      {
         "title": "An 85-project dbt migration had a fixed deadline. phData cut the effort by 70% and nailed the deadline. A travel and convenience retail chain with 650+ locations across 42 states needed to move its dbt Core estate to dbt Platform. At about 7 hours per project b - Facebook",
         "text": "An 85-project dbt migration had a fixed deadline. phData cut the effort by 70% and nailed the deadline. A travel and convenience retail chain with 650+ locations across 42 states needed to move its dbt Core estate to dbt Platform. At about 7 hours per project b&nbsp;&nbsp;Facebook",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMFZxdUtqbTAxYTdMeFhQNmYzV1J3VW9NZ01QU1ExaXlldU9LNG9UbnI2cGt4YUVoWlFZR3FRa2ZOdnkzQS0zSlJQdXBSTy01WFlVa3JrWGsxd1Nhb0p2b0RVUnF4SFZUX0NIRnlzY1VtUmI1MFBnOUFfNnNhemJ0NkpZVzgxc1p2MzlhRUZ6YkNIM1R5VFVfWDI5ZXhZajBSemg3cm05and4SmxUekg4VGlZcGRJSnpYN3ViZU1NbEd3SU9pYzBtREFhRGpiWWlQSXBvc1F3?oc=5",
@@ -1770,13 +1662,13 @@
         }
       },
       {
-        "title": "Planning at scale, in one model. Jedox brings planning, forecasting and consolidation together for finance teams that run across many entities and currencies. Finance, sales and operations work from the same governed numbers, with actuals flowing in straigh - Facebook",
-        "text": "Planning at scale, in one model. Jedox brings planning, forecasting and consolidation together for finance teams that run across many entities and currencies. Finance, sales and operations work from the same governed numbers, with actuals flowing in straigh&nbsp;&nbsp;Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM1ZCa1B1VUlmUmRsRG1USUZHM0ZmaG03RXJkSnBzSWREUGlPNjR5YTduUzRSQ19ITFlBbXJNcmNGd3NFalNMMVExczV3THBJRl91NExkX2g4eUxlS0pTcVBnMnZaNWlHNEVTTEREUHoxaEM1QXVEWXRCMFdGT3BwblJuOG1WRU9tZWNaSHBsS0FaT3lXNVN0MU5lUVRpXzJybzdpbGFFYmoxaWVPQWtVekNZbGxBakFjaXBGS21ncVh2RXhkM1B1NFAzQUhFUDVXRWRDeDBsTTJEZFVyR3c?oc=5",
-        "source": "Facebook",
-        "date": "Fri, 20 Nov 2026 05:47:24 GMT",
+        "title": "Update: \"Management has us filling out 3 different CRMs.\" Now its 4 - Reddit",
+        "text": "Update: \"Management has us filling out 3 different CRMs.\" Now its 4&nbsp;&nbsp;Reddit",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYlhidTA3VGtfZ1l5dXNxY2oyTkc0YlhkZzF0OWFaeG9tTGQxNnk2WjFQVXZ2bmpKdkx2NVFTVHJfWFRuTFJhNjJ3SXRCUWlfeENNTll6NnVpRUthZFl0NnAzc2RJX3JxVEZlSFNLaVBYaUtJN1Q3N2dTdzBoUWJYZnVkR1VoS1QzQzhEN2Q3Y21XZnlwSDJFdlJmd05zZw?oc=5",
+        "source": "Reddit",
+        "date": "Fri, 20 Nov 2026 11:53:43 GMT",
         "iso_date": "2026-11-20",
-        "channel": "Facebook",
+        "channel": "Reddit",
         "analysis": {
           "summary": [
             "Analysis unavailable due to API error."
@@ -1806,12 +1698,12 @@
         }
       },
       {
-        "title": "Fact Table Vs. Dimension Table! Every Type of Fact and Dimension Explained - YouTube",
-        "text": "Fact Table Vs. Dimension Table! Every Type of Fact and Dimension Explained&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aQTgxSmVhTUp4elFUX3o1UVdKRjRJUG5LXzVYUDVhbXQ2VDM2OUpmWEd3U3ZNNlNTckFIQXNXaHBEM3YzaTJzV05VSWptU01TNHhnWm1R?oc=5",
+        "title": "#Shorts Should You Move from Azure Data Factory to Fabric? Wee Hyong Tok | Fabric Insider Ep. 9 - YouTube",
+        "text": "#Shorts Should You Move from Azure Data Factory to Fabric? Wee Hyong Tok | Fabric Insider Ep. 9&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54MWxxTGFvMzNPM1g0Rm5qaHJRdnNydko5UlczcGJ2aEJLS3hKWGp0c2dZMmdDbUNQbUtxb01GU2pkckR5dEdKVERuM2hQT1dWODlNXw?oc=5",
         "source": "YouTube",
-        "date": "Mon, 16 Nov 2026 05:00:29 GMT",
-        "iso_date": "2026-11-16",
+        "date": "Sun, 22 Nov 2026 20:35:32 GMT",
+        "iso_date": "2026-11-22",
         "channel": "YouTube",
         "analysis": {
           "summary": [
@@ -1824,12 +1716,12 @@
         }
       },
       {
-        "title": "MRO Business Talks | Alaris Aerospace on Asset Management & Parts Distribution - YouTube",
-        "text": "MRO Business Talks | Alaris Aerospace on Asset Management & Parts Distribution&nbsp;&nbsp;YouTube",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55S0JKVC1kcnA3V0RQa24xdG42OVA5SjNYN2stcHlTcXFCdVoyN3FuQUNtdC1tQUUwLVFObHhQVmFGUHhzQXZBNGRjZlhkal93emFGa3dR?oc=5",
+        "title": "Fact Table Vs. Dimension Table! Every Type of Fact and Dimension Explained - YouTube",
+        "text": "Fact Table Vs. Dimension Table! Every Type of Fact and Dimension Explained&nbsp;&nbsp;YouTube",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aQTgxSmVhTUp4elFUX3o1UVdKRjRJUG5LXzVYUDVhbXQ2VDM2OUpmWEd3U3ZNNlNTckFIQXNXaHBEM3YzaTJzV05VSWptU01TNHhnWm1R?oc=5",
         "source": "YouTube",
-        "date": "Wed, 18 Nov 2026 07:02:29 GMT",
-        "iso_date": "2026-11-18",
+        "date": "Mon, 16 Nov 2026 05:00:29 GMT",
+        "iso_date": "2026-11-16",
         "channel": "YouTube",
         "analysis": {
           "summary": [
